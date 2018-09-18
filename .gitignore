@@ -1,0 +1,8 @@
+*.swp
+*.pyc
+*.csv
+*.html
+*.abc
+cache
+filenames_parsed
+filtered_filenames_parsed
