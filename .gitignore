@@ -3,6 +3,7 @@
 *.csv
 *.html
 *.abc
+*.old
 cache
 filenames_parsed
 filtered_filenames_parsed
