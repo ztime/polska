@@ -4,6 +4,7 @@
 *.html
 *.abc
 *.old
+*.midi
 cache
 filenames_parsed
 filtered_filenames_parsed
