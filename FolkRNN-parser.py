@@ -1,58 +1,33 @@
-import sys, os, re, argparse, requests, urllib, re
-from pprint import pprint
+import sys ,os, argparse, requests, urllib, re
 
 def main():
     welcome_message = '''
     ####################################
-    #       FolkWiki downloader        #
-    # Downloads songs from folkwiki.se #
-    # and creates an csv file from all #
-    #           of them.               #
+    #       FolkRNN ABC parser         #
+    # Create a CSV or Folk-RNN file    #
+    # from a folder with ABC files     #
     ####################################
     '''
     print(welcome_message)
     parser = argparse.ArgumentParser()
-    parser.add_argument("-u", "--url", help="the url with listing of all songs")
-    parser.add_argument("-f", "--filter", help="must be in the filename of the song")
-    parser.add_argument("-d","--download_path", help="folder to download songs to", required=True)
+    parser.add_argument("-f","--folder_path", help="folder with abc files", required=True)
     parser.add_argument("-o", "--output", help="file to save", required=True)
-    parser.add_argument("--folk_rnn_style", help="Save as folk-rnn style instead of csv", action='store_true')
-    parser.add_argument("--skip_download", help="Skips downloading of songs and just creates file from download_path", action='store_true')
-    parser.add_argument("--skip_chords", help="Don't include chords in final product", action='store_true')
+    parser.add_argument("-s", "--style", help="What style to save the file as", choices=['folk-rnn', 'csv'], required=True)
+    parser.add_argument("--skip_chords", help="Don't include chords in final product", action='store_true', required=False)
+    parser.add_argument("--allow_all_tokens", help="Allow all tokens (just not the ~48 from original folk-rnn", action='store_true', required=False)
     args = parser.parse_args()
-    #get all songs
-    if args.skip_download:
-        print("Skipping downloads and just parsing files in %s" % args.download_path)
-    else:
-        print("Checking %s for songs..." % args.url)
-        songs_to_download = get_song_list(args.url, args.filter)
-        print("Found %d songs at %s" % (len(songs_to_download), args.url))
-        if not os.path.isdir('./%s' % args.download_path):
-            create_dir = input("Could not find directory %s, create it? [Y/n]" % args.download_path)
-            if create_dir == 'y' or create_dir == 'Y':
-                os.makedirs('./%s' % args.download_path)
-            else:
-                print("Aborting bc no download directory")
-                quit()
-        print("Starting download to: %s" % args.download_path)
-        download_all_songs(songs_to_download, args.download_path)
-        if os.path.isfile('./%s' % args.output):
-            overwrite_file = input("File %s already exists, overwrite it?[Y/n]" % args.output)
-            if overwrite_file != 'Y' and overwrite_file != 'y':
-                print("Aborting bc file already exists.")
-                quit()
-    if args.folk_rnn_style:
+    if args.style == 'folk-rnn':
         print("Creating folk-rnn style %s" % args.output)
-        create_folk_rnn_file(args.download_path, args.output, args.skip_chords)
+        create_folk_rnn_file(args.folder_path, args.output, args.skip_chords, args.allow_all_tokens)
     else:
+        print("Warning! Not really maintaining the csv mode so results might not be correct!")
         print("Creating csv file %s" % args.output)
-        create_csv_file(args.download_path, args.output)
+        create_csv_file(args.folder_path, args.output)
     print("Done")
 
-def create_folk_rnn_file(download_dir, output_file, skip_chords):
+def create_folk_rnn_file(download_dir, output_file, skip_chords, allow_all_tokens):
     folk_rnn_file = []
     valid_info = ['M', 'L']
-    all_tokens_set = set()
     for filename in os.listdir(download_dir):
         file_path = "%s/%s" % (download_dir, filename)
         with open(file_path, 'r', encoding='iso-8859-1') as f:
@@ -60,11 +35,9 @@ def create_folk_rnn_file(download_dir, output_file, skip_chords):
             #Skip empty lines
             if len(lines) == 0:
                 continue
-            lines_with_values, tokens = _filter_song_folk_rnn(lines, valid_info, skip_chords)
+            lines_with_values, tokens = _filter_song_folk_rnn(lines, valid_info, skip_chords, allow_all_tokens)
             if len(lines_with_values) == 0 or len(tokens) == 0:
                 continue
-            for tok in tokens:
-                all_tokens_set.add(tok)
             for l in lines_with_values:
                 folk_rnn_file.append(l)
             folk_rnn_file.append(' '.join(tokens))
@@ -75,7 +48,7 @@ def create_folk_rnn_file(download_dir, output_file, skip_chords):
                 
 #Everything after the first K will be treated as the song and
 #concatenaded into one line
-def _filter_song_folk_rnn(song_lines, valid_info, skip_chords):
+def _filter_song_folk_rnn(song_lines, valid_info, skip_chords, allow_all_tokens):
     lines_to_return = []
     tokens = []
     currently_parsing_song = False
@@ -84,6 +57,7 @@ def _filter_song_folk_rnn(song_lines, valid_info, skip_chords):
             continue
         if not currently_parsing_song:
             s = line.split(":")
+            #Check for lyrics in the middle of song and skip it
             if s[0] == 'K' and len(s) == 2:
                 key_with_brackets = "[%s]" % line.split('%')[0].replace(" ", "").strip()
                 lines_to_return.append(key_with_brackets)
@@ -92,14 +66,16 @@ def _filter_song_folk_rnn(song_lines, valid_info, skip_chords):
                 continue
             elif s[0] in valid_info:
                 validated_line = line.split('%')[0].replace(" ", "")
-                # print(validated_line)
                 lines_to_return.append(validated_line.strip())
         else:
             #Currently parsing song
-            tokens = _filter_song_line(line.strip(), skip_chords)
+            #check if it's a line with lyrics -> skip it
+            if line[0] == 'W' or line[0] == 'w':
+                continue
+            tokens.extend(_filter_song_line(line.strip(), skip_chords, allow_all_tokens))
     return lines_to_return, tokens
 
-def _filter_song_line(song_line, skip_chords):
+def _filter_song_line(song_line, skip_chords, allow_all_tokens):
     regex_chord = re.compile(r"\"[CDEFGAB](b|bb)?(maj7|maj|min7|min|sus|m)?(1|2|3|4|5|6|7|8|9)?(#)?\"", re.IGNORECASE)
     regex_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     regex_meter = re.compile(r"\[?M\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
@@ -107,18 +83,19 @@ def _filter_song_line(song_line, skip_chords):
     regex_key = re.compile(r"\[K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]", re.IGNORECASE)
     regex_accent = re.compile(r"!.*!")
     regex_print_specification = re.compile(r"\"@.+\"")
+    regex_inserted_text = re.compile(r"\".+\"")
     regex_repeat_bar_end = re.compile(r":\|")
     regex_repeat_bar_start = re.compile(r"\|:")
     regex_verse_marker = re.compile(r"\[V:.+\]")
     regex_list_tokens = [regex_tempo, regex_meter, regex_key, regex_repeat_bar_end, regex_repeat_bar_start]
-    regex_list_ignore = [regex_verse_marker, regex_accent, regex_print_specification]
+    regex_list_ignore = [regex_verse_marker, regex_accent, regex_print_specification, regex_inserted_text]
     if skip_chords:
         regex_list_ignore.append(regex_chord)
     else:
         regex_list_tokens.append(regex_chord)
     ignore_list = '\n \\'
     #These are all the tokens from the original dataset folk-rnn
-    valid_single_tokens =  ["'",'(', ',', '/', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', '<', '=', '>', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'K', 'M', '[', ']', '^', '_', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'j', 'm', 'n', 'o', 'r', 'x', 'z', '|']
+    valid_single_tokens = ["'",'(',',','/','1','2','3','4','5','6','7','8','9',':','<','=','>','A','B','C','D','E','F','G','K','M','[',']','^','_','a','b','c','d','e','f','g','i','j','m','n','o','r','x','z','|']
 
     chars_to_check_regex_for = '"LM[!:|'
     tokens = []
@@ -153,11 +130,10 @@ def _filter_song_line(song_line, skip_chords):
                     break
             if regex_matched:
                 continue
-        if char in valid_single_tokens:
+        if char in valid_single_tokens or allow_all_tokens:
             tokens.append(char)
         char_index += 1
     return tokens
-
 
 def create_csv_file(download_dir, output_file):
     csv = []
@@ -171,7 +147,7 @@ def create_csv_file(download_dir, output_file):
             #skip empty files
             if len(lines) == 0:
                 continue
-            for filtered in _filter_song(lines, valid_info):
+            for filtered in _filter_song_csv(lines, valid_info):
                 csv.append(filtered)
     with open(output_file, 'w') as f:
         for c in csv:
@@ -179,7 +155,7 @@ def create_csv_file(download_dir, output_file):
             f.write('\n')
     print("Written to %s" % output_file)
 
-def _filter_song(song_lines, valid_info):
+def _filter_song_csv(song_lines, valid_info):
     #Function to reduce linesize
     def r(key, hay):
         return hay.get(key, "")
@@ -209,49 +185,6 @@ def _filter_song(song_lines, valid_info):
         ret.append(key)
         ret.append(''.join(song))
         yield ret
-
-def download_all_songs(song_list, download_dir):
-    count = 1
-    for song in song_list:
-        print('\rDownloading song %d/%d...' % (count, len(song_list)), end="")
-        song_without_url = song.split("/")[-1]
-        file_path = '%s/%s' % (download_dir, song_without_url)
-        urllib.request.urlretrieve(song, file_path)
-        count += 1
-    print('\rDownload complete                    ')
-
-def get_song_list(url, song_filter):
-    #Fetch source
-    response = requests.get(url)
-    data = response.text
-    data = data.split('\n')
-    #temp
-    # with open('cache', 'r', encoding='iso-8859-1') as f:
-        # data = f.readlines()
-    #filter out all lines with links in them
-    links = [ x for x in data if 'href' in x and song_filter in x ]
-    #Replace the . in filter for regex safe \.
-    regex = re.compile(r"a href=\"(.*%s)\"" % "\.".join(song_filter.split(".")))
-    all_filtered_links = []
-    for link in links:
-        match = regex.search(link)
-        all_filtered_links.append(match.group(1))
-    #There might be doubles, that only have a different affix (<song>_efbd9.latin.abc)
-    only_uniques = {}
-    for link in all_filtered_links:
-        split_on_filename = link.split(".")
-        split_on_underscore = split_on_filename[0].split("_")
-        #some filenames are just gibbereish, they dont split on _
-        if len(split_on_underscore) == 1:
-            only_uniques[split_on_filename[0]] = "%s/%s" % (url, link)
-            continue
-        #everything besides the unique identifier
-        song_name = '_'.join(split_on_underscore[:-1])
-        #The list is ordered, so we just replace it if its
-        #already there
-        only_uniques[song_name] = "%s/%s" % (url, link)
-    #All done!
-    return only_uniques.values()
 
 if __name__ == '__main__':
     main()
