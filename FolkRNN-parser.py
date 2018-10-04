@@ -4,7 +4,7 @@ from pprint import pprint
 valid_single_tokens = [
         "'",',','/','1','2','3','4','5','6','7','8','9',':','<','=','>',
         'A','B','C','D','E','F','G','[',']','^','_','a','b','c','d','e',
-        'f','g','|','(',')']
+        'f','g','|']
 
 def main():
     welcome_message = '''
@@ -22,19 +22,21 @@ def main():
     parser.add_argument("--allow_all_tokens", help="Allow all tokens", action='store_true', required=False)
     parser.add_argument("--print_small_tokens_list", help="Prints the list of alowed one char tokens and then quits", action='store_true', required=False)
     parser.add_argument("--simplify_duplets", help="Clear out more advanced du/tri/plets into (<d> instead of (<d>:<d>:<d>", action='store_true', required=False)
+    parser.add_argument("-s", "--save_first_occurance", help="Saves the first occurance to another file, helpful for debugging", required=False)
     args = parser.parse_args()
     if args.print_small_tokens_list:
         print("Here are the list of valid tokens, seperated by spaces:")
         print(" ".join(valid_single_tokens))
         quit()
     print("Creating folk-rnn style %s" % args.output)
-    create_folk_rnn_file(args.folder_path, args.output, args.skip_chords, args.allow_all_tokens, args.simplify_duplets)
+    create_folk_rnn_file(args.folder_path, args.output, args.skip_chords, args.allow_all_tokens, args.simplify_duplets, args.save_first_occurance)
     print("Done")
 
-def create_folk_rnn_file(download_dir, output_file, skip_chords, allow_all_tokens, simplify_duplets):
+def create_folk_rnn_file(download_dir, output_file, skip_chords, allow_all_tokens, simplify_duplets, save_first_occurance):
     folk_rnn_file = []
     valid_info = ['M', 'L']
-    tokens_set = set()
+    tokens_first_occurance = {}
+    tokens_count = {}
     for filename in os.listdir(download_dir):
         file_path = "%s/%s" % (download_dir, filename)
         with open(file_path, 'r', encoding='iso-8859-1') as f:
@@ -49,12 +51,23 @@ def create_folk_rnn_file(download_dir, output_file, skip_chords, allow_all_token
                 folk_rnn_file.append(l)
             folk_rnn_file.append(' '.join(tokens))
             for t in tokens:
-                tokens_set.add(t)
+                if save_first_occurance:
+                    if t not in tokens_first_occurance:
+                        tokens_first_occurance[t] = file_path
+                        tokens_count[t] = 0
+                    tokens_count[t] += 1
             folk_rnn_file.append('')
     # pprint(tokens_set)
     with open(output_file, 'w') as output:
         for line in folk_rnn_file:
             output.write("%s\n" % line)
+    #Save tokens first occurance
+    if save_first_occurance:
+        sorted_keys = sorted(tokens_first_occurance.keys())
+        with open(save_first_occurance, 'w') as output:
+            for key in sorted_keys:
+                output.write("%s - %s (%d occurances)\n" % (key,tokens_first_occurance[key], tokens_count[key]))
+        print("Saved first occurances to %s" % save_first_occurance)
                 
 #Everything after the first K will be treated as the song and
 #concatenaded into one line
