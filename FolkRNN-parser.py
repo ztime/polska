@@ -2,8 +2,8 @@ import sys ,os, argparse, requests, urllib, re
 from pprint import pprint
 
 valid_single_tokens = [
-        "'",',','/','1','2','3','4','5','6','7','8','9',':','<','=','>',
-        'A','B','C','D','E','F','G','[',']','^','_','a','b','c','d','e',
+        "'",',','/','2','3','4','5','6','7','8','9',':','<','>',
+        'A','B','C','D','E','F','G','[',']','a','b','c','d','e',
         'f','g','|']
 
 def main():
@@ -88,8 +88,21 @@ def _filter_song_folk_rnn(song_lines, valid_info, skip_chords, allow_all_tokens,
                 #Skip to the next line with actual song
                 continue
             elif s[0] in valid_info:
-                validated_line = line.split('%')[0].replace(" ", "")
-                lines_to_return.append(validated_line.strip())
+                validated_line = line.split('%')[0].replace(" ", "").strip()
+                # Special cases for M
+                if validated_line[0] == 'M':
+                    if validated_line == 'M:C' or validated_line == 'M:c':
+                        validated_line = '[M:4/4]'
+                    elif validated_line == 'M:C|' or validated_line == 'M:c|':
+                        validated_line = '[M:2/2]'
+                    # If it's None we just give it 4/4
+                    elif validated_line == 'M:None' or validated_line == 'M:none':
+                        validated_line = '[M:4/4]'
+                if validated_line[0] != '[':
+                    validated_line = '[' + validated_line
+                if validated_line[-1] != ']':
+                    validated_line = validated_line + ']'
+                lines_to_return.append(validated_line)
         else:
             #Currently parsing song
             #check if it's a line with lyrics -> skip it
@@ -103,8 +116,13 @@ def _filter_song_line(song_line, skip_chords, allow_all_tokens, simplify_duplets
     regex_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     regex_meter = re.compile(r"\[?M\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     regex_duplets = re.compile(r"\([2-9]:?[2-9]?:?[2-9]?")
-    regex_notedivide = re.compile(r"\/\d")
+    regex_notedivide = re.compile(r"\/\[1-9]")
     regex_repeat_bar = re.compile(r"::")
+    regex_pitch_sharp = re.compile(r"\^[A-Ga-g]")
+    regex_pitch_double_sharp = re.compile(r"\^\^[A-Ga-g]")
+    regex_pitch_natural = re.compile(r"\=[A-Ga-g]")
+    regex_pitch_flat = re.compile(r"_[A-Ga-g]")
+    regex_pitch_double_flat = re.compile(r"__[A-Ga-g]")
     #For keys inside a song (key change)
     regex_key = re.compile(r"\[K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]", re.IGNORECASE)
     regex_accent = re.compile(r"!.*!")
@@ -122,6 +140,11 @@ def _filter_song_line(song_line, skip_chords, allow_all_tokens, simplify_duplets
             regex_duplets, 
             regex_notedivide,
             regex_repeat_bar,
+            regex_pitch_sharp,
+            regex_pitch_double_sharp,
+            regex_pitch_natural,
+            regex_pitch_flat,
+            regex_pitch_double_flat,
             ]
     regex_list_ignore = [
             regex_verse_marker, 
@@ -134,7 +157,7 @@ def _filter_song_line(song_line, skip_chords, allow_all_tokens, simplify_duplets
     else:
         regex_list_tokens.append(regex_chord)
     ignore_list = '\n \\'
-    chars_to_check_regex_for = '"LM[!:|/('
+    chars_to_check_regex_for = '"LM[!:|/(^_=abcdefgABCDEFG'
     tokens = []
     char_index = 0
     while char_index < len(song_line):
@@ -157,6 +180,14 @@ def _filter_song_line(song_line, skip_chords, allow_all_tokens, simplify_duplets
                         tok = tok[:2]
                     if regex == regex_chord:
                         tok = '"' + tok[1:].capitalize()
+                    if regex == regex_meter or regex == regex_tempo:
+                        if tok[0] != '[':
+                            tok = '[' + tok
+                        if tok[-1] != ']':
+                            tok = tok + ']'
+                    if tok == '::':
+                        tokens.append(':|')
+                        tok = '|:'
                     tokens.append(tok)
                     char_index = char_index + m.end()
                     regex_matched = True
