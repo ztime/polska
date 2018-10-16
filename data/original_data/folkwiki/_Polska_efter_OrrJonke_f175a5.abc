@@ -1,0 +1,38 @@
+%%abc-charset utf-8
+
+X: 15
+T: Polska efter Orr-Jonke
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Norrbo, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter Orr-Jonke
+Z: LP
+M: 3/4
+L: 1/16
+K: Am
+V:1
+V:2 merge
+V:3
+V:4 merge
+V:1
+|: a4 abag e2e2|B4 c2Bc A2A2|^G2G2 ABAG A2Ac|e2e=g ^f2e^d [^G4e4]|
+a4 abag e2e2|[^G4B4] c2Bc A2A2|^G2G2 ABAG A2AB|{/d}cBce dBA^G A4:|
+|:ABA^G A2B2 {dcB}c4|c2Bc dcBA B4|e^fe^d e2ef {/a}g^fgb|1 g^fe^d e2B2^G2E2:|2 g^fe^d e8|
+|:a4 abag e2e2|B4 dcBc A2A2|^G2G2 ABAG A2AB|{/d}cBce dBA^G A4:|
+V:2
+|:z12 |z12|z12|G4 A4 z4|
+z12|z12|z12|z12:|
+|:z12|z12|z12|1 z12:|2 z12|
+|:z12|z12|z12|z12:|
+V:3 clef=bass
+|:A,,4 [E,4A,4C4] [E,4A,4C4] |A,,4 [E,4^G,4D4] [E,4A,4C4]|E,8 A,,4|B,12|
+A,,4 [E,4A,4C4] [E,4A,4C4]|[A,,4E,4] [E,4^G,4D4] [A,4C4]|E,12|E,8 A,4:|
+|:A,,4 [E,4A,4C4] [E,4A,4C4]|A,,4 [E,8E8]|E,8 E,4|1 B,,4 E,8 :|2 B,,4 E,8|
+|:A,,4 [E,4A,4C4] [E,4A,4C4]|A,,4 [E,4^G,4D4] [A,4C4]|E,12|[E,8E8] [A,4C4]:|
+V:4 clef=bass
+|:z12 |z12|B,4 C8|E,4 B,,4 E,4|
+z12|z12|B,4 C8|A,4 B,DCB, C4:|
+|:z12|z4 A,4 ^G,4|z4 [G,4E4] [B,4E4]|1 B,2A,2 ^G,8:|2 B,2A,2 ^G,8|
+|:z12|z12|B,4 C8|A,4 ^G,2B,2 z4:|
+

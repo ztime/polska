@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:442
+T:Polska efter Lapp Nils
+T:(SvL Jämtland 442)
+R:Polska
+S:Efter Lapp-Nils
+S:Efter Pål Nilsson
+O:Föllinge, Jämtland
+B:Svenska Låtar Jämtland
+N:Toner med * indikerar en ton mellan f och fiss.
+N:SvL: Polskan spelades på olika sätt, men enligt Pål Nilssons utsago var hans tolkning av densamma den riktiga och den som kom närmast Lapp Nils spel.
+N:SvL: Jmf Munter Johans version (SvL J. 186), som även han hade dirket från Lapp Nils. Se även Nikolausson nr. 106.
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+K:D
+cd e"*"f de|cd eg fa|(3g(ag) (3f(ed) ec|(3d(ef) (3g(ag) f2|
+cd e"*"f de|cd eg fa|(3g(ag) (3f(ed) ec|(3A(Bc) d4:|
+|:(f<<a) (g<<b) a2|fd eg f(a|(3g)(ag) (3f(ed) ec|(3d(ef) (3g(ag) f2|
+(f<<a) (g<<b) a2|fd eg fa|(3g(ag) (3f(ed) ec|((3ABc) d4:|
+

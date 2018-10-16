@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Svingedans 2
+T:efter Henrik Hallgren
+R:Svingedans
+O:Glemmingebro, Skåne
+B:efter band inspelat 1968 av Reinhold Andersson
+Z:Åke Persson 2013-10-14
+M:3/4
+L:1/8
+K:G
+|: d>(^c d2) B>(a | g)>(f g2) e2 | (3(DFA) c2 A>(e | d)>(^c d2) B2 | d>(^c d2) B>(a | 
+g)>(f g2) e2 | (3(dfa) c'2 f>(a | g)>(f  g2)  gz :: b>(a a2) g>(f | a)>(g f2) e2 | (3(DFA) c2 A>(e |
+d)>(^c d2) B2 |b>(a a2) g>(f | a)>(g f2) e2 | (3(dfa) c'2 f>(a | g)>(f  g2)  gz  :|
+

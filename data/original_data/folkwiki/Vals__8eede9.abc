@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:9
+T:Vals 
+R:Vals
+O:Östergötland
+B:Ög 10
+C:
+S:Gustav Andersson
+N:Smus Ög 10 bild 10
+M:3/4
+L:1/8
+K:G
+dd d2 g2 | dd d2 b2 | d2 ^cded | d2 fa b2 | ff f2 e2 | =cc c2 A2 | ee e2 d2 | BB B2 G2 | 
+dd d2 g2 | dd d2 b2 | d2 ^cded | d2 fa b2 | ff f2 e2 | cc c2 A2 | G2 (ga)gf | g4 z2 :|:
+(d2 ^c2 d2) | (e4 A2)| d4 =cA | F6 | (c2 B2 c2) | d4 A2 | B4 FG | D6 |
+(d2 ^c2 d2) | (g4 B2)| A3 c e2 | (A4 g2) | f2 e2 d2 | f2 e2 d2 | dd d2 d2 | A4 z2 :|:
+[K:D] fd A2 B2 | A2 AAA z | fd A2 B2 | A2 AAA z | ABcdef | gfef g2 | B4 A2 | B4 A2 |
+fd A2 B2 | A2 AAA z | fd A2 B2 | A2 AAA z | ABcdef | g2 B2 d2 | d3 d d2 | d4 z2 :|
+

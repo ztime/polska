@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:32
+T:Pollonesse 1832-32
+O:Södermanland
+R:Slängpolska
+B:Notbok 1832 från Sörmlands museum
+N:[[http://www.sormlandsmusikarkiv.se/noter/1832/1832.html]]
+N:Spelas omväxlande i dur o moll enligt Simmings arrangemang. 
+N:Detta är en uppteckning av Simmings arrangemang som är en tolkning av originaluppteckningen. Jämför gärna med originalet.
+Z:Jonas Brunskog (via  MIDI)
+M:3/4
+L:1/16
+Q:1/4=112
+K:Dm 
+|:D2DF E2EG F2FA| G2GB A2Ac B2Bd| ^c2c2 d2d2 e2d2| ^cdc=B A=BAG ^FGFE| 
+  D2DF E2EG F2FA| G2GB A2Ac B2Bd| ^c2c2 d2d2 e2d2|^c2=B2=B4A4:| 
+K:D 
+|:Acec Acec Acec| B2Bd B2Bd c2A2| Acec Acec Acec|
+B2Bd B2Bd c2A2| ABcd efge gfed| fedc d4D4:|
+

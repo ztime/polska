@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:2
+T: Polska från Vargön
+N: ur en gammal notbok tillhörig fabrikör Karl Jonsson, Vargön
+N: Arr. Per Oldberg
+N: Se också smus.se
+O:Vargön, Västergötland
+Z: Per Oldberg 2012-08-01
+R: Polska
+M:3/4
+L:1/8
+K:Am
+V:1
+A B2 c A^G |A B2 c A^G | A>^G AB cd | e>^d ef ec |  
+V:2
+E^G2 A E2 | E ^G2 A E2 | E2-E^G AB | c>B cd cA | 
+V:1
+A B2 c A^G |A B2 c A^G | A>B c2 cd | e2e2z2 :: e2g2g2 | 
+V:2
+E ^G2 A E2 | E ^G2 A E2 | E>^G A2 AB | ^G2G2z2 :: c2e2e2 |  
+V:1
+g>^f ga g=f | e>d c2 cd | e>^d ef e=d | c>B cA B^G | A2A2z2 :| 
+V:2
+e>d ef ed | c>B A2 AB | c>B cd cB | A>^G ECD2 | C2C2z2 :|
+

@@ -1,0 +1,44 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:1
+T:Karsbopolska
+B:25 Västgötalåtar arrangerade för två fioler och altfiol, Gösta Klemming, 1978, Göteborgs Spelmansgille
+O:Västergötland
+C:efter Karl Salomonsson
+C:efter Blinde Petter i Kalv
+Z:Per Bergsten, 2017-09-16
+R:Polska
+M:3/4
+L:1/8
+K:G
+V:1 name="Violin 1 "
+c2 B2 A2 | G2 GB GB | F2 FA FA | G2 GB d2 | 
+c2 B2 A2 | G2 GB GB | F2 FA FA | [B,G]4 z2 :||: F2 AB cd | 
+.[ce]2 .[ce]2 .[ce]2 | D2 GA Bc | .[Gd]2 .[Gd]2 .[Gd]2 | c2 B2 A2 |  G2 GB GB | 
+F2 FA FA | [B,G]4 z2 :|]
+V:2 name="Violin 2 "
+AD GD FD | BD BG DG | A,D A,F DF | B,D B,G B2 |
+AD GD FD | BD BG DG | A,D A,F DF | [B,D]4  z2 :||: DA, FG AB | 
+.[FA]2 .[FA]2 .[FA]2 | B,G, DF GA | .[DB]2 .[DB]2 .[DB]2 | AD GD FD | B,D B,G DG |
+A,D A,F DF | [B,D]4 z2 :|] 
+%%text
+%%text Låten, som snarare är en vals, hade Salomonsson efter Blinde Petter. Låten är ganska
+%%text ointressant men har en historia som ger en del upplysningar om Blinde Petters liv.
+%%text
+%%text Till ett bröllop i Karsbo blev Blinde Petter inte anmodad att spela.
+%%text I förargelse häröver diktade han,
+%%text sittande på den öppna spiselkransen i Salomonssons föräldrahem,
+%%text en nidvisa till denna melodi. Tyvärr är inte texten bevarad.
+%%text Det är dock väl känt att Blinde Petter ofta skrev nidvisor, som var både dråpliga
+%%text och oanständiga. Salomonsson sjöng en gång en sådan visa för Gösta Klemming,
+%%text men den var så grov att Klemming inte ville teckna upp den.
+%%text Blinde Petter levde ett kringvandrande spelmansliv och fick "gå på socknen eller roten"
+%%text d.v.s. att han fick stanna c:a 14 dagar i varje gård och sedan vandra vidare.
+%%text Det sades att han var son till en präst och född i en jordkula (backstuga).
+%%text Han dog i Salomonssons föräldrahem i slutet av 1870-talet.
+%%text Salomonsson berättade att när Blinde Petter låg döende tänkte Salomonssons far att det var
+%%text lika bra att ge sig iväg och köpa begravningsbrännvinet i god tid. Det var långa avstånd på den tiden.
+%%text När ha så tog brännvinskuttingen och skulle gå upplät Blinde Petter plötsligt sin stämma och sade.
+%%text "Ska du köpa begravningsbrännvinet nu? Och jag som inte får va' mä."
+

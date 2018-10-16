@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:1
+T:Fantomen
+C:Eric Öst
+R:Polka
+Z:ABC-transkribering av Erik Ronström 2010 // Rättade en not (c'->b) i 1a och 9e takten. Denna not är feltryckt i "orginal"-noterna (enligt hur Eric Spelar). /Björn
+M:2/4
+L:1/16
+K:G
+|:"G"d'bd'b abag|eged Bged|Bged BdBG|EdBG EGFE|
+"D7"FEDc BAFE|DcBA FEDF|"G"GFEF GABc|"A7"defg "D7"abc'^c'|
+"G"d'bd'b abag|eged Bged|Bged BdBG|EdBG EGFE|
+"D7"FEDc BAFE|DcBA FEDF|"G"GABd gedB|"D7"dcAF "G"G4:|
+K:C
+|:"G7"B,A,G,F EDB,A,|G,FED B,A,G,B,|"C"CB,CD EF^FG|AG^FG e2c2|
+"G7"Bdfa g2Bd|fag2 gfdB|"C"ceae g2ce|agec AGEC|
+"G7"B,A,G,F EDB,A,|G,FED B,A,G,B,|"C"CB,CD EF^FG|AG^FG e2c2|
+"F"[Af][Af][Af][Af] "F#dim"[c^f][cf][cf][cf]|"C"[eg][eg][eg][eg] "A7"[^ca][ca][ca][ca]|\
+"Dm"[df][df][df][df] "G7"[Bg][Bg][Bg][Bg]|"C"[Ec]2[Ec]2 [Ec]4:|
+|:"G7"g^fga g=fdB|G^FGA G=FDB,|"C"G,C[EA]G, C[EA]G,C|[EA]G,C[EA] G,C[EA]2|
+"G7"G,B,[FA]G, B,[FA]G,B,|[FA]G,B,[FA] G,B,[FA]2|\
+"C"G,C[EA]G, C[EA]G,C|[EA]G,C[EA] G,C[EA]2|
+"G7"g^fga g=fdB|G^FGA G=FDB,|"C"G,C[EA]G, C[EA]G,C|[EA]G,C[EA] G,C[EA]2|
+"F#dim"c'ac'a ^faf_e|^f_ece cA^F_E|"G7"FGAB e2d2|"C"[Ec]4 [Ec]4:|
+

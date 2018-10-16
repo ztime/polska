@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:110
+T:Polonesse in A Moll no 6 ur Anders Larssons notbok
+S:Ur Anders Larssons notbok (1810-1813)
+O:Östra Ryd, Östergötland
+R:Slängpolska
+Z:Till abc av Olle Paulsson
+B: Anders Larssons notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00023
+N:korrekturläs gärna
+M:3/4
+L:1/16
+K:Am
+a4 A2AB cBA^G|A4 A,2A,B, CB,CA,|A2A^G A2AB cBcA|1 e^def e2e2 e4:|2 e^def e8|]
+|:e4 ^cdef e2d^c|d4 B=cde d2cB|c4 ABcd e2c2| c2BA GABG E4|
+A,EAE A,EAE A,EAE|A4 cBAG A4|A,EAE A,EAE A,EAE|A4 cBAG A4|
+e4 ^c^def e2d=c|d4 B=cde d2cB|c4 ABcd efga|cBA^G A4 A,4:|
+

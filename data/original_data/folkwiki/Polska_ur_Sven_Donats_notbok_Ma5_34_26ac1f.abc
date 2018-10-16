@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:34
+T:Polska ur Sven Donats notbok (Ma5 34)
+O:Småland
+R:Polska
+B:Sven Donats notbok
+S:Sven Donat
+N:Smus Ma5
+N:Jag har ändrat ett g till ett f i andra taktens sista not (och på motsvarande ställen) för att bättre stämma med 4 takten, etc.
+N:I avskriften på Smus står det först menuett, vilket sendan är överstryket och ändrat till polska.
+N:Det står noterat 'Häls 23', vilket i Svenska Låtar är Lif Anders polska (Jon Erik Hall).
+N:Esser står vidare noterat som kompositör.
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+K:Bb
+de f2 f2|fbbd'd'f|f/e/d/f/ e2 e2|eaac'c'e|dA B2 F/A/c/e/|d/c/d/A/ BFDB,|
+A,/F/c/F/ e/F/c/F/ C/F/c/F/| [B,F]2 [B,F]2 [B,F]2| A,/F/c/F/ e/F/c/F/ C/F/c/F/| [B,F]2 [B,F]2 [B,F]2|
+de f2 f2|fbbd'd'f|f/e/d/f/ e2 e2|eaac'c'e|de f2 bc'/d'/|c'/b/a/c'/ b4:|
+|:d'bbffd|A/c/f/a/ cBAG|FC F2 F/G/A/B/|A/B/c/B/ AGFE|
+D/B/f/B/ _a/B/f/B/ D/B/f/B/|[EBg]2[EBg]2[EBg]2|=E/c/g/c/ b/c/g/c/ E/c/g/c/|[Fca]2[Fca]2[Fca]2|
+de f2 f2|fbbd'd'f| f/e/d/f/ e2 e2|eaac'c'e|de f2 bc'/d'/|c'/b/a/c'/ b4:|
+

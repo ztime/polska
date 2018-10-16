@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X: 14
+T: Grafströms polska
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+Z: LP
+N: Jfr Järvsöpolska e Grubb-Anders Jonsson
+M: 3/4
+L: 1/8
+K: G
+V:1
+V:2 
+V: 1
+|:!turn!g>a|b2 g>d B>c|d2 B>G (3DGB|d2 (3cAF (3DFA|c2 B>A G2|
+b2 g>d B>c|d2 B>G (3DGB|d2 (3cAF (3DFA|1 {AB}A>G G2:|2 {AB}A>G G4|
+|:F>G [FA]>[GB] [FA]>G |FA df a2 |a2 (3ge^c (3Ace |g2 {fg}f>e d2 |
+F>G [FA]>[GB] [FA]>G |FA df a2 |a2 (3ge^c (3Ace |1 {ef}e>d d4:|2 {ef}e>d d2|
+V:2 clef=bass
+|:z2 | G,2 [B,2D2] [B,2D2]| G,2 [B,2D2] [B,2D2]|D,2 [F,2A,2C2] [F,2A,2C2]| G,2 [B,2D2] [B,2D2]|
+G,2 [B,2D2] [B,2D2]|G,2 [B,2D2] B,2|D,2 [F,2A,2C2] [F,2A,2C2]|1 [G,C]>B, [G,2B,2]:|2 [G,C]>B, [G,4B,4]|
+|:D,2 [F,2A,2D2] [F,2A,2D2]|D,2 [F,2A,2D2] [F,2A,2D2]| A,,2 [^C,2E,2A,2] [^C,2E,2A,2]|D,2 [F,2A,2D2] [F,2A,2D2] |
+D,2 [F,2A,2D2] [F,2A,2D2] | D,2 [F,2A,2D2] [F,2A,2D2] | A,,2 [^C,2E,2A,2] [^C,2E,2A,2]|1 [D,2G,2A,2^C2] [D,4F,4A,4D4]:|2 [D,2G,2A,2^C2] [D,2F,2A,2D2]|
+

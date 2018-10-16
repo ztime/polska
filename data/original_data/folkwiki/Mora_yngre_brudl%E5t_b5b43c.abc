@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:1
+T:Mora yngre brudlåt
+R:Marsch
+O:Mora, Dalarna
+C:efter Hins Anders
+Z: Daniel Silén
+M:2/4
+L:1/16
+K:G
+V:1 clef=treble
+z6 v(D2 |: G2)>F2 (DF)AF | G4A4 | B2AB c2(AB) | c2>(c2 B2)AB |
+(GF)GB d2>(^c2 | (A^c))ec d2fa | g2fg B4- | B2cA F2AF |1 G6 vD2 :|2 G4 z2 vfua |]
+|:(gf)ga b2gb | (ba)af (gf)ge | d2>^c2 (Ac)ec | d6fa | 
+(gf)ga b2gb | (ba)af (gf)ge | d2>^c2 (Ac)ec | d4>(^c4 | 
+d2)ef g3TG1- | (GF)GA G2Bc | (d^c)de (d2=c2) | (AF)AF G4- |1 G4 z2 vfua :|2 G4 z4 |]
+%
+%
+V:2 clef=treble
+z6 v(A,2 |: B,2)>D2 A,2CA, | B,4 F4 | G2FG A2(FG) | A2>(A2 G2)FG | 
+(B,A,)B,G B2>(A2 | (EA))GE F2df | B2AB [GG,]4- | [GG,]2AF D2CA, |1 [B,D]6 vA,2 :|2 [B,D]4 z2 vAuc |]
+|:(BA)Bd g2Bd | (gf)fd (ed)e^c | F2>E2 (^CE)GE | (FE)(D^C) D2A=c | 
+(BA)Bd g2Bd | (gf)fd (ed)e^c | F2>E2 (^CE)GE | F4>(E4 | 
+F2)GA B3TB,- | (B,A,)B,C B,2GA | (BA)Bc (B2A2) | (FD)CA, [B,D]4- |1 [B,D]4 z2 vAuc :|2 [B,D]4 z4 |]
+

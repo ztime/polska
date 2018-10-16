@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1
+T:Reineländaren
+R:Schottis
+O:St. Olof, Skåne
+C:Reine Steen
+Z:Sven Midgren
+M:2/4
+L:1/16
+K:Dm
+[V:1] |:d^cde fedc | ^cdec A2A2 | d^cde fefg | abag agfe | 
+[V:2] |:A2AG F2FG   | ABAG E2E2   | FEFA d^cde | fgfe fed^c|
+[V:1] d^cde fedc | ^cdec A2A2 | ABAG FGFE  | E2D^C D3A:|
+[V:2] A2B^c d2A2  | AGFG   E4   | F2ED A,4   | A,2B,^C D4 :|
+[V:1] |:Adfd A2A2 | Adfd e4  | efga bag2 | agfe fed^c |
+[V:2] |:FAdA F2F2 | GBd^c A4 | ^cdef gfe2 |fed^c dAFE |
+[V:1] Adfd A2A2 | Adfd e4 | efed cdcB | A2^c2 d4 :| 
+[V:2] DFdA F2F2 | GBd^c A4| cdcB ABAG | E2(3GEG F4 :|
+

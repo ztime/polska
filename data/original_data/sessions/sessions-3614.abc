@@ -1,0 +1,46 @@
+T: Twelve Days Of Christmas, The
+M: 2/4
+L: 1/8
+K: Fmaj
+%%vskip 0
+P:Intro
+"C7"B | "F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:1
+"C7"CC | "F"C2 FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A3 "C7"B ||
+| "F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:2
+"C7"CC | "F"CF FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A4 | "C7"c2 GA | "C7"B2 AB |
+"F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:3
+"C7"CC | "F"C2 FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A4 |\
+[M:3/4]
+%%MIDI gchord fzczfzczfzcz
+"C7"c2 GA B2 | [M:2/4]"C7"c2 GA | "C7"B2 AB |
+"F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:4
+"C7"CC | "F"C2 FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A4 |\
+[M:3/4]
+%%MIDI gchord fzczfzczfzcz
+"C7"c2 GA B2 | "C7"c2 GA B2 | [M:2/4] "C7"c2 GA | "C7"B2 AB |
+"F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:5
+"C7"CC | "F"C2 FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A4 | "Am"c4 | "G7"d2 =B2 |\
+[M:3/4]
+%%MIDI gchord fzczfzczfzcz
+"C7"c6 |[M:2/4] "F"cB AG | "Dm"F2 "Bb"B2 | "Bb"D2 F2 | "G7"GF ED | "C7"C2 AB |
+"F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 ||
+%%vskip 0
+P:6-12
+"C7"CC | "F"C2 FF | "Dm"F2 EF | "Gm"GA "C7"BG | "F"A4 |\
+|:[M:3/4]
+%%MIDI gchord fzczfzczfzcz
+"^as required" "C7"c2 GA BG :| [M:2/4] "Am"c4 | "G7"d2 =B2 |\
+[M:3/4]
+%%MIDI gchord fzczfzczfzcz
+"C7"c6 |[M:2/4] "F"cB AG | "Dm"F2 "Bb"B2 | "Bb"D2 F2 | "G7"GF ED | "C7"C2 AB |
+"F"c2 "Bb"dB | "F"AF "C7"G2 | "F"F2- "Bb"F2- | "F"F2 |]

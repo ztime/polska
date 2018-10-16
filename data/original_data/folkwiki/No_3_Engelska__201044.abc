@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X:3
+B:Sven Johnssons notbok
+T:No 3 Engelska 
+T:ur Sven Johnssons notbok
+R:Engelska
+O:Mörrum, Blekinge
+M:2/4
+Q:1/4=90
+L:1/16
+K:G
+|: dBGB d2d2 | e2g2 d4 | dBGB dBGB | B2A2 A4 |
+ dBGB d2d2 | e2g2 d4 | dBGB cAFA | G2G2 G4 :|
+|: dBGB dBGB | ecGc ecGc | dBGB dBGB | dcBA GFED |
+ dBGB dBGB | ecGc ecGc |dBGB cAFA |G2G2 G4:|
+

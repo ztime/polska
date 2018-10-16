@@ -1,0 +1,47 @@
+%%abc-charset utf-8
+
+X:1
+T:60-års polskan
+C:Hjort Anders Olsson
+R:Polska
+O:Dalarna
+N:Från Spillefolk 
+N:Youtube: 60-års polskan och med Erik Svansbo.
+Q:1/4=122
+N:60-års polskan var ursprungligen sammansatt av smålänningen August Strömberg till Hjort Anders Olssons 60-årsdag i en långsammare variant. Hjort Anders gjorde om den till den här 16-dels polskan.
+K:F
+M: 3/4
+L: 1/16
+AB| \
+cdcB A2B2 c4| \
+cdcB A2c2 f4| \
+cdcB AFAc fgfe|
+d4 B4 B4-| \
+BcBA G2A2 B4| \
+BcBA G2f2 e2f2| \
+gagf efed cdcB|
+ABcA F4 F3B| \
+cdcB A2B2 c4| \
+cdcB A2c2 f3g| \
+abag fgfe dedc|
+d4 B4 B4-| \
+BcBA B2d2 f3d| \
+cdcB AFAc f2a2| \
+g2bg e2ge c2e2|
+f3c cdcA F4| \
+BcBA B2d2 f3d| \
+cdcB AFAc f2a2| \
+g2bg e2ge c2de|1 f4 f6:|2f4 f8|| 
+|:fefg abag fgfe| \
+d_d=de fgfe dedc|\
+BABc dedc BcBA| \
+B4 G4 G4-| 
+GAGF G2A2 B3d| \
+cdcB AFAc f2a2|\
+g2bg e2ge c2e2| \
+f3c cdcA F4| 
+BcBA B2d2 f2d2| \
+cdcB AFAc f2a2|\
+g2bg e2ge c2de| \
+f4f8:|
+

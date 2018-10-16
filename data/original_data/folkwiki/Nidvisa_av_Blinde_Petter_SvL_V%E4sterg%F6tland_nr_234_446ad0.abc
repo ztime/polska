@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:234
+T:Nidvisa av Blinde Petter (SvL Västergötland nr 234)
+B:Svenska Låtar, Västergötland, nr 234, sid 111.
+O:Kalv, Västergötland
+C:Anders Petter Andersson (Blinde Petter)
+Z:Per Bergsten, 2017-09-17
+M:3/4
+L:1/8
+K:Gm
+G>A B>c d>c | A>F G2 ^F>G | A>B c>d d>A | !fermata! (B4{cB})A2 || [M:2/4]
+d>=e f>e | d2 d2 | c>=e d>c | A2 B>c | d2 ^FG | GA B(c/B/) | A4 | G2 z2 |]
+%%text
+%%text Prästen hade tagit fiolen från Blinde Petter och förbjudit honom att
+%%text gå omkring och spela i sin hemsocken, "ty det var en sådan synd".
+%%text Blinde Petter diktade då en visa om prästen som börjar på följande sätt:
+%%text
+W: Min fiol han klingar aldrig mer,
+W: jag tror säkert han är i arresten.
+W: Han har roat mig och många fler därtill,
+W: men nu ligger han hos den snåle prästen.
+

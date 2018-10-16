@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:1
+T:Rönnqvists brudmarsch från Jämtland
+C:Alfred Rönnqvist
+R:Marsch
+O:Jämtland
+M:2/4
+L:1/16
+K:G
+V:1
+D4 |: "G"G4 GABc | "G"d4 g2f2 | "C"e2ef g2fe | "G"d6 B2 | "Am"c2E2 ^D2E2 | "D7"c4 d2c2 |
+"G"B3c "Am"BAGB | "D7"A6 D2 | "G"G4 GABc | "G"d4 g2f2 | "C"e2ef g2fe |
+"G"d6 d2 | "Am"e4 E2E2 | "D7"F4 F2F2 | "G"G4 G2G2 |[1 G6 D2 :|[2 !fine!G4 z4]|
+|: "G"B2d2 d2cB | "D7"A2c2 c2BA | "G"G2B2 B2AG | "D7"FGAF D4 |
+"D7"d2f2 f2ed | "A7"^c2d2 e2fe | "D"d4 d2d2 |[1 d6 z2 :|[2 d6 ef ]|
+"C"g4 f2e2 | "G"d4 c2B2 | "Am"e4 "D7"d2c2 | "E7"B6 B2 | "Am"e4 E2E2 | "D7"F4 F2F2 | "G"G4 "C"G2G2 | "Da capo al Fine" G4 z4 |
+V:2
+D4 |: B,4 B,DGA | B4 E2d2 | c2cd e2dc | B2A2 G2D2 | E2C2 C2C2 | F2D2 F2A2 |
+G3D DCB,D | D2E2 F2C2 | B4 BDGA | B4 e2d2 | c2cd e2dc |
+B2A2 G2F2 | E2D2 C2A,2 | D2E2 D2C2 | B,4 C2E2 |[DB,]6 D2 :|[DB,]4 z4 ]|
+|: G2B2 B2AG | F2A2 A2GF | E2G2 G2FE | DEFD DFAd |
+f2a2 a2gf | e2f2 g2ag | f2d2 a2G2 |F2G2 F2E2 :|F2G2 A2c2 ]|
+c4 A2c2 | B4c2d2 | c4 F2A2 | ^G4 =F2E2 | [EC]4 [CA,]2C2 | D2E2 D2C2 | B,4 C2E2 | [GD]4 z4 |
+

@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:48
+T:Polonäs
+T:ur Kumlins notsamling (nr 48)
+B:Kumlins notsamling, nr 48
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=Ma+4&bildnr=00020
+O:Närke
+R:Slängpolska
+Z:Nils Liberg
+M:3/4
+L:1/16
+K:C
+C2>c2 G,2>B2 c4   | fedc BcdB  c2de | fgfe f2a2 d2f2 | gfed efge c2de  |
+fgfe  f2a2   d2f2 | gfed efge  c4   | B2cB A2a2 gafg | efde d4   c4   ::
+e4>d4 c2B2        | dcBc A8         | f2fe d2dc BcBA | GABc dBcA G2c2  |
+efe^d e2=d2  c2B2 | dcBc ABA^G A4   | fgfe dedc BcBA | GcBd d4   c4   :|
+

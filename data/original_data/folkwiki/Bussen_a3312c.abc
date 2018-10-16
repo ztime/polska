@@ -1,0 +1,12 @@
+%%abc-charset utf-8
+
+X:1
+T:Bussen
+Z:Anton Teljebäck
+C:Magnus Samuelsson
+M:6/8
+L:1/8
+K:D
+|: (DFA) d3 | (dcA) B3 | (BAG) (FDF) | EF^G A3 | (DFA) d3 | (dcA) B3 | (BAG) (FDF) | EDC D3 :|
+|: E2E F2F | G2G F2F | E2E F2F | (GFD) E3 | E2E F2F | G2G F2A | dcB AGF | (EDC) D3 :|
+

@@ -1,0 +1,15 @@
+%%abc-charset utf-8
+
+X:1
+T:Sahara Shotnights
+C: Björn Lindström
+R:Schottis
+O:Uppsala, Uppland
+N:Komponerad år 2009, studietiden Uppsala. Någon form av "jazzig schottis". En marockansk trumspelman i Uppsala tyckte den innehöll en rytm som fanns i Sahara, därav namnet.TIPS! Notbilden är förfärlig för den som inte är atomfysiker eller jazzmusiker, lyssna på MIDI-uppspelningen, låten är lätt.
+M:4/4
+L:1/16
+K:D
+|: A,B,2C D3D2C3 A,B,2C | D2ED2CD2 CB,2C D2>D2- | D C8- CA,B,2CD2 |A,B,2C D3D2C3 A,B,2C | %4
+ D2FA2FG2 FE2G F2>F2- | F E8- EFE2CD2 :: Ad2e f3a2g3 fe2d |f2AA2A3 AB2c d2>d2- | %8
+ d2c3c3 B2cd2fe2 | Ad2e f3a2g3 fe2d | f2dA2 B8 BA2 |Bc2d e2ge2c d6 :| %12
+

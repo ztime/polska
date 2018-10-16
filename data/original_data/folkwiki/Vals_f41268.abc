@@ -1,0 +1,41 @@
+%%abc-charset utf-8
+
+X:1
+T:Vals
+T:Flickornas dans på kyrkogården
+O:Torsås, Småland
+S:efter Nils Pettersson, Östra Karsbo, Torsås
+B:Småländska låtar utgivna av Smålands spelmansförbund, nr 27, sid 26
+N:Upptecknad och arrangerad av Teofil Melin, Söderåkra
+Z:Per Bergsten, 2009-0-04
+R:Vals
+M:3/4
+L:1/4
+K:D
+V:1
+D |: F (F/A/) G/E/  | E D (D/F/) | A (A/d/) c/B/   | B A D |
+V:2
+K:D
+D |: D (D/F/) E/A,/ | G F D      | F (F/B/) A/G/   | G F D |
+V:3
+K:D clef=alto
+D |: D  F     A,    | C D D      | D (D/A,/) B,/C/ | C D D |
+V:1
+F (F/A/) G/E/  | E D (D/F/) | A A B/c/ | [1 [Dd]2 D :| [2 [Dd]2 (A/F/) ||
+V:2
+D (D/F/) E/A,/ | G F D      | G G2     | [1 [A,F]2 D :| [2 [A,F]2 z ||
+V:3
+B, A,    A,/C/ | C D D      | E A, C   | [1 [DA]2 D :| [2 [DA]2 z ||
+V:1
+|: D (F/D/) F/A/ | d (c/B/) A/F/ | (G E) e  | A B/c/ d |
+V:2
+|: F3            | F (A/G/) F/D/ | E2    G  | E G    A |
+V:3
+|: D F      A,   | D  A,2        | C2    A, | C E    D |
+V:1
+D (F/D/) F/A/ | d (c/B/) A/F/ | (G E) c | [1 [Dd]2 (A/F/) :| [2 [Dd]3 ||
+V:2
+F3            | F (A/G/) F/D/ | E2    G | [1 [A,F]2 z :| [2 [A,F]3 ||
+V:3
+D F      A,   | D  A,2        | C2   A, | [1 [DA]2  z :| [2 [D,A,]3 ||
+

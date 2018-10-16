@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Johan Jacob Bruun
+S:efter Johan Jacob Bruun
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=Ske+30&bildnr=00061
+Z:Nils L
+R:Polska
+O:Skåne, Särslöv
+N:"J. Bruun Särslöf d 5/8 1875. Sjungen af Fru Christ. Magd. Bruun f. 1792 i Lund."
+N:Jämför + och +. Det rör sig kanske inte om varianter, men det finns vissa likheter.
+N:Jämför även +
+N:Se även +
+M:3/4
+L:1/16
+K:Dm
+A2d2 d2^c2 c2A2 | A=B^cd e4>c4 | d2d^c d2e2 f2g2 | a2a2 gabg a4 |
+A2d2 d2^c2 c2A2 | A=B^cd e4>c4 | d2^c2 d2e2 f2ed | e2d^c d4 D4 ::
+f2a2 f2a2 (ba)gf | e2g2 e2g2 (ag)fe | f2a2 f2a2 (ba)gf | e2g2 e2g2 (ag)fe |
+(d^c)de (fe)fg (ab)ag | (fe)d^c e4 d4 :|
+

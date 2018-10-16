@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1
+T:Stockholmsschottis
+C:upptecknad av B. Ander
+N:SEL00971 Utskrivet av Stefan Lindén, senaste ändring 140716
+R:schottis
+S:http://www.stefanlinden.se/L/schottis%20Stockholmsschottis%20m%20vistext.pdf
+Z:Till ABCnotation Arne Kjellman 20170518
+Q:1/4=142
+%%printtempo 0
+L:1/8
+M:4/4
+K:G
+|: D>G B>d c2 B2 | D>G B>d c2 B2 | D>F A>c B2 A2 | G2 FE D4 |
+w:Vill du va-ra me' mej, lig-ga här bre-ve' mej Tra-la la la la la Tra la la la |
+D>G B>d c2 B2 | D>G B>d c2 B2 | D>F A>c B2 A2 | G2 G2 G4 :|
+w:Jag ska ing-et gö-ra, se men in-te rö-ra Tra la la la la la Tra la la |
+|: E>C E>G e2 e2 | D>B, D>G d2 d2 | d>c cB B>A A2 | d>B BA A>G G2 |
+w:Å när du har som-nat, slum-rat in å dom-nat tra la la la la la la Tra la la la la la la |
+E>C E>G e2 e2 | D>B, D>G d2 d2 | d>c cB B>A A>F | G2 G2 G4 :|
+w:Sov du lil-la Gre-ta, du får ing-et ve-ta Tra la la la la la la la Tra la la |
+

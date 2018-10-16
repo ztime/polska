@@ -1,0 +1,38 @@
+%%abc-charset utf-8
+
+X: 6
+T: Polska efter J.A. Nordlinger
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter J.A. Nordlinger
+Z: LP
+M: 3/4
+L: 1/16
+K: Dm
+V:1
+V:2 merge
+V:3
+V:4 merge
+V:1
+(abag abag abag)|a2f2 [^G6e6] [A2=g2]|f2fe d2d^c [F2d2][A2f2]|ed^c=B A2GB A4|
+(F2>G2 A2)(A^G A2c2)|c2=B2 G,4 B2d2|(d2>^c2 A,2>c2 e2)g2|(fed^c d8):|
+(defg a2)(a2 fed^c)|d2f2 d'2a2 g2e2|c2(ce g2)(ga gfed|^cdef fece a4)|(a2ba gfeg fedf|ed^c=B A4 [A,4E4])|
+|:(DEFG) (A2AG A2)c2|c2=B2 G,4 B2d2|(d2^c2 A,2>c2) e2g2|(fed^c d8):|
+V:2
+z12 |z12|A4 z8|^G4 z8|
+z12|z12|z12|G4 F8:|
+z12 |z12|z12|z12|z12|z12|
+|:z12 |z12|z12|G4 F8:|
+V:3 clef=bass
+[D,4F,4A,4D4] [D,4F,4A,4D4] [D,4F,4A,4D4]|[D,4F,4A,4D4] [E,6=B,6E6] [A,2^C2]|[D,4F,4A,4D4] [D,4F,4A,4D4] [D,4F,4A,4D4]|E,4 A,8|
+D,12|[G,8D8] [G,4D4]|A,8 [A,4^C4]|A,4 D,8:|
+[D,4F,4A,4] [D,4F,4A,4] [D,4F,4A,4]|[D,8F,8A,8] [C,4E,4G,4]|[C,4E,4G,4] [C,4E,4G,4] [C,4E,4G,4]|[A,,4E,4G,4] [A,,4E,4G,4] [A,,4E,4G,4]|A12|[A,8^C8A8] [A,,4E,4]|
+|:D,12|[G,4D4] z4 [G,4D4]|A,4 z4 [A,4E4]|A,4 D,4 D,,4:|
+V:4 clef=bass
+z12 |z12|z12|D4 ^C2D2 C4|
+z4 [F,4A,4D4] [F,4A,4D4]|z12|z12|C2>E2 D8:|
+z12 |z12|z12|z12|(F4 E4 D4)|z12|
+|:z4 [F,4A,4D4] [F,4A,4D4] |z12|z12|^C2>E2 D4 z4:|
+

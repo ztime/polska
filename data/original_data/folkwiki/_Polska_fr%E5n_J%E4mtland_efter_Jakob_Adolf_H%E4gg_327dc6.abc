@@ -1,0 +1,34 @@
+%%abc-charset utf-8
+
+X: 4
+T: Polska från Jämtland efter Jakob Adolf Hägg
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Jämtland
+S:Efter Jakob Adolf Hägg
+Z: LP
+N: 
+M: 3/4
+L: 1/8
+K: Dm
+V:1
+V:2 merge
+V:3
+V:4 merge
+V:1
+D>^C D>E F>G|A>^G A>=B ^c>A|(d^c de fe/d/)|(^cA) AA BA|
+D>^C D>E F>D|A>^G A>=B ^c>A|(d^c de fe/d/)|G2 [F4d4]:|
+|:(d>e fe/d/ ^cA)|(AB BA/G/ FD)|(DA) (=B3 ^c)|(^cd) d4:|
+V:2
+z6|z6|z6|z6|
+z6|z6|z6|(^cd) z4:|
+|:z6|^C4 D2|z2 (A2 G2)|G2 F4:|
+V:3 clef=bass
+D,6|^C,4 A,,2|F,,4 D,2|A,6|
+D,6|^C,4 A,,2|F,,4 D,2|[A,2E2] [D,4A,4D4]:|
+|:D,4 A,,2|A,,4 D,2|z4 A,2|A,2 [D,4A,4]:| 
+V:4 clef=bass
+z2 [F,2A,2] [F,2A,2]|z2 [E,2A,2] [E,2A,2]|z2 [A2D2] [A2D2]|z2 [^C4E4]|
+z2 [F,2A,2] [F,2A,2]|z2 [E,2A,2] [E,2A,2]|z2 [A2D2] [A2D2]|z6:|
+|:(F,>G, A,G,/F,/ E,2)|z2 G,F,/E,/ z2|z6|z6:|
+

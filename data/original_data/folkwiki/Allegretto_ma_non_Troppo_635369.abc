@@ -1,0 +1,27 @@
+%%abc-charset utf-8
+
+X:1
+T:Allegretto ma non Troppo
+S: Efter Gubben Stolpe
+N: Arrangerat för gitarr av Adam Lundström efter arrangemang för piano av P. Stolpe
+R:Polska
+O:Torsåker, Gästrikland
+B: Gästrikelåtar av Spel-Stina och Klockarna Stolpe
+Q: 112
+M:3/4
+L:1/16
+%%score (T1 T2) (B1 B2)
+V:T1           clef=treble    
+V:T2           clef=treble 
+K:G
+|:[V:T1]  b4 g2e2 f2^d2  | e2g2 B2A2 G2F2 | E2b2 a2g2 f2e2 |
+  [V:T2]  E,4 G,4 A,4    | E,4  G,4  A,4  | G,4  A,4  ^A,4 |
+  [V:T1]  ^d2e2 f2d2 B4- | B2b2 agfe gfe^d| e2g2 B2A2 G2F2 |
+  [V:T2]  B,4   ^D4  D4  | E,12           | E,4  G,4  A,4  |
+  [V:T1]  E2b2 a2f2 g2e2 | f2^d2 e4 z4    ::e2g2 B2d2 c2B2 |
+  [V:T2]  G,4  E,8       | A,4  G,8       ::E,4  G,4  ^G,4 |
+  [V:T1]  c2a2 A2G2 F2E2 | D2^c2 d4  F4   | G4 D2C2 B,2A,2 |
+  [V:T2]  A,4  E,4  E,4- | E,4   F,4 A,4  | G,12           |
+  [V:T1]  z2 b2g2e2 f2^d2| e2g2 B2A2 G2F2 | E2b2 a2f2 g2e2 | f2^d2 e4  z4 :|
+  [V:T2]  G,12           | G,12           | C12            | B,4   E,4 E,4:|
+

@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X: 29
+T: Vals efter Frans på Hässjaberg
+B: HSFs låtsamling
+R: Vals
+O: Los, Hälsingland
+S: Frans Eriksson
+Z: LP
+%%MIDI program 43
+M: 3/4
+L: 1/8
+K: D
+D2. F2. A2. | [F2d2]>g2fe |(dc)(BA)GF|A2 (GA) GF| 
+E2. A2. c2.| [c2e2]> a2gf|(ed)(cA)Bc | d2 (AG)FE| 
+D2. F2. A2. | [F2d2]>g2fe| (dc)(BA)GF| A2 (GA) GF| 
+E2. A2. c2.| [c2e2]> a2gf|(ed)(cA)Bc | [F6d6]:|
+|:(ecA)ecA|(^GA)Bc d2|(Ba)(^ga) e2|(Aa)(^ga) [c2e2] |
+(ecA)ecA|(^GA)Bc d2|(Ba)(^ge)f^g |1 [c6a6]:|2 [c4a4] ^g2| 
+|:(fd)(AF) Dd|(cd)ef =g2| (EA)ce g2|(fe)(fg) a2| 
+(DF)(Ad) fd|(cd)ef g2|E2 [E2c2] [E2c2]|1 [F4d4] g2:|2 [F6d6]|
+

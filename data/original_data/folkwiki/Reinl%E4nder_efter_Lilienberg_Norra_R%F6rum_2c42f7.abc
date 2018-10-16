@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:1
+T:Reinländer efter Lilienberg (Norra Rörum)
+C:Trad
+R:Reinländer
+Z:Patrik Månsson, 2017-01-06
+O:Skåne
+B:Nedtecknad efter Per-Axel Karlsson på durspel
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+| "G" d3 c | B3 A | G2 GB | D2 AB | "C" c3 B | "D" A2 A2 | "G" d3 c | B2 G2 |
+| "G" d3 c | B3 A | GF GB | D2 AB | "C" c3 B | "D" A2 BA | "D" A2 "G" G2 | G4 |
+| "G" d3 c | B3 A | G2 GB | D2 AB | "C" c3 B | "D" A2 A2 | "G" de dc | B2 G2 |
+| "G" d3 c | B3 A | G2 GB | D2 AB | "C" c3 B | "D" A2 BA | "D" A2 "G" G2 | G4 |
+| "G" D3 E | D2 D2 | "C" E2 "D" F2 | "G" G2 "D" A2 | "G" B4 "C" | c3 B | "D" A2 A2 "G" | d3 c | B2 G2 |
+| "G" D3 E | D2 D2 | "C" E2 "D" F2 | "G" G2 "D" A2 | "G" B4 "C" | c3 B | "D" A2 BA | A2 "G" G2 | G4 |
+| "G" D3 E | D2 D2 | "C" E2 "D" F2 | "G" G2 "D" A2 | "G" B4 "C" | c3 B | "D" A2 A2 | "G" de dc | B2 G2 |
+| "G" D3 E | D2 D2 | "C" E2 "D" F2 | "G" G2 "D" A2 | "G" B4 "C" | c3 B | "D" A2 BA | A2 "G" G2 | G4 |
+

@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1
+T:Göingesång
+C:av Olle Bernhoff
+Z:Patrik Månsson, 2008-12-28
+O:Göinge, Skåne
+N:Källa: SÄASA, Skånsk samling, Bröderna FORSELLS Boktryckeri, Malmö 1942. Dikten är hämtad ur samlingen "Saunga frau maakena", även utgiven på Gleerups förlag 1951.
+M:2/4
+L:1/8
+K:C
+| G C2 C | E2 G2 | c3 c | c c2 c | d3 c | F3 A |
+w:Daj ä majst ba-ra stoj-na o knu-do te den jo-å,
+G G2 G | c3 G | G3 F | F3 E | D2 E F | G3 z |
+w:vi fing-en te o le-va au o aa-be-a pau,
+E C2 C | E2 G2 | e3 c | c c2 c | d3 c | C3 E |
+w:men äss vi ba-ra sli-den sa bra som far o mo-å,
+G c2 c | c2 G2 | A2 A A | G G2 G | B3 B | c3 z |
+w:sa tron vi in-te an-nat än öd daj ska kon-na gau.
+

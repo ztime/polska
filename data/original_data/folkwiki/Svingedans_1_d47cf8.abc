@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Svingedans 1
+T:efter Henrik Hallgren
+T:(variant av "Alla kineser äter med pinnar")
+R:Svingedans
+O:Glemmingebro, Skåne
+B:efter band inspelat 1968 av Reinhold Andersson
+Z:Åke Persson 2013-10-16
+Q:1/4=120
+M:3/4
+L:1/8
+K:G
+|: G2 G>(B (3ABA) | G2 B>(d g2) | {g}a2 a>(g e)>(f | g2) b(g d)>(A |
+G2) G>(B (3ABA) | G2 B>(d g2) | {g}a2 a>(g e)>(f | g2) g2 z2 :|
+|: {B}d2 d>(B g)>(f | e2) e>(d c2) | {c}a2 a>(g e)>f | g2 b(g d2) |
+{B}d2 d>(B g)>(f | e2) e>(d c2) | {c}a2 a>(g e)>f | g2 g2 z2 :|
+

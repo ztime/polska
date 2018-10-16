@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Irländsk jig
+R:Reel
+S:Efter N N
+O:Irland
+Z:Patrik Månsson, 2009-06-12
+D:Nyckelharpsfolket: "Nyckeln till Folkmusik" (2003)
+N:Kan ha förekommit på sound-track till TV-serien "Mot alla vindar". Låten heter jig men är väl en reel.
+Q:1/4=200
+M:4/4
+L:1/8
+K:D
+((3ABc) |: d2 ((3ABc) d2 ((3ABc) | d2 A2 BA GF | EB GB EB GB | EB ed cd ec | 
+         d2 ((3ABc) d2 ((3ABc) | d2 A2 BA GF | GABG FGAF |[1 E2 C2 D2 ((3ABc) :|[2 E2 C2 D2 A2 |]
+|: FA DA FA DA | FA dc BA GF | GB EB GB EB | GB ed cB AG |
+   FA DA FA DA | FA dc BA GF | GA BG FGAF |[1 E2 C2 D2 A2 :|[2 E2 C2 D2 z2 |]
+

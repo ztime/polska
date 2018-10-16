@@ -1,0 +1,33 @@
+%%abc-charset utf-8
+
+X:1
+T:"Lutfisk å brö"
+T: Brudpolska från Trögd
+R:Brudpolska
+O:Trögds härad, Uppland
+C:Troligen av Blås Karl-Erik, från Veckholm eller Torsvi
+N: Baserat på K.P Lefflers uppteckning
+M:3/4
+L:1/16
+K:G
+%
+|: (G3A) (B3c) (d2ef| .g4) B3c d4 | {/f} e4 A3B c4     | d4 G3A B4    |
+| (G3A) (B3c) (d2ef| .g4) B3c d4 | {/f} e4 A3c B3A    | (G2Bd g4) z4  :|
+|:{/e}(d3c) (c3a) (a3c) | {/d}(c3B) (B3g) (g3B) | {/c}(B3A) A3c {B2c2}B3A| {/B}A3G G3B d4|
+|{/e}(d3c) (c3a) (a3c) | {/d}(c3B) (B3g) (g3B) | {/c}B3A A3c B3A    | (G2Bd ug4) z4 :|
+K:C
+|: E3F G3G A3G | (cdcB) c3e g4 | (g3B) (B3f) A3B | c3e d3c B3A |
+| G4 G3G A3G  | (c3B) c3e g4  | g4 (d3f) A2B2 | c4 c4 z4   :|
+W: Upphovsmannen till denna brudpolska kallades "Blås Karl-Erik", och kom från Veckholm
+W: eller Torsvi. Från en intervju vid förra sekelskiftet med häradsdomare
+W: August Andersson från Norrhammar: "Ja hörd´n på ett par bröllop i Villberga.
+W: Han spelte så re sjöng om´et. Dom börja himma i byn å följde följet åt,
+W: omé var allri så långt. De´lät bra de me´fiol å klarinett, å hadde´rom en trumma
+W: te så vare bättre ändå". 
+W: 
+W: Polskan finns upptecknad av K.P. Lefflers artikel "Två uppländska allmogebröllop"
+W: i Ny llustrerad tidning. N.r 6 och 7 1898. Polskan kalades för "Lutfisk å Brö",
+W: därför att en spelman någon gång hade tagit sig till att till de första
+W: takterna sjunga: "Bruden får äta lutfisk å brö´, lutfisk å brö´, trallallala".
+W: Vanligen spelades endast första och tredje reprisen vid bröllop.
+

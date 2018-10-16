@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:19
+T:Polonäs i F efter Johan Eric Blomgren
+R:Slängpolska
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=Ma+13c&bildnr=00013
+O:Skåne, Hässlunda
+S:efter Johan Eric Blomgren
+N:Inga återställningstecken i originalet.
+Z:Nils L
+M:3/4
+L:1/16
+K:F
+G2AB | c4    c2AF BABd   |  c4     c2AF  BABd  |          cdef   afed cBAG  | FEFA   GFED  C2AB  |
+       c4    c2AF BABd   |  c4     c2AF  BABd  |          cdef   afed cBAB  | dBAG   G4    F4   ::
+       cdef  gece g4     |  bagf   efge  f4    |          cdef   afge c4    | bagf   agfe  f4    |
+       cdef  afed cBAG   |  ABcE   F8         :| (e2f2) | g4     g2ec  fefa | g4     g2ec  fefa  |
+       gfga  bagf agfe   |  fefa   gfed  c4    |          c'bab  c'4 c'2bc' | d'2c'2 c'2b2 b2a2  |
+       c'bab c'4  c'2bc' |  d'2c'2 c'2b2 b2a2  |          efga   bagf gfed  | cdef   afed  cBAG  |
+       ABcE  F8          :: fefg   bgeg  fedc  |          dfef   cfef Bfef  | dBAB   cdeE  F4   :|
+

@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1206
+T:Svingedans
+T:(SvL Skåne nr. 1206)
+T:efter Mårten Mattsson
+O:Östra Nöbbelöv, Skåne
+S:Svenska Låtar Skåne
+B:Svenska Låtar Skåne
+R:Svingedans
+R:Bugadans
+Z:Åke Persson, 2012-03-19
+M:3/4
+L:1/8
+Q:1/4=108
+%%printtempo 0
+%%MIDI ratio 2 1
+K:D
+|: [dD]>e ([f2A2] L[f2A2]) | (e{fe})>(d [eA])(f [e2A2]) | e>f {f}g2 g>f | a2 a>(b a2) |
+d>e (f2 Lf2) | (e{fe})>d ef e2| b>a fa ge | ([d2D2] L[d2D2]) z2 :|
+|: a>(f d)(f a)>(g | b)>a gf g2 | A>(c e)c e>(g | b)>a ge d2 | 
+a>(f d)(f a)>(g | b)>a gf g2 | A>(c e)g ec | ([d2D2] L[d2D2]) z2 :|
+

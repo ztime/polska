@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:17
+T:Polonesse in G Dur no 15 ur Anders Larssons notbok
+S:Ur Anders Larssons notbok (1810-1813)
+O:Östra Ryd, Östergötland
+R:Slängpolska
+Z:Till abc av Olle Paulsson
+B: Anders Larssons notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00006
+N:korrekturläs gärna
+M:3/4
+L:1/16
+Q: 100
+K:G
+G2Bd g2dc B2AG|D2FA c2Ac B2AG|G2Bd g2dc B2AG|BdAF G4 G,4::
+G2B2 B2AB c2BA|G2e2 f2ef g4|G2B2 B2AB c2BA|G2e2 f2ef g4|
+D2e2 e2df f2eg|fae^c d4 D4|d2B2G2B2d2=f2|e2c2G2E2 C4|e2^c2A2c2e2g2|
+f2d2B2G2 D4|g2ef g2B2A2G2|A2Bc ABcA B4|BABc A2e2d2c2|BdAF G4 G,4:|
+

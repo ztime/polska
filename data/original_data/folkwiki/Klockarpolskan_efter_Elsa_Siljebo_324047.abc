@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Klockarpolskan efter Elsa Siljebo
+R:Polska
+Z:Anton Teljebäck 
+O:Fredrika, Lappland
+S:efter Elsa Siljebo
+%%MIDI ratio 24 16
+M:3/4
+L:1/8
+K:Dm
+V:1
+|: "Dm"(3f(gf) "C"(3e(fe) "Bb"(3d(ed) | "A"^c>e A2 c>(e | "Bb"d)>(a g)>(e f)>d | "A"(3e(fe) (3d(ed) ^c>A |
+"Dm"(3f(gf) "C"(3e(fe) "Bb"(3d(ed) | "A"^c>e A2 c>(e | "Dm"d)>(a g)>(e f)>d | "A"(e<^c) "Dm"d4 :|
+|:"Dm"d>(f a)>(f a)>(f | "C" e)>(f g)>(e g)>(e | "Bb" d)>(e (3fgf) ed | "A"d(^c/d/ e<c) (A2 | 
+"F" d)(>f a)>(f a)>(f | "C" e)>(f g)>(e g)>(e | "Dm"d)>(e (3fgf) e>d | "A"^c=B/c/  "Dm" d4 :|
+V:2
+|: A2G2F2 | E6 | D2 C2 B,2 | A,2G,2A,2 | A2G2F2 | E6 | A2G2F2 | E2 D4 :|
+|: A2A2A2 | G2G2G2 | F2F2F2 | E2E2E2 | C2C2C2 | C2C2E2 | A2G2A2 | E2 D4 :|
+

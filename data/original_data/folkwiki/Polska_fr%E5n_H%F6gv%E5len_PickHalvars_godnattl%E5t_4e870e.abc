@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:703
+T:Polska från Högvålen, "Pick-Halvars godnattlåt"
+N:Efter [[Personer/Johan Persa Bergström]]. [[Personer/Pick-Halvar Persson]] (1826-1900) var en legendarisk spelman i Högvålen. Låten spelade han som "sista dansen" vid lekstugorna. Uppt. & arr LS
+R:Polska
+Z:Lennart Sohlman
+O:Härjedalen
+S:efter [[Personer/Fritiof Mesch]], Linsell
+M:3/4
+L:1/8
+Q:1/4=136
+K:Dm
+V:1
+|: (A|d>)^c d>e f>g|a>b a2 g2|a2 (f/g/f/e/) f>g|[1(ag) [e3e3]:|[2(ag) ([e3e3].g)|]!
+(fe) (d^c) df|e>(^c e)d (fa)|{ab}(ag) (ef) fd|ez/.^c/ A3 g|!
+(fe) (d^c) df|e>(^c e)d (fa)|{ab}(ag) (ef) fd|(ez/.^c/) d3|]!
+V:2
+|: (D|F>)E F>A d>e|f>g f2 e2|f2 (d>^c) d>e|[1(fe) ^c3:|[2(fe) (^c3.e)|]!
+(d^c) A2 Ad|^c>(A c)A (df)|(fe) (^cd) dA|Az/.G/ E3 e|!
+(d^c) A2 Ad|^c>(A c)A (df)|(fe) (^cd) dA|(Gz/.E/) [F3A3]|]
+

@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:PAM-polsen
+C: Björn Lindström
+R:Finnskogspols
+O:Gopa,Bjursås, Dalarna
+N:Komponerad 22/7 2017. PAM-festen var en gemensam 30-års fest i Järlåsa Bygdegård 22/7 2017 för de magnifika spelkvinnorna Paulina Bastviken, Anna Bergström och Maria Lindström. PAM-polsen framfördes som födelsedagspresent av Björn Lindström och Tobias Walla. Den sistnämde stod, sin vana trogen, för fantasifull sekundering. På ffa första och andra reprisen passar det fint att för omväxlings skull ibland växla ner till den lägre oktaven. 
+M:3/4
+L:1/8
+K:Dm
+[M:3+3+2/8] |: f3 a3 a2 | f d2 d3 fd | c3 e2 Ace | fafd- d4 | f3 a3 a2 | f d2 d3 fd | c3 e2 Ace | %7
+ f e2 d- d4 :: faff affd | f d2 d3 fd | c3 e2 Ace | faf d2 A=Bc | faff affd | f d2 d3 fd | %14
+ c3 e2 Ace |1 f d2 d- d4 :|2 f d2 d3 ^f2 |:[K:D] d3 A3 f2 | dfd A3 g2 | e3 A3 g2 | ege A3 fe | %21
+ d2 d A3 fe | dfd A3 g2 | e2 c A2 Bce |1 d6 f2 :|2 d8 |] %26
+

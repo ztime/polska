@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1
+T:Skålbergslåten
+T:Bodapolska
+C:efter Tjädur Jonas Hedin, Boda, st. G. Larsson
+R:Polska
+S:http://www.stefanlinden.se/L/polska%20Bodapolska%20Skalbergslaten.pdf
+Z:till ABCnotation och rev. Arne Kjellman 20160505
+L:1/8
+Q:1/4=120
+M:3/4
+K:G
+|:(TB>A) B2 e>d | (dB) G4 | (B>A) B2 e>d | (dB) c4 | (c>B) c2 d>e | f2 f4 |
+A7/4uf/4 f2- f>(uc | e2) (d/e/)d/^c/ d3/2 (v=c/ | TB>A) B2 e>d | (dB) G4 | (B>A) B2 e>d |
+(dB) c4 | (c>B) c2 d>e | f2 f2- f>(ve |  d2) (c/d/)c/A/ F(A/F/) | G2 G4 :: (D7/4B/4) B4 |
+(D7/4B/4) B4 | B(c/B/ A)(B/A/) G2 | F2 (E/F/)E/D/ E2 | (E7/4c/4) c4 | (E7/4c/4) c4 |
+c(B/c/) e2 d2 | c2 TB>A B2 | (D7/4B/4) B4 | (D7/4B/4) B4 | B(c/B/ A)(B/A/) G2 |
+F2 (E/F/)E/D/ E2 | (c>B) c2 d>e | f2 f2- f>(ve | d2) (c/d/)c/A/ F(A/F/) | G2 G4 :|
+

@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Vals
+O:Östergötland
+R:Vals
+C:Allan Manneberg
+Q:1/4=125
+Z:Jörgen Olsson
+M: 3/4
+L: 1/8
+K: D
+|: "D"D3(EFG) | A3(FAd) |"A" (3fgf e2 c2|"D" d4 d2|
+"G" {c}B2 GBdB| "D" (3ABA FAdf | "A7" {ef}e2 cAce|"D" d2 fdAF|
+"D"D3(EFG) | A3(FAd) |"A" (3fgf e2 c2|"D" d4 d2|
+"G" {c}B2 GBdB| "D" (3ABA FAdf | "A7" {ef}e2 cAce|1"D" d6 :|2 "D" d4 z D||
+|:"G"({DEF}G2) [GB][GB][GB][GB]|({Bc}B2) GB (dB)|"D"(3ABA FA (de)|f2 df a2|
+"A"(ba)gfgf| (ef)ed(cB)|"D" (AB)AG(FE)| F2 D2 D2|
+"G"({DEF}G2) [GB][GB][GB][GB]|({Bc}B2) GB (dB)|"D"(3ABA FA (de)|f2 df a2|
+"A"(ba)gfgf| (ef)ed(cB)|"A7" (3ABA ^GABc|1"D" d4 zD:|2"D" d6 |]
+

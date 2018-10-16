@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X:1
+T:Marias polska
+R:Polska
+M:3/4
+C:Robert Boström
+Z:Robert Boström
+L:1/8
+K:G
+Q:1/4=110
+|:"G"(3G2d2G2 (3A-AB|"D/F#"(3A2D2-D2- (3D-DD|"C"(3E2C2E2(3G-GE|"D"(3FGA- (3AF-F (3G-GA|
+"G"(3G2d2G2 (3A-A(3B/4A/4G/4|"D/F#"(3A2D2-D2- (3D-DD|"C"(3E2C2E2(3BAG|"D"(3FGA "G"G4:|
+|:"Em"(3g2e2-e2- (3e-eg|"Bm"(3fB-B B2- (3B-BB|"Am"(3c2A2B2 (3c-cd|"C"(3ec-d- (3de-e "D"(3f-fa|
+"Em"(3g2e2-e2- (3e-eg|"Bm"(3fB-B B2- (3B-BB|"Am"(3c-cA (3Bc-c (3EFG|1"D"(3DF-F "G"G4:|
+|2"D"(3DF-F "G"G2- (3G-GF|"C"(3ECE (3BAG "D"(3FGA|"G"G6|
+

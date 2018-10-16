@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Mårten Andersson
+R:Polska
+O:Ljusdal, Hälsingland
+S:Mårten Andersson
+N: Uppt. av Olof Andersson (men ej med i SvL). Jfr +
+Z:LP
+M:3/4
+L:1/16
+K:Am
+(E|:A2)^GA B2AB c2Bc|d2cd e2ce a4|A2>(B2 c2)A2 e2c2|B2>A2 ^G2BG E2>(E2|
+A2)^GA B2AB c2Bc|d2cd e2de f4|e2>(d2 c2)(B2 A2)c2|(BA)^GB A8:|
+e2^de ^f2ef g4|^f2>e2 (^de)^fg a2f2|(g2>e2) (b2g2) ^f2e2|^d2e2 (^fe)de B4|
+e4 ^f2f2 g4|^f2>e2 (^de)^fg a2f2|(g2>e2) (b2g2) ^f2e2|^d2^fd e7 (e|
+|:a2)({/b}a^g a2)(c2 B2)A2  |g2({/a}g^f g2)c2 B4  |c2cB d2dc e2c2|B2>A2 (^GA)BG E4|
+A2^GA B2AB c2Bc|d2cd e2de f4|e2>(d2 c2)(B2 A2)c2|(BA)^GB A8:|
+

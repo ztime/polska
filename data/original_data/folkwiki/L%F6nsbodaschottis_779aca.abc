@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1
+T:Lönsboda-schottis
+C:Eric Welander
+R:Schottis
+Z:2008-11-27, Patrik Månsson
+O:Lönsboda, Skåne
+M:2/4
+L:1/16
+K:D
+|: (A>F)(Ad) (B>G)(Bd) | (AFAd) f2f2 | g2 (ge) (cA)(Bc) |
+(de)(fe) A2 z2 | (A>F)(Ad) (B>G)(Bd) | (AFAB) f2f2 | 
+g2 (ge) c2 (Bc) | d2d2 d2 z2 :: B2 (Bd) g2g2 | A2 (Ad) f2f2 | 
+g2 (ge) (cA)(Bc) | (d>efd) A2 z2 | (BABd) g2g2 | 
+(AFAd) f2f2 | g2 gf (cABc) | d2d2 d2 z2 :|
+K:G
+|: g2 (gd) B2B2 | (cB)(cd) e2e2 |d2 (cA) F2F2 | (GABc) d2 ef | 
+g2 (gd) B2B2 | (cB)(cd) e2e2 | d2 (cA) F2 EF | G2G2 G2 z2 :|
+

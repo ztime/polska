@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:3637
+T:Sista augustipolskan
+C:Hasse Lind
+O:Hemfosa
+R:Polska
+M:3/4
+L:1/8
+Q:1/4=120
+N:arr & abc-transkr. Lennart Sohlman
+K:Dm
+V:1
+(3A2(d2^c2) d>e|(3f2(a2^g2) (a2|f2)b>(a g>)f|(3e2(d2^c2) B>A|!
+(3A2(d2^c2) d>e|(3f2(a2^g2) (a2|f2)b>(a g>)f|(e^c) d4::!
+(3A2(F2G2) A>c|(3T=B2(A2G2) A2-|(3A2(F2G2)A>c|(3T=B2(A2G2) (A2|d>)(e f>)(e g>)f|(3e2(d2^c2) B>A|!
+(3A2(F2G2) A>c|(3T=B2(A2G2) A2-|(3A2(F2G2)A>c|(3T=B2(A2G2) (A2|d>)(e Pf2) ed|^c2 d4:|]
+V:2
+(3D2(F2E2) F>G|(3A2(f2e2) (f2|d2) (g>f) e>d|(3^c2(A2A2) G>E|!
+(3D2(F2E2) F>G|(3A2(f2e2) (f2|d2) (g>f) e>A|(GE) [F4A4]::!
+(3F2(D2E2) F>A|(3G2(F2E2) F2-|(3F2(D2E2) F>A|(3G2(A2=B2)(^c2|A>)(^c d>)(c e>)d|(3^c2(A2A2) G>E|!
+(3F2(D2E2) F>A|(3G2(F2E2) F2-|(3F2(D2E2) F>A|(3G2(A2=B2)(^c2|A>)(^c d2) cA|(GE)[F4A4]:|]
+

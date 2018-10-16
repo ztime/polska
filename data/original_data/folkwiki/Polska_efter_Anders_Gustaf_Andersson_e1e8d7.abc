@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X:662
+T:Polska efter Anders Gustaf Andersson
+S:efter Anders Gustaf Andersson
+B:Sörmlands musikarkiv - Anders Gustaf Andersson, Nora, nr 662
+O:Mörkö, Södermanland
+R:Slängpolska
+Z:Nils L
+M:3/4
+L:1/8
+%%beginps
+/shd{	% usage: x y shd
+	M 3 1.3 RM
+	-1 2.5 -6.5 0 -5.5 -2.5 RC
+	1 -2.5 6.5 0 5.5 2.5 RC fill}!
+%%endps
+%%deco head-small 0 shd 0 0 0	% small note head
+U:s=+head-small+
+N:"Jfr Rosenberg: 160 polskor, visor och danslekar n:r 87, samt Svenska Låtar, Dalarna, h. II n:r 432, första reprisen".
+N:Se även + och SvL Västmanland nr 164.
+K:Am
+e>c A2 (cB) | [G2sB2] A4 | A>c e2 (g^f) | d2 e4 ::
+e2 c>e c>e | a2 {^fg}f/e/f d2 | d2 B>G B>d | g2 {^fg}f/e/f e2 |
+e>c A2 (cB) | [G2sB2] A4 :|
+W: Text:
+W: "Vi ska dansa med Sara,
+W: så länge träskorna vara", etc.
+

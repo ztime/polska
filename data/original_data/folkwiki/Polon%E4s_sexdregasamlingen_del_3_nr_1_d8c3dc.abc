@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:1
+T:Polonäs, sexdregasamlingen del 3 nr 1
+B: Sexdregasamlingen del 3 nr 1
+O: Sexdrega, Västergötland
+R: Slängpolska
+Z:2012-07-23 Per Oldberg
+N:Arr. av Per Oldberg
+M:3/4
+L:1/16 
+V:1
+V:2
+K:G
+[V:1]|:"G"G2BA G2Bc d2ef|"C"g2fe"G"d4c4|B2g2 f2e2 d2c2|BcBA BcBA G2D2|
+[V:2]|:D2GF D2GA B2cd | e2dc B4A4 | G2e2 d2c2 B2A2 | GAGF GAGF D2B,2 |
+%
+[V:1]"G"G2BA G2Bc d2ef|"C"g2fe"G"d4c4|"G"B2g2 "D"f2e2 f2g2|"A7"agfe "D"d4D4:|
+[V:2]D2GF D2GA B2cd | e2dc B4A4 | G2e2 d2^c2 d2e2 |fed^c A4A,4:|
+%
+[V:1]|:"D"DEFG A2D2 "G"B2G,2|"D7"c4 ABAG F2D2|"D"DEFG A2D2 "G"B2G,2|
+[V:2]|:A,^CDE F4G4 | A4 FGFE D2A,2 | A,^CDE F4G4 |
+%
+[V:1]"D7"c4 ABAG F2D2|"G"d2ef g2B2 "Am"c2A2|"D7"dcBA "G"G4G,4:|
+[V:2]A4 FGFE D2A,2 | B2cd e2G2 A2F2 | BAGF D4B,4:|
+

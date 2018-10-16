@@ -1,0 +1,27 @@
+%%abc-charset utf-8
+
+X:175
+%%beginps
+/shd{	% usage: x y shd
+	M 3 1.3 RM
+	-1 2.5 -6.5 0 -5.5 -2.5 RC
+	1 -2.5 6.5 0 5.5 2.5 RC fill}!
+%%endps
+%%deco head-small 0 shd 0 0 0	% small note head
+U:s = +head-small+
+T:Polska efter Anders Sundin
+T:(SvL Medelpad nr. 175)
+S:efter [[Personer/Anders Sundin]], Attmar
+N:ur SvL: "Denna polska har Sundin själv komponerat, då han vid tjugotvå års ålder exercerade beväring i Sånga i Ångermanland. Han hade ej tagit med sig någon fiol det andra året, men kamraterna samlade ihop pengar till en ny fiol åt honom."
+B:Svenska Låtar Medelpad nr 175
+R:Polska
+O:Medelpad
+Z:Torbjörn Lindberg
+M:3/4
+L:1/16
+K:Am
+|:v(AB)(A^G) A2B2 (cB)cd | e2(eg) (^f2{gf})ed ([f2sd2][e2sc2]) | (AB)A^G A2B2 cBcd | d2e2 (Be)B^G {E/2F/2E/2D/2}E4 |
+   (AB)(A^G) A2B2 cBcd   | e2(eg) (^f2{gf})ed ([f2sd2][e2sc2]) | e2(ae) (Ad)(fa) (Ac)(ec) | (EG)BG [A8A8] :|
+|: A2a2  g2a2 f2((3fgf | e2)ae Adfa Acec | A2Bc d2fd c2BA | A2G2 G2e2 [e4sE4-]  |
+   sE2a2 g2a2 f2((3fgf | e2)ae Adfa Acec | A2Bc d2Bd cecA | EGBG [A8A8]  :|]
+

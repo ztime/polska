@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X: 1
+T: Flea Away (Loppan flydde sin kos)
+R: Sång
+C: Nils Pettersson
+O: Billinge, Skåne
+M: 2/4
+L: 1/16
+K: C
+|: "Am"ABcd e2c2 | A2c2 "Em"B2G2 | "Am"A4 A4 | 
+w: Cat is won-de-ring where flea is gone a-way now,
+w: Kat-ten un-dra-de vart lop-pan ta-git vä-gen,
+"Am"ABcd e2c2 | A2c2 "E"B2^G2 | "A"e8 :| 
+w: re-cent-ly it was so ir-ri-ta-ting here!
+w: nyss var den så ir-ri-te-ran-de ju här!
+|:"C"cdef g2 e2 | c2e2 "G"d2B2 | "C"c4 c4 | 
+w: Calm is sprea-ding now it's real-ly tran-quil here. So
+w: Lug-net bred-de ut sig, nu var ro-'n här. Så
+"C"cdef g2e2 | c2e2 "G"d2B2 | "C"g8 :| 
+w: sun is shi-ning from the sky deep blue and clear.
+w: so-len sken från him-me-len djup-blå och klar.
+|: z2 "Am"E2 E2A2 | A2A2 A2^GA | "E"B2^G2 E4 | 
+w: An im-mense se-re-ni-ty the farm-yard see.
+w: En väl-dig ro sig spred ö-ver gårds-plan här.
+z2 "C"G2 G2c2 | c2c2 c2Bc | "G"d2B2 G4 :|
+w: The sun is en-joy-ed real-ly troub-le-free.
+w: Man nju-ta so-len kan u-tan stort be-svär.
+

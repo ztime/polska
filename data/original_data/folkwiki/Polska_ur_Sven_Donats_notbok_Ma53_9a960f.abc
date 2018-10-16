@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:3
+T:Polska ur Sven Donats notbok (Ma5-3)
+R:Polska
+O:Småland
+B:Sven Donats notbok
+B:Smus Ma5
+N:Låten är i orginal noterad med G-strängen sänkt till F, men är här förenklad.
+S:Efter Sven Donat
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/16
+K:Bb
+dcBc B2{/a}b2 f4|edcB A2c2 F4|FGFE D3F B3d|cdcA B8:|
+|:FGAB c3c c3c|edce d3d d3d|d2ed Td3c Tc3B|c2Ac cBAG F4|FGAB c3c c3c|
+edce d3d d3d|d2ed Td3c Tc3B|c2Ac cBAG F4| FGFE D3F B3d|cecB B8:|
+

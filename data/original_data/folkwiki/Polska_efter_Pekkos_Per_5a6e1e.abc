@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1225
+T:Polska efter Pekkos Per
+T:(SvL Dalarna 1225)
+R:Polska
+S:Pekkos Per
+S:Hjort Anders Olsson
+O:Rättvik, Dalarna
+B:Svenska Låtar Dalarna
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+Q:1/4=116
+K:A
+A(A/G/) DF DF|(F{=GF})(E/D/) CE CE/C/|[FB]>>(c B{cB})A/(G/ [B-G-]2|L[BG])B {/c}TBA/G/ [AA]2|
+A(A/G/) DF DF|(F{=GF})(E/D/) CE C(.E/.C/)|[FB]>>(c B{cB})A/(G/ [B-G-]2|L[BG])B {/c}TB(A/G/) [AA]2|
+a>(g f/)e/f/g/ ae|(d/c/)B/A/ G[GB] [AAA,]2:||:[AA](c e)g bg|(f/a/)f/d/ fa gb|
+ce/c/ df/d/ ce/c/|(B/c/d/B/) [BG]<<[BG] [AA]2:|
+

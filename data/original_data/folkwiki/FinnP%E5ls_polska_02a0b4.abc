@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Finn-Påls polska
+R:Polska
+Z:C-G Magnusson, 2008-10-01
+O:Åsele, Lappland
+S:efter Karl Wiklund
+D:Burträskar'a - Före den stora flyttningen
+M:3/4
+L:1/8
+Q:120
+K:Gm
+V:1
+"_Gm" d>d cc BB | "_D7" A/2B/2A/2^F/2 "_Gm" G2 G,2 | "_Gm" G>A B>c d>g | "_Gm" d>c "D" d3 D |
+"_Bb" d>d ff dd | "_F" c>c ee dd | "_Gm" B>B dd BG | "_D" ^F/2G/2A/2F/2 "_Gm" G2 G,2 :|
+|: "_Gm" G>A Bc/2B/2 AG | "_D" ^F/2G/2A/2F/2 "_Gm" G2 G,2 | "_Gm" G>A B>c d>g | "_Gm" d>c "_D" d2 D2 |
+"_Bb" d>d ff dd | "_F" c>c ee dd | "_Gm" B>B dd BG | "_D" ^F/2G/2A/2F/2 "_Gm" G2 G,2 :|
+V:2
+B>B AA GG | ^FC D2 B,2 | B,2 G>A B>d | B>A B3 z | G2 dd B2 | A2 cc B2 | G2 BB G2 | DC B,2 G,2 :|: D>^F GA/G/ FD | D2 B,2 D2 | B,>D G>A B>d | B>A B4 | B2 dd B2 | A2 cc A2 | G2 BB G2 | DC B,2 G,2 :|
+

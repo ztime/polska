@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:No 1 Quadrille
+S:efter Carl Gustaf Sundblad
+O:Godegård, Östergötland 
+R:Kadrilj
+B:Carl Gustaf Sundblads notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+27&bildnr=00002
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=%C3%96g+20&bildnr=00003
+M:2/4
+L:1/16
+K:C
+!f!ce | g2g2 g^fag | g3e c2ce | g2g2 g^fag | g6 G2 | !p!B2B2c2c2 | d3e gfed | .c2.c2 BcdB | cGAB cdef !segno!| 
+!f!g2g2 g^fag | a3e cGce | g2g2 g^fag | g6 !p!G2 |  B2B2c2c2 | d2e2 gfed | c2c2 BcdB | c2c2c2 || 
+!p!d2d2e2e2 | !f!f3e d2 z2 | e2e2 f2f2 | g3f e2 z2 | a2a2g2g2 | f2f2e2e2 | d2d2c2c2 | BGAB cdef !segno!|]
+[K:F] c2 | a3f a2((3fed) | c3BA2c2 | d2d2e2e2 | fcde fefg | a2f2 gfed |  c3BA2c2 | d2d2e2e2 | f2a2f2 ::
+c2 | !f!c2eg c'2b2 | a2g2f2f2 | e2f2g2a2 | gfga g2c2 | a3f a2((3fed) | c3BA2c2 | d2d2e2e2 | f2a2f2 :|]
+

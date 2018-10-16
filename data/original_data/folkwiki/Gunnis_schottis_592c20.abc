@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:3786
+T:Gunnis schottis
+T:Vinnare i Gregorielåttävling i Ås 2018
+C:Gunnar Stenmark
+R:Schottis
+Z:ABC-transkr. + arr Lennart Sohlman
+O:Jämtland
+Q:1/8=160
+M:2/4
+L:1/16
+K:F
+V:1
+A2|:d>ed^c d>efg|{g}a2e^c A3A|B>cBA B>cdc|TB2AG A3A|!
+G>AGF EFG2|F>GFE DEF2|E2BA G2FE|{EF}E>DD^C [D4D4]::!
+C>DEF G>ABc|TB2AG A3A|A>^ccc c>Ace|{ef}e2d^c d3d-|!
+dfed A2AA-|AdAF D2D2|E2BA G2FE|{EF}E>DD^C [D4D4]:|]
+V:2
+z2|:F>GFE F>GAA|^c2AG E3E|G>AG^F G>ABA|G2FE F3F|!
+E>FED ^CDE2|D>ED^C A,2D2|A,2GF E2AG|G>FFE [F4A4]::!
+G,>B,CD E>FGE|G2FE F3F|E>AAA A>EA^c|A2FE F3F-|!
+Fd^cA F2FF-|FAFD A,2A,2|A,2GF E2AG|G>FFE [F4A4]:|]
+

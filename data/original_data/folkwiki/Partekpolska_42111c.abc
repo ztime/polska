@@ -1,0 +1,13 @@
+%%abc-charset utf-8
+
+X:1
+T:Partekpolska
+R:Polska
+O:Umeå, Västerbotten
+M:3/4
+L:1/8
+K:Am
+|: "Am" A>(B c/d/)c/B/ BG | A>B (c/B/)c/d/ e2 |A>(B c/d/)c/B/ BG | "D"  A(A/c/) BA/G/ E2 |"Am"A>(B c/d/)c/B/ BG | A>B (c/B/)c/d/ e2 |"F" ag/f/ ec B/A/G |"D" Az A4 :|
+|: "C" e(e/^f/ g)(e f)d | "D" ^ff (a^g) e2 | "Am"e(e/^f/ g)(e f)d | ec eB eA 
+|" C"e(e/^f/ g)(e f)d | "D" ^ff (a^g) e2| "F" a=g/=f/ ec B/A/G |"D" Az A4 :|
+

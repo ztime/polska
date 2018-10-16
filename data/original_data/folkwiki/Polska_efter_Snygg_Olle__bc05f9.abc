@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1092
+T:Polska efter Snygg Olle 
+T:(SvL Dalarna 1092a)
+R:Polska
+O:Rättvik, Dalarna
+S:Snygg Olle
+S:Höök Olle
+B:Svenska Låtar Dalarna
+N:Denna version a) är upptecknad 1906, det finns även en version b) upptecknad 1921.
+N:SvL: Snygg Olle var född 1848 och en duktig spelman, men år 1896 miste han sin hand i ett dragtröskverk och blev därefter oförmögen att spela.
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+Q:1/4=160
+K:A
+vA2 ((c{dc})B) AG|A2 (5(g/a/)g/(f/g/) a2|A2 (c{dc})B AG|Bc AG E2-|
+Ec ((c{dc})B) AG|A2 (5(g/a/)g/(f/g/) a2|A2 (c{dc})B AG|BA [AA,]4:|
+K:Am
+|:v{cd}ce (e<g) ge|(f3/2{gf})((3e/f/g/) a2-La2|g2 bz/(a/ g{ag})(e|f{gf}d) [ee]4|
+{ga}g>f d4|{fg}f>e c4|{ga}gf d4|{fg}fe c4|{cd}cB/c/ d2 (c>{dc})B|GB {AB}[AA]4:|
+

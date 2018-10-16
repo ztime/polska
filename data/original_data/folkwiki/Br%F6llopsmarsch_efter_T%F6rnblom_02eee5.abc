@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X:609
+T:Bröllopsmarsch efter Törnblom
+T:(SvL Hälsingland 609)
+R:Marsch
+B:Svenska Låtar Hälsingland
+S:Johan August Törnblom
+O:Skog, Hälsingland
+N:SvL: Låten är en variant av Bellmans 'Venus, Minerva', Fredmans sånger nr 12. Jämför även 'Jämtlands brudmarsch'.
+M:2/4
+L:1/8
+K:C
+c2 {/d}(c/B/c/d/)|c2 G2|e2 (g/a/g/f/)|e>d (c/d/e/f/)|gg (a/g/)(^f/g/)|
+c'g =fe|d2 {/e}(d/^c/d/e/)|d2 z2:| |:f2 {/g}(f/e/f/a/)|d2 (d>.f)|
+e>d (c/d/e/g/)|c2 (c>.e)|d>c (B/c/d/e/)|fd BG|c2 (eg)|[cE]2 z2:|
+

@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:1
+T:Gånglåt
+T:komp. av Nils Löfgren till "Tosia Bonnadan" i Ronneby 1962
+L:1/8
+M:C
+C:Nils Löfgren
+O:Blekinge
+Q:1/4=108
+R:Gånglåt
+Z:Peter Svensson
+K:G
+V:1
+   D2      G>B   d2     (^c>d) | B2      (A>B) G2  D2     | A2 (A>F) D2     (EF)  | (G>F)  (GA) B2     G2   |
+   D2      G>B   d2     (^c>d) | B2      (A>B) G2  D2     | A2 (A>F) D2     (EF)  | G2     B2   G4         :|
+|: g2      (g>e) c2(ce)        | d2      (d>B) G3  B      | A2 (Ad)  D2(EF)       | (G>F)  (GA) B2     G2   |
+   g2      (g>e) c2(ce)        | d2      (d>B) G3  B      | A2 (Ad)  D2(EF)       | G2     B2   G4         :|
+V:2
+   B,2     (D>G) B2     G2     | D2      (D>G) B,2 (A,B,) | C2 D2    C2     (CA,) | (B,>C) (DF) G2     B,2  |
+   B,2     (D>G) B2     G2     | D2      (D>G) B,2 (A,B,) | C2 D2    C2     (CA,) | B,2    G2   [G,D]4     :|
+|: [G,Ec]2 c2    G2     E2     | [G,DB]2 (B>G) D2  B,2    | C2 D2    C2     (CA,) | (B,>C) (DF) G2     B,2  |
+   [G,Ec]2 c2    G2     E2     | [G,DB]2 (B>G) D2  B,2    | C2 D2    C2     (CA,) | B,2    G2   [G,D]4     :|
+

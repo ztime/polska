@@ -1,0 +1,30 @@
+%%abc-charset utf-8
+
+X:1
+T:Myrstacken
+C:Eric Öst
+R:Polka
+O:Hälsingland
+Z:ABC-transkribering av Erik Ronström
+M:2/4
+L:1/16
+K:F
+"F"agfa "A7"gfeg|"Dm"fedf "A7"ed^ce|"Bb"d^cde gfed|"F"=cdcB Acfc|
+"C7"Bcgc Bcgc|"F"Acfc Acfc|"G7"=Bdgd Bdgf|"C7"efed cefg|
+"F"agfa "A7"gfeg|"Dm"fedf "A7"ed^ce|"Bb"d^cde gfed|"F"=cdcB Acfc|
+"Gm"Bdgd Bdgd|"F"Acfc Acfc|"C7"Bceg bgec|"F"[fA]2[fA]2 [fA]4:|
+K:C
+|:"C"[cg][cg][cg][cg] [ca][ca][ca][ca]|"G7"[Ba][Ba][Ba][Ba] [Bg][Bg][Bg][Bg]|\
+[df][df][df][df] [dg][dg][dg][dg]|"C"[cf][cf][cf][cf] [ce][ce][ce][ce]|
+"E7"[^Ge][Ge][Ge][Ge] [Gd][Gd][Gd][Gd]|"Am"[Ad][Ad][Ad][Ad] [Ac][Ac][Ac][Ac]|\
+"D7"[^Fd][Fd][Fd][Fd] [Fc][Fc][Fc][Fc]|"G7"[=Fc][Fc][Fc][Fc] [FB][FB][FB][FB]|
+"C"[cg][cg][cg][cg] [ca][ca][ca][ca]|"G7"[Ba][Ba][Ba][Ba] [Bg][Bg][Bg][Bg]|\
+[df][df][df][df] [dg][dg][dg][dg]|"C"[cf][cf][cf][cf] [ce][ce][ce][ce]|
+"F"[Fd][Fd][Fd][Fd] "F#dim"[^F^d][Fd][Fd][Fd]|"C/G"[Ge][Ge][Ge][Ge] "A7"[Af][Af][Af][Af]|\
+"D7"[^Fe][Fe][Fe][Fe] "G7"[=Fd][Fd][Fd][Fd]|"C"[Ec]2[Ec]2 [Ec]4:|
+K:F
+|:"F"EFAc dcAF|EFAc dcAF|"C7"EGBc dcBG|EGBc dcBG|
+EGBc ecBG|EGBc ecBG|"F"EFAc fagf|egfe dcAF|
+"F"EFAc dcAF|"F7"_EFAc _ecAF|"Bb"DFBF dBfd|bfdB fdBF|
+"F"EFAc dcAF|fedc BAGF|"C7"EFGA Bcde|"F"[fA]2[fA]2 [fA]4:|
+

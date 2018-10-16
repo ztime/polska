@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X: 12
+T: Polska efter Erik Ersson Ljung
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter Erik Ljung
+Z: LP
+M: 3/4
+L: 1/8
+K: G
+V:1
+V:2
+V:3 merge
+V:1
+d|: ^c>d g3 e|e>d d2 B2|1 A>c f3 e|e>d d2 B>d :|2 A>B c>d e<f|g2 [B4g4]|
+|:d>^c d>g f>e|e>d F2 F2|e>d F2 F2|e>d G2 G2|
+d>^c d>g f>e|e>d f2 a2|A>a f>e c>A|G2 [D4G4]:|
+V:2 clef=bass
+z|:G,6|G,6|1 D,6| G,6:|2 D,6 |[G,2B,2] [G,4D4]|
+|:G,6|D,6|D,6|G,6|
+G,6|D,6|D,6|[G,2B,2] [G,4B,4]:|
+V:3 clef=bass
+z|:z2 [B,2D2] [B,2D2]|z2 [B,2D2] [B,2D2]|1 z2 [F,2A,2C2] [F,2A,2C2]|z2 [B,2D2] [B,2D2]:|2 z2 [A,2C2] [A,2C2]|z6|
+|:z2 [B,2D2] [B,2D2]|z2 [A,2C2] [A,2C2]|z2 [A,2C2] [A,2C2]|z2 [B,2D2] [B,2D2]|
+z2 [B,2D2] [B,2D2]|z2 [A,2C2] [A,2C2]|z2 [A,2C2] [F,2C2]|z6:|
+

@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X:1
+T:Karin och Egils brudpolska
+R:Polska
+C: Björn Lindström
+O:Gopa, Bjursås socken, Dalarna
+M:3/4
+L:1/16
+K:D
+K:G
+d2AF D2>G2 FGAB | cABG A2FE D2>D2 | CDEC D2D2 A,4 | d2AF D2>G2 FGAB | cABG .A2 z2 [Ec]4 | %5
+BcdB cBAG FGAB |1 AGFE D4 [A,D]4 :|2 AGFE D2 z2 [DA]4 |:[K:G] fdef [dg]2[dg]2 [df]2[df]2 | %9
+e2^ce fecB A4 | [df]2>[df]2 [dg]2[dg]2 ^g2g2 | ^gaba =gfed ^cdef | fdef [dg]2[dg]2 [df]2[df]2 | %13
+e2^ce fecB A4 | [df]2>[df]2 [dg]2[dg]2 ^g2g2 | ^gaba =gfed ^cdec | d4 D4 GFGA | %17
+[GB]2>[GB]2 [Gc]2[Gc]2 cded | cBAG FGAF G4 :| %19
+

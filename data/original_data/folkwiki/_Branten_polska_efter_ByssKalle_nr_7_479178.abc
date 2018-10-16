@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X: 7
+T: Branten, polska efter Byss-Kalle (nr 7)
+S: efter Byss-Kalle
+B: 57 låtar efter Byss-Kalle nr 7
+N: Uppteckningen är ursprungligen hämtad ur Ruben Liljefors bok Upländsk Folkmusik.
+N: I originalnoterna är återställningstecknet i slutet av förstareprisen istället ett b-förtecken.
+O: Uppland
+R: Slängpolska
+Z: Nils L
+M: 3/4
+L: 1/16
+K: G
+bc' | d'2d'2 d2d2 d'2d'2 | c'2c'2 c2c2 c'2c'2 | b2b2 _B2A2 (a=b)c'a | (ba)gf (ga)bg d2bc' | 
+      d'2d'2 d2d2 d'2d'2 | c'2c'2 c2c2 c'2c'2 | b2b2 _B2A2 (a=b)c'a |1 (ba)gf g4 z2 :|2 (ba)gf g4 ||
+K: Gm
+!tenuto!A4 |: (Bc)d2 !tenuto!F4 !tenuto!{GF=E}F4 | (GF)ED {EF}E4 D4 | Bcd2 ABc2 GAB2 | (cB)AG (^FG)AF D2A2 | 
+             (Bc)d2         F4         {GF=E}F4 | (GF)ED {EF}E4 D4 | Bcd2 ABc2 GAB2 |1 (BA)G^F G4 A4 :|2 (BA)G^F G4 z2 |]
+

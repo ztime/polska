@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Erland Hansson
+R:Slängpolska
+O:Flädie, Skåne
+S: SvL Skåne, band III
+Z: Sven Midgren 2012-03-04
+M:3/4
+L:1/16
+K:F
+|: a4 f4 efga | b2g2 g2e2 e2c2 | d2df e2eg f2a2 | c4 cBAB A4 | 
+a4 f4 efga | b2g2 g2e2 e2c2 | d2df e2eg f2fa| gbeg g2f2 f4 :|
+|: cdef g2g2 e2c2 | f2fe f2a2 f2a2 | efga b2a2 g2f2 | egfa gefd d2c2 |
+cdef g2g2 e2c2 | f2fe f2a2 f2a2 | efga b2g2 e2c2 | f2fe f2a2 f4 :|
+

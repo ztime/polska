@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X: 41
+T: Ack om den lilla vännen komme (slängpolska)
+R: Slängpolska
+O: Södermanland
+S: efter Carl Gustaf Axelsson
+S: efter dennes mor Albertina Axelsson (född [[Personer/Albertina Läck]])
+B: Sörmlands musikarkiv häfte 2, nr 41
+N: Se även +
+N: Citat ur uppteckning: Så här spelade Boström låten. Spelmannen har försett den enkla låten med många utkrusningar, honom och andra till glädje. Men det hände ibland att Boström först i varligare tempo och liksom på lek spelade igenom den enkla sångmelodien en gång och sedan med ökat tempo övergick till den här ovan upptecknade melodien. Polskan var mycket bra att dansa efter.
+Z: Nils L
+M: 3/4
+L: 1/16
+K: D
+(D2>F2)     (A2B2) (A2F2) | (D2F2)     (A2d2) (f2d2) | (D2>F2)    (A2B2)  (A2G2) | (G2>{FG}F2) F4     A,4 |
+(D2>F2)     (A2B2) (A2F2) | (D2F2)     (A2d2) (f2d2) | (D2>F2)    (A2B2)  (A2G2) | (G2>F2)     [FA]6  z2  :|
+{AG}(A2>c2) (c2e2) e4     | {ef}(e2fe) (d2f2) f4     | {fg}(f2ef) (g2f2)  (e2d2) | (d2>c2)     c4>(c4     |
+e2>d2)      (B2G2) G4     | (B2cB)     (A2F2) D2>(F2 | A4)        B2>A2   (F2A2) | (A2>d2)     d6     z2  |
+{de}(d2>c2) (c2e2) e4     | {ef}(e2d2) (d2f2) f4     | {fg}(f2ef) (g2f2)  (e2d2) | {de}(d2>c2) c4>(c4     |
+e2>d2)      (B2G2) G4     | (B2cB)     (A2F2) D2>F2  | A4         (B2>A2) (F2A2) | (A2>d2)     d8         |]
+

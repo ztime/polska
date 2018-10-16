@@ -1,0 +1,32 @@
+%%abc-charset utf-8
+
+X: 13
+T: Polska efter Erik Ersson Ljung
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Delsbo, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter Erik Ljung
+Z: LP
+M: 3/4
+L: 1/16
+K: A
+V:1
+V:2
+V:3 merge
+V:1
+e2^de {fg}f2e2 d2e2|A,2e2C2e2A,2e2|e2^de {fg}f2e2 d2e2|E2e2G2e2E2e2 |
+e2^de {fg}f2e2 d2e2|e2fg a2e2c2e2|B2a2g2B2d2G2|1 {Bc}B2A2 a8:|2 {Bc}B2A2 a6 d2|
+|:c4 E2c2E2c2|c2>d2 F2d2F2d2|e2fg a2g2f2e2|^defg a2e2c2A2|
+{/B}c4 E2c2E2c2|c2>d2 F2d2F2d2|B2a2g2B2d2G2|{Bc}B2A2 A8:|
+V:2 clef=bass
+A,,12|z12|E,12|z12|
+A,12|A,,12|E,12|1 A,4 [A,8C8]:|2 A,4 [A,8C8]|
+|:A,,4 [E,4C4]  [E,4C4]|B,,4 [B,4D4]  [B,4D4]|[E,4B,4D4] [A,8C8]|[E,4B,4D4] [A,8C8]|
+A,,4 [E,4C4] [E,4C4]|B,,4 [B,4D4] [B,4D4]|E,12|A,12:|
+V:3 clef=bass
+z4 [C,4A,4] [C,4A,4]|z12|z4 [G,4B,4] [G,4B,4]|z12|
+z4 [C4E4] [C4E4]|z4 [E,4C4]  [E,4C4]|z4 [B,4D4] [B,4D4]|1 D2C2 z8:|2 D2C2 z8|
+|:z12|z12|z12|z12|
+|:z12|z12|z4 [B,8D8]|D2C2 C8:|
+

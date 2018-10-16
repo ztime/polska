@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1222
+T:Kårbölspolskan
+T:(Svenska Låtar Dalarna 1222)
+R:Polska
+B:Svenska Låtar Dalarna
+S:Anders Isaksson
+S:Hjort Anders Olsson
+O:Bingsjö, Rättvik, Dalarna
+M:3/4
+L:1/8
+K:Gdor
+Q:1/4=120
+{BA}v[BD]u(d/c/) A(d/B/) G(B/G/)|(D/^F/)A/F/ G(G/{AG})D/ =B,D|[DB](d/c/) A(d/B/) G(B/G/)|D/^F/A/F/ [GG,]4:|
+|:dTg ^fa/f/ {de}d>(A|B{cB})A/G/ ^FA/F/ D2|dTg ^fa/f/ {de}d>(A|B{cB})A/G/ ^FA/F/ D2|
+(D/^F/)(A/F/) (D/F/)A (B{cB})A|(D/^F/)(A/F/) (D/F/)A (B{cB})A|G>B dd/B/ GB/G/|(D/^F/)A/F/ [GG,]4:|
+|:{fg}fa/f/ {ef}e2 T(d2{cd})|Ac/A/ {BA}(B2{cB}A2) &z2 D4|G>(B d)(d/B/) A^F|G>(B{cB}) (A/B/)A/^F/ D2|
+{fg}fa/f/ {ef}e2 T(d2{cd})|Ac/A/ {BA}([BD]2{cB}[AD]2)|G>(B d)B AG|(D/^F/)A/F/ [GG,]4:|
+

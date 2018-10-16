@@ -1,0 +1,15 @@
+%%abc-charset utf-8
+
+X:1
+T:Mors Gånglåt
+R:Gånglåt
+N: Eric Öst
+O:Ort, Hälsningland
+M:4/4
+L:1/16
+K:D
+V:1
+A2|: d4 (AB)AG (FG)FE D2B,2 | A,2D2 (DF)Ad f6 ef | (ga)gf (ef)ed (cd)cB A2AB | cdcB ABAG FGFE D2A2 | d4 ABAG FGFE D2B,2 | A,2D2 DFAd f6 ef | gagf efed cdcB A2cB | A2ag ecAc d6 z2 :|: g2d2 B2G2 DGBd g2ag | f2d2 A2F2 DFAd f2gf | e2c2 A2G2 EGAc e2fe | dcde fefg a6 ba | g2d2 B2G2 DGBd g2ag | f2d2 A2F2 DFAd f2ef | gagf efed c2b2 a2c2 | e2d2 dcde d8  :|
+V:2
+F2 |:"D" A4 (FG)FE (DE)DG F2G2 | F2A,2 A,DFA d6 cd |"A7" (ef)ed (cd)cB (AB)AG E2EG | ABAG FGFE "D"DEDB, A,2F2 | A4 FGFE DEDG F2G2 | F2A,2 ADFA d6 cd | "A7"efed cdcB ABAG E2AG | E2fc AGEG "D"F6 z2 :|:"G" d2B2 G2D2 B,DGB d2fe |"D" d2A2 F2D2 A,DFA d2ed |"A7" c2A2 G2E2 CEGA c2dc |"D" AGAc dcde f6 gf |"G" d2B2 G2D2 B,DGB d2fe |"D" d2A2 F2D2 A,DFA d2cd |"A7" efed cdcB A2g2 e2A2 |"D" A2F2 "A7" FEFG "D" F8 :|
+

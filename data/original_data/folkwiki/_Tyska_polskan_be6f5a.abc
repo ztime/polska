@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T: Tyska polskan
+T: (schottis)
+R: Schottis
+O: Rättvik, Dalarna
+S: utlärd av Cajsa Ekstav på Ekebyholmskursen 2010 som hade den efter Johan Nylander och Björn Ståbi [[ ]]
+Z: Nils L
+N: Ingen garanti för att bindningarna är helt rätt. 
+N: YouTube-klipp med Björn Ståbi and Per Gudmundson.
+M: 2/4
+L: 1/8
+K: D
+%%MIDI gchord off
+%%MIDI ratio 5 3
+A |: "D"vd>(c d>)(e | f>)(g f>)(e | "G"d>)(c (3d)(cB) | "D"uA3 (d | "G"B>)(G B>)(d | "A"c>)(A c>)(e | "D"d>)(c d>)(e | d>)e f2 |
+     ud>uc vd>(e | f>)(g f>)(e | "G"d>)(c (3d)(cB) | "D"uA3 (d | "G"B>)(G B>)(d | "A"c>)(A c>)e | "D"d2 f2 | d4 ::
+     "A"ve>c A>c | e3 (c | "D"d>)(c d>)e | f4 | "G"ug>(a g>)e | "A"{/e}c2 c2 | "D"va>b a>f | {/f}d2 d2 |
+     "A"ve>c A>c | e3 (c | "D"d>)(c d>)e | f4 | "G"ug>(a g>)e | "A"c>(A B>)c | "D"ud2 f2 | !fine!d2 A2 :|
+

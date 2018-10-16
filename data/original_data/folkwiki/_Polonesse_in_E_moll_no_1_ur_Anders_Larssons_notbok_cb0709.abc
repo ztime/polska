@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X: 112
+T: Polonesse in E moll no 1 ur Anders Larssons notbok
+R: Slängpolska
+S: efter Anders Larsson i Backa
+B: Anders Larssons notbok
+B: http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00024
+B: Jämför SMUS - katalog Ma1 bild 12 nr 35 ur [[Notböcker/Pehr Anderssons notbok]]
+B: Jämför SMUS - katalog Ma1 bild 14 ur [[Pehr Anderssons notbok]] nr 38
+B: Jämför SMUS MMD 32 bild 14 från [[Platser/Riga]]
+B: Jämför SMUS MMD 31 bild 20 (längst upp t.h.) från [[Platser/Riga]]
+N: Förtecknet på nästa sista tonen i låten finns inte angivet i originaluppteckningen, men man kanske kan gissa att det ska vara ett förtecken där.
+N: Se även Polonesse no 74 ur Andreas Dahlgrens notbok
+Z: Nils L
+O: Östergötland
+M: 3/4
+L: 1/16
+K: Em
+EFGA B4 e4 | ^defd B4 B4 | c2B2 A2G2 F2E2 | EF^GA B4 B4 | 
+g2b2 f2a2 e2g2 | f2e2 ^d2f2 B2A2 | g2b2 f2a2 e2g2 | f2e^d e4 E4 ::
+d2de d4 B4 | c2BA B4 G4 | d2de d4 B4 | c2BA B8 | c2B2 A2G2 F2E2 | EFGA B8 | 
+g2b2 f2a2 e2g2 | f2e2 ^d2f2 B2A2 | g2b2 f2a2 e2g2 | f2e^d e8 :|
+

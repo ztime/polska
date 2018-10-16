@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:733
+T:Älvrospolska efter Anders Eriksson Moberg
+N:arr: L Sohlman
+R:Polska
+Z:Lennart Sohlman
+O:Älvros, Härjedalen
+B:Svenska Låtar Härjedalen nr 733
+N:Moberg hade låten efter Sjul Halvarsson (1830-1918), som förde in många Haverölåtar till Älvrosspelmännen
+M:3/4
+L:1/16
+Q:1/4=120
+K:Ddor
+V:1
+|:(AB)AG A2A2 (^c2d2)|(ef)e^c d2d2 [e4e4]|{fg}f2ed g2ag f2(gf)|(ef)ed (^cd)ec (A4-|!
+AB)AG A2A2 (^c2d2)|(ef)e^c d2d2 [e4e4]|{fg}f2ed g2ag f2(af)|(eg)e^c d8::!
+z2ua2 (ga)bg a4|g2f2 (ef)ge f4-|f2(^c2 d2)e2 f2gf|e2^c2 A2c2 e2fe|(d2^c2)A8-|!
+A2ua2 (ga)bg a4|g2f2 (ef)ge f4-|f2(^c2 d2)e2 f2gf|(ed^c2) d8:|]
+V:2
+|:(FG)FE F2F2 (E2F2)|(^cd)cG F2A2 c4|d2^c=B e2fe d2A2|(^cd)cA (EF)GE [^C4E4]|!
+(FG)FE F2F2 (E2F2)|(^cd)cG F2A2 c4|d2^c=B e2fe d2(fd)|A2GE [F8A8]::!
+z2uf2 (ef)ge f4|e2d2 (^cd)ec d4-|d2(E2 F2)G2 A2ed|^c2A2 E2G2 A2AG|(F2E2)[^C8E8]|!
+A,2f2 (ef)ge f4|e2d2 (^cd)ec d4-|d2(E2 F2)G2 A2BA|(A2G2)[F8A8]:|]
+

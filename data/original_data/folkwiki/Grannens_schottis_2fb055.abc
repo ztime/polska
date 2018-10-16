@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:3641
+T:Grannens schottis
+C:Hasse Lind
+O:Hemfosa
+R:Schottis
+N:Arr. & abc-transk. Lennart Sohlman
+M:2/4
+L:1/16
+Q:1/8=140
+K:Dm
+V:1
+A,2|:"Dm"D2DF A2A2|"Gm"B2Bc d2d2|"A7"^c2cd e>gfe|"Dm"d2^c2 "A7"B2A2|!
+"Dm"D2DF A2A2|"Gm"B2Bc d2d2|"A7"^c2cd e>bag|[1"Dm"f>ed^c d2A,2:|[2"Dm"f>ed^c d2f2|:!
+"Dm"a2ff f>gaf|"A7"g2f2 e4|"A7"g2ee e>fge|"Dm"b2a^g a4|!
+"Dm"a2ff f>gaf|"Gm"b2gg g>abg|"Dm"a>gfe "Gm"f>ed^c|"A7"A2^c2 "Dm"d4:|]
+V:2
+A,2|:A,2A,2 F2F2|G2GA B2B2|A2A2 G>BAG|F2E2 D2^C2|!
+A,2A,2 F2F2|G2GA B2B2|A2A2 ^c>gfe|[1d>^cAG F2A,2:|[2d>AFE F2d2|:!
+f2dd d>efd|e2d2 ^c4|e2^cc c>dec|g2fe f4|!
+f2dd d>efd|g2ee e>fge|f>ed^c d>cAG|E2G2 [F4A4]:|]
+

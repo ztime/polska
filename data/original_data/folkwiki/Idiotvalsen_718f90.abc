@@ -1,0 +1,15 @@
+%%abc-charset utf-8
+
+X:1
+T:Idiotvalsen
+R:Vals
+S:Efter Kalle Almlöf
+O:Enviken, Dalarna
+Z:Anton Teljebäck
+M:3/4
+L:1/8
+K:Dm
+e2 |: f2 (fe) fa | e2 (ed) eg | (f2 e2) d2 | A4 A2 | (A=B) (AG) AB | c2 (c=B) cd | (e2 E2) ^G2 | A6 :|
+|:a=b ag fe | (d2 _B2) B2 | ga gf ed | (^c2 A2) A2 | (DE) (FG) A_B | (A2 d2) d2 | (^c2 A^c) e^c | d6 :|
+|:(A_B) (AG) FE | F2 (DF) Ac | =B2 (E^G) Bd | ^c2 A^c d2 |(A_B) (AG) FE | F2 (DF) Ad | (^c2 A^c) e^c | d6 :|
+

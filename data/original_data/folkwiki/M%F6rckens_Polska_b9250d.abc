@@ -1,0 +1,43 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:1
+T:Mörckens Polska
+B:25 Västgötalåtar arrangerade för två fioler och altfiol, Gösta Klemming, 1978, Göteborgs Spelmansgille
+O:Västergötland
+C:efter Amanda Ågren
+N:Amanda Ågren, Trollhättan (1837-1931), var mormor till Gösta Klemming.
+Z:Per Bergsten, 2017-09-16
+R:Polska
+M:3/4
+L:1/4
+K:G
+V:1 name="Violin1 "
+[DBg] d B | {B}(d/>c/) A z | ({GA}G/>F/)  G/>B/ d/>g/ | g (f/>e/) (3d/e/f/ | g d B | 
+{B}d/>c/ A z | ({GA} G/>F/) G/>B/ d/>c/ | A/>B/ G z :||: D (G/>B/)  d | (d/>c/) (3A/G/A/ B | G/>F/  (3G/A/B/ (c/>A/) |
+F/>A/  (3G/E/F/ D | !downbow! D (G/>B/) d | (d/>c/) (3A/G/A/ B | G/>F/ (3G/A/B/ (c/>A/) | F/>A/ G z :||: d (3B/c/d/ (3B/c/d/ | e (3c/d/e/ 
+(3 c/d/e/  | f (3d/e/f/ (3d/e/f/ | g (b/>g/) d/>B/ | d (3B/c/d/ (3B/c/d/ | e (3c/d/e/ (3 c/d/e/ | f (3d/e/f/ (3d/e/f/ | g G z :|]
+V:2 name="Violin2 "
+d B G | A F D | B, D G | c A (3A/c/d/ | d B G | 
+A F D | B, D A | F [B,D] z :||: [G,D]-  [G,D]  [G,D]  | [A,D]- [A,D] [A,D] | [G,D]-[G,D] [A,D] |
+D ^C =C | !downbow!  [G,D]-  [G,D]  [G,D]  | [A,D]- [A,D] [A,D] | D B, A, |  C [B,D] z :||: B G G | c A 
+A | [Dc] [Dc] [Dc] | B (g/>d/) B/>G/ | B G G | c A A | [Dc] [Dc] [Dc] | B [G,D] z :|]
+V:3 clef=C name="Alt"
+[D,G,]-[D,G,] [D,G,] | [D,A,]-[D,A,] [D,A,]  | [D,G,]-[D,G,] [D,G,] | A, C F, | [D,G,]-[D,G,] [D,G,] |
+ [D,A,]-[D,A,] [D,A,]  |[D,G,]-[D,G,] F, | D, [D,G,] z :||: [D,G,]-[D,G,] [D,G,] | [D,A,]-[D,A,] [D,G,] | [D,G,]-[D,G,] [D,A,] |
+C A, F, | !downbow! [G,D,]-[G,D,] [G,D,] | [A,D,]-[A,D,] [G,D,] |[G,D,]-[G,D,] F, | D, [D,G,] z :||: "pizz" G, D, G, | A, F,
+A, |  D, F,  A, |  "arco" d, G, B, | "pizz" G, D, G, | A, F, A, | D, F, A, | "arco" G, [D,G,] z :|]
+%%text
+%%text Amanda Ågren var född på gården Hjulqvarn vid Trollhättan.
+%%text Hennes far var slussbyggmästare under den tid i hennes barndom då de stora sluss-
+%%text och kanalbyggena pågick i bygden. Soldater som arbetade där ordnade ibland
+%%text danstillställningar varvid de gamla danslåtarna spelades. Genom att hon således
+%%text som liten flicka fick tillfälle att lyssna på denna musik och att den på gården anställda
+%%text ladugårdspigan Stafva brukade sjunga gamla folkvisor lärde Amanda sig folkmusik
+%%text som hon senare i livet sjöng eller med förkärlek spelade på piano.
+%%text Hon hade förmågan att spela den tidens dansmusik med en sjusärdeles schvung.
+%%text Mörckens Polska lärde hon sig dock i Lidköping av sin morbror, fanjunkare Mörck,
+%%text som var från Västra Tunhems socken.
+%%text Denna polska är en typisk västgötapolska, som Gösta Klemming i sin barndom på 1920-
+%%text talet hörde Amanda spela.
+

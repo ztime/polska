@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:642
+T:Polska efter Anders Gustaf Andersson
+S:efter Anders Gustaf Andersson
+B:Sörmlands musikarkiv - Anders Gustaf Andersson, Nora (pdf), nr 642
+O:Mörkö, Södermanland
+R:Slängpolska
+Z:Nils L
+M:3/4
+L:1/16
+K:Ddor
+%F2E2 D4 F2A2 | G2B2 A4  -  FE D2 FA | GB A2  <-- för att göra låten lättare att hitta genom sökning
+F2((3EFE) D4 (F2A2) | G2((3BcB) A4 (^c2e2) | d2^c2 d2e2 f2g2 | a2((3efg) a2g2 e2c2 | 
+F2((3EFE) D4 (F2A2) | G2((3BcB) A4 (^c2e2) | d2^c2 d2e2 f2g2 | a2^ce d8 ::
+f>gfe f2a2 f2d2 | efed e2g2 e2^c2 | d2^c2 d2e2 f2g2 | a2g2 e2^c2 A4 | 
+f>gfe f2a2 f2d2 | efed e2g2 e2^c2 | d2^c2 d2e2 f2g2 | a2^ce d8 :|
+

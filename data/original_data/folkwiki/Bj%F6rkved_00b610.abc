@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:6
+T:Björkved
+C:Tomas Östlund
+N:Inspirerad av vedklyvning av jättebjörken 2016
+R:Gånglåt
+M:2/4
+L:1/8
+Q:96
+K:G
+G/A/ |: "G"Bd2B | "D"A2<d2 | "G"G>F GA | "c"E>C "G"DD/C/ | 
+B,D GB |"C"E2 cB | "am7"A^G/A/ "D7"FA | D3G/A/ | 
+"G"Bd2B |"D"A2<d2 | "G"G>F GA | "C"E>C "G"DD/C/ | 
+B,D GB |"C"E2 cB | "am7"A^G/A/ "D7"EF | "G"G3d/c/ | 
+BD Bd |"am7"cE ce | "D7"dF ed | "C"[E2c2e2] "G"[D2B2g2] | 
+"em"[G2B2e2] FG |"em6/A"[G2^c2e2] FG | "D7"[F2d2f2] "A7"[E2d2f2] | "D7"[D3d3f3]D/C/ |
+"G"B,D GB |"C"E2 cB | "am7"A^G/A/ FA | "D7"D3D/C/ | 
+"G"B,D GB |"C"Ee cA | "G"GF/G/ "D7"BA |1 "G"G3G/A/ :|2 "G"G3d/c/ |
+ BD Bd |"am7"cE ce | "D7"dF ed | "C"[E2c2e2] "G"[D2B2g2] |
+ "em"[G2B2e2] FG |"em6/A"[G2^c2e2] FG | "D7"[F2d2f2] "A7"[E2d2f2] | "D7"[D3d3f3]D/C/ |
+"G"B,D GB |"C"E2 cB | "am7"A^G/A/ FA | "D7"D3D/C/ |
+"G"B,D GB | "C"Ee cA | "G"GF/G/ "D7"BA | "G"G3 z|
+

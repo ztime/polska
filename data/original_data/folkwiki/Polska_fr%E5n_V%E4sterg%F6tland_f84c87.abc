@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:10
+T:Polska från Västergötland
+T:Svenska Folkdansar H4 nr 10
+O:Västergötland
+B:Traditioner av Svenska Folkdansar Häfte 4, nr 10
+R:Polska
+Z:Nils L
+U:w=wedge
+U:t=tenuto
+L:1/8
+M:3/4
+L:1/8
+K:D
+(D>E) wF2 D2 | (F>G) wA2 F2 | (A>c) wd2 dc | (G>B) A2>F2 | (D>E) wF2 D2 | (F>G) wA2 F2 | (A>c) wd2 dc | (G>B) A2 z2 ::
+(A>c) wd2 c2 | (G>B) wA2 F2 | (A>c) wd2 c2 | G>B wA2 F2 | A>F D2 F>E | C>E D2 z2 :|
+

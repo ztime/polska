@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:1
+T:Brudmarsch efter Majström
+C:Per Majström 1816-1904
+R:Marsch
+O:Bergsjö, Hälsingland
+M:4/4
+L:1/8
+N:Efter inspelning av Hannah Tibell på Spotify: http://open.spotify.com/track/4YlpPLbOAWvhOTrbyn2EHb
+N:Per Majström: http://sv.wikipedia.org/wiki/Per_Majstr%C3%B6m
+Z:Per Oldberg 2014
+K:Amin
+E2 | A4 AB A^G | A2B2c2B2 | [AA]4 [AA]3[Ac] | [AA]4z2c2 | 
+[ee]3^f e^d e^f | g2^f2e2^d2 | [ee]4 [ee]3[eg] | [ee]4z2E2 | 
+A3B A^G AB | c2B2A2^G2 | [AA]4 [AA]3[Ac] | [AA]4z2c2 | 
+[ee]3^f e^d e^f | g2^f2e2^d2 | [ee]4 [ee]3[eg] | [ee]4z2A2 ||
+|: a3b a^g ab | a2=g2f2d2 | g3a g^f ga | g2=f2e2d2 | 
+e3d cB cd | cB A^G AB cd | e2e2E^G BG |1 [AA]4z2A2 :|2 [AA]4z2Bd ||
+|: c3d cB cd | c2B2A2c2 | B3c BA Bc | B2^G2A2B2 | 
+c2Bc d2cd | e3g ed ef |1 e3fe2Bd :|2 e3fe2A2 || 
+|: a3b a^g ab | a2=g2f2d2 | g3a g^f ga | g2=f2e2d2 | 
+e3d cB cd | cB A^G AB cd | e2e2E^G BG |1 [AA]4z2A2 :|2 [AA]4z2 |]
+

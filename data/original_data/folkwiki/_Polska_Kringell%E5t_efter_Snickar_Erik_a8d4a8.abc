@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X: 495
+T: Polska (Kringellåt) efter Snickar Erik
+S: efter Snickar-Erik Olsson
+O: Emnebo, Ovanåkers socken, Hälsingland
+B: EÖ, nr 495
+R: Slängpolska
+Z: Nils L
+M: 3/4
+L: 1/16
+K: Am
+!turn!c4 (Bc).d.B c2B2 | (.A.B)(.c.B) A2E2 C2A,2 | (c2{/d}cB c2)a2 g2f2 | e4 [GG,]4 [cE]4 |
+(e2g2) c2>e2 d2^c2 | (d2f2) B2>d2 {cB}c2B2 | (c2e2) A2>c2 Pc2BA | (^GA).B.c (BA)G^F E4 |
+(ea)gf (eg)fe (df)ed | (ce)dc (Bd)cB .A2(Ac) | (BA)^GB A8 | (c2{/d}cB c2)e2 d2^c2 |
+(d2{/e}d^c .d2)f2 e2d2 | (c2{/d}cB .c2)a2 g2f2 | e4 G4 c4 | (ea)(^ga) c2>e2 d2^c2 |
+((dg)(^fg)) B2>d2 c2B2 | (cB)ce A2>c2 Pc2BA | ^GABc BAG^F E4 | eagf egfe dfed |
+cedc BdcB A2c2 | (BA)^GB A6 z2 :|
+

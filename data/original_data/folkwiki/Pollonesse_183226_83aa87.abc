@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:26
+T:Pollonesse 1832-26
+O:Södermanland
+R:Slängpolska
+B:Notbok 1832 från Sörmlands museum
+B:Jämför SMUS - katalog Ma4 bild 33 nr 141 ur [[Notböcker/Kumlins notsamling]]
+N:[[http://www.sormlandsmusikarkiv.se/noter/1832/1832.html]]
+Z:Jonas Brunskog (via midi)
+M:3/4
+L:1/8
+Q:1/4=96
+K:D
+|:DG F/2D/2E/2C/2 CD|Ad c/2A/2B/2^G/2 A2|df/2=g/2 a/2f/2d/2f/2 g/2e/2c/2e/2|d/2c/2d/2f/2 e/2c/2d/2B/2 A/2F/2G/2E/2|
+DG F/2D/2E/2C/2 CD|Ad c/2A/2B/2G/2 A2|df/2g/2 af df|[1 g/2e/2c/2e/2 d2D2:|[2 g/2e/2c/2e/2 d2Df|]
+|:e/2f/2e/2d/2 c/2d/2c/2B/2 A/2B/2A/2G/2|F/2G/2A/2B/2 A/2G/2F/2E/2 ED|Ad Bc df|e/2c/2d/2B/2 BA A2|
+Ad dc/2d/2 ed|Af fe/2f/2 g2|f/2a/2f/2d/2 e/2g/2e/2c/2 de/2f/2|ge/2c/2 d2D2:|
+|:[f2A2D2] fg/2f/2 e/2d/2c/2d/2|fg/2f/2 e/2d/2c/2e/2 d/2A/2F/2D/2|[d2D2] fg/2f/2 e/2d/2c/2d/2|e/2g/2e/2f/2 dA F/2D/2G/2E/2|
+[f2A2D2] fg/2f/2 e/2d/2c/2e/2|eg/2f/2 dA F/2D/2F/2A/2|[f2A2D2] fa/2f/2 A/2c/2e/2f/2|g/2e/2c/2e/2 d2D2:|
+|:d2 d/2c/2d/2e/2 fd|F/2G/2A/2B/2 A/2F/2G/2E/2 GD|d2 d/2c/2d/2e/2 f/2g/2a/2b/2|a/2f/2g/2e/2 ed dD|
+Ad d/2c/2d/2e/2 fd|F/2G/2A/2B/2 A/2F/2G/2F/2 ED|d2 d/2c/2d/2e/2 f/2g/2a/2b/2|a/2f/2g/2e/2 e2d2:|
+

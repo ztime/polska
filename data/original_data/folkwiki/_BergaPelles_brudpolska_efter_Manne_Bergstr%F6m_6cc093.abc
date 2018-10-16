@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X: 123
+T: Berga-Pelles brudpolska efter Manne Bergström
+B: HSFs låtsamling
+R: Polska
+O: Ljusdal, Hälsingland
+S: Efter Manne Bergström
+Z: LP
+M: 3/4
+L: 1/8
+K: Dm
+{dc}d2 (D>F A)d | (e>c A)>c eg|f>a eg (df/d/) |(A/c/)(e/c/) dA [FA][DA]|
+{dc}d2 (D>F A)d | (e>c A)>c eg|f>a eg (df/d/) |(A/c/)(e/c/) d4 ::
+{a^g}a2 A2 {a^g}a2|{g^f}g2  =B2 {g^f}g2|{ge}f>a e>g (df/d/) |(A/c/)(e/c/) dA [FA][DA]|
+{a^g}a2 A2 {a^g}a2|{g^f}g2  =B2 {g^f}g2|{ge}f>a e>g (df/d/) |(A/c/)(e/c/) d4:|
+

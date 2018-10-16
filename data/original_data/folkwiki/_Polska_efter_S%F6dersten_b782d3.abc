@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1
+T: Polska efter Södersten
+M: 3/4
+I: abc-charset utf-8
+C: efter Anders Södersten
+L: 1/8
+B: Ur "Spelmansmusik", ISBN 91-37-07854-2
+O: Älvdalen, Dalarna
+R: Polska
+K: Dm
+A=B/(^c/ d>)e f{gf}d | e{fe}^c df e/f/e/c/ |
+AG F{GF}E D^C | DE F(A/^G/) (E2 | A)=B/(^c/ d3/)e/ f{gf}d |
+e{fe}^c df e/f/e/c/ | A(F D3/)E/ F(D/F/) | E{FE}(D/^C/) D4 !fine!:|
+|: A,>(^C D)E FD/F/ | E{FE}(D/^C/) DF E/G/E/C/ |
+A,^C DE F(G | A)B GB/G/ A2 | A,>(^C D)E F(G/F/) | 
+E(E/F/) D(D/2F/2) E2 | A=B GB/G/ ^FF | E(^C/E/) D4 :| 
+|: A(=B/^c/ d)e fg | aa{ba} gb/e/ ae | 
+f/e/f/g/ a(a/f/) f{gf}e | df e/f/e/d/ ^c=B | 
+A(=B/^c/ d)e fg | aa{ba} gb/g/ a>e |
+(f/e/)f/g/ a(a/f/) f{gf}(e/d/) | ^c/d/e/c/ d4 !D.C.! :|
+

@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X: 1
+T:Polska från Norrbotten
+T:Svenska Folkdansar H1 nr 1
+O:Norrbotten
+B:Traditioner av Svenska Folkdansar Häfte 1, nr 1
+B:Jämför [[Notböcker/Schwedishe Tänze]], nr 5
+R:Polska
+Z:Nils L
+U:V=wedge
+M:3/4
+L:1/16
+K:Gm
+(.g4 .^f2).f2 .d2.d2 | (.g4 .^f2).f2 .d2.d2 | (.g4 .^f2).f2 .d2.d2 | (.g4 ^f2)f2 d2d2 |
+d2>e2 d2=cB A2B2 | A2B2 {d/}c2BA B2c2 | d2>e2 d2cB A2B2 | A2B2 {d/}c2BA B2c2 |
+Vd2(de) Vc2(cd) VB2(Bc) | (BA.G.^F) G4 D4 | (G2A2 B2c2 d2)VB2 | (BA.G.^F) (G4 g4) |]
+

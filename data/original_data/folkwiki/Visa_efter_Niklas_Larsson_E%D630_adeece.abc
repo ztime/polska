@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:30
+T:Visa efter Niklas Larsson (EÖ30)
+T:Jag går i tusen tankar
+S:efter Niklas Larsson
+B:EÖ, nr 30
+B:Jämför SMUS - katalog Upprop 26 bild 39 (annan melodi) och Jeg går i tusind tanker (Hakon Grüner-Nielsen)
+O:Svarteborg, Bohuslän
+R:Visa
+Z:Nils L
+M:3/4
+L:1/8
+Q: 80
+%%printtempo 0
+K: G
+c | Ac BA G2 AG | FG AB ce dc | BA Bd G2 AG | FA cB2< G2 ::
+w: Ja går i tu-sen tan-kar ja äl-skar den ja ej kan få ja blott mitt hjär-ta van-kar stor sorg det vä-re må.
+g | ec eg d2 Bg | ec eg2< d2c | BA Bd G2 AG | FA cB G2z :|
+w: Stor sorg det med sig ha-ver den vän man har så kär å mång-e fal-ske vän-ner or-sa-ken där-till är.
+

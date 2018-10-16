@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:29
+T:Polonäs efter Gustaf Weslien
+S:efter Gustaf Weslien
+R:Slängpolska
+B:Gustaf Wesliens notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=MMD+34&bildnr=00013
+O:Östergötland
+Z:Nils L
+M:3/4
+L:1/16
+%%graceslurs 0
+K:Dm
+S G2B2 d2^f2 g2a2 | {a/}b2bg a2a^f g2ga | {a/}b2bg a2a^f g2ga | 
+d_ecd BcAB G^FGB |1 AG^FE DFAF D4 :|2 AcA^F G4 G,4 || 
+DGBG DGBG c2A2 | D^FAF DFAF d2B2 | DGBG DGBG c2B2 | A2B2 AG^FE D4 S::
+

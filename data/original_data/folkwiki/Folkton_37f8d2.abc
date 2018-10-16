@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Folkton
+C:Tomas Östlund
+R: Gånglåt
+H:Skriven 2013 i Nykvarn (tomas.ostlund@yahoo.com)
+M:2/4
+L:1/8
+Q:105
+K:Am
+(3ABc |:"am" ^d>e "am maj7"c>^G |"am"  A>c "Fmaj7"F>E |"D" D>^F A>^G | "E7"E3E/D/ |"am" C>B, C>D |
+"C"E>A G>E |"dm7" D>F A>c |"E7" B2 (3ABc | "am"^d>e "am maj7"c>^G |
+"am"A>c "Fmaj7"F>E |"D" D>^F A>^G |"E7" E3E/D/ |"am" C>B, C>D |
+E>D "E7"B,>C | ^G,>E D>^G, |"am" A,2 ^G,>A, | C>E "E7"D>B, |
+"C"C>A "am7"G>E | "dm7"D>E F>D | "E7"E3E/D/ | "am"C>B, C>D |
+"C"E>A G>E | "dm7"D>F A>c | "E7"B2 (3ABc :|"am" ^d>e "am maj7"c>^G |"am"  A>c "Fmaj7"F>E |
+"D" D>^F A>^G | "E7"E3E/D/ |"am" C>B, C>D |"E7"E>D B,>C |^G,>E ^G>B|"am" A4|
+

@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:34
+T:No 34 Polka
+T:ur Sven Johnssons notbok
+R:Polka
+O:Mörrum, Blekinge
+B:Sven Johnssons notbok 
+M:2/4
+L:1/16
+Q:1/4=110
+Z:Konverterad till ABC-format av Jonas Alnefelt 2018-02-03
+K:G
+|:dBGB D2B2| B2A2 e4 | cAFA (D2A2) |A2G2 g4  | dBGB D2B2 | B2A2 e4 |
+ cAFA D2F2 | G6 z2 :: (DGGB) (Bd)(dg) | (gffA) c4 | (FA)(Ad) (dffa) | (ag)(gB) d4 |
+ (FA)(Ad) (fa)f2  | (EG)(GB) ege2 |  (A^c)(ce) a2c2 | d2d2d2 z2 :: [K:C] e2cc ecec| B2Bd f2 z2 |
+ f2BB fBfB | c2ce g2 z2 | e2cc ecec | B2Bd f2 z2 | f2BB fBfB | c6 z2:|
+|: c6 e2 | G6 c2 | B3A A2A2 | A4 z4 |d6 f2 | B6 d2 | e3c c2c2 | c4 z4 | G6 c2 | E6 G2 | F3D D2D2 | D4 z4 | B6 c2 | d6f2 | B6 d2 | c6 z2:|
+

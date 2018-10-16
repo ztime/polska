@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:11
+T:Netas polka
+T:(SmM VI-11)
+R:Polka
+S:Kungs Neta Johansson
+S:Nils Bernhard Ljunggren
+B:Småländsk Musiktradition
+B:August Ysenius samling
+N:Ca 1920
+O:Voxtorp, Halland och Markaryd, Småland
+M:2/4
+L:1/8
+K:G
+B2 cA &D2 D2|d4&D4|d/d/d/^c/ AA|B/c/B/A/ GG|\\
+B2 (ce)&D2 D2|d4&D4|d/d/d/^c/ AA&D2 z2|B/c/B/A/ G2||
+[K:D]Ad/f/ Ad/f/&F2F2|Ad/f/ aa&F2 AA|a/b/a/^g/ ee|f/g/f/e/ dd|\\
+Ad/f/ Ad/f/&F2F2|Ad/f/ aa&F2 AA|a/b/a/^g/ e[cf]|d4||
+[K:G]
+B2 cA &D2 D2|d4&D4|d/d/d/^c/ AA|B/c/B/A/ GG|\\
+B2 (ce)&D2 D2|d4&D4|d/d/d/^c/ AA&D2 z2|B/c/B/A/ G2||
+

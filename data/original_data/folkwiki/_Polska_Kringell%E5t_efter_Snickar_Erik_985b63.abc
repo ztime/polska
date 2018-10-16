@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X: 502
+%%beginps
+/shd{	% usage: x y shd
+	M 2.3 1.3 RM
+	-1 2.5 -6.5 0 -5.5 -2.5 RC
+	1 -2.5 6.5 0 5.5 2.5 RC fill}!
+%%endps
+%%deco head-small 0 shd 0 0 0	% small note head
+U: S=head-small
+T: Polska (Kringellåt) efter Snickar Erik
+S: efter Snickar-Erik Olsson
+O: Emnebo, Ovanåkers socken, Hälsingland
+B: EÖ, nr 502
+R: Slängpolska
+Z: Nils L
+M: 3/4
+L: 1/16
+K: Em
+V:1
+(g2(fg) b2)g2 d2B2 | ((dc)(Bc) a2)c2 B2A2 | (BA)(Bd) c2B2 A2F2 | .G2(AB) (AG)FE D4 |
+g2fg b2g2 f2g2 | e2(^de) g2f2 e2g2 | .B2(cB) A2(BA) G2(AG) | F2E2 (^D2>E2) [EG,]4 ::
+(Bc)(BA) G2(GF) G2B2 | A2>G2 F2E2 F2A2 | G2>F2 E2F2 G2B2 |
+A2>G2 F2F2 D4 | B4 e4 g4 | B4 g4 b4 | (ab)ag (fg)fe ^d2B2 |
+.g2(fa) .g2(fe) ^d2B2 | e2(^de) g2(fg) b2g2 | (fe)^df e8 :|
+V:2 merge
+Z8 :: Z | (SA"^adlib"SB)(SASG) x8 | (SG"^adlib"SA)(SGSF) x8 | SASBSASG SFSGSFSE
+

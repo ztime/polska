@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Båtsman Däck (Lillpolskan)
+R:Bondpolska
+Z:Patrik Månsson, 2008-11-08
+O:Uppland
+S:Ceylon Wallin
+N:Bondpolska
+D:Inspelad av bl a Skäggmanslaget på skivan "Snus, mus och brännvin" (1971)
+M:3/4
+L:1/8
+K:G
+|: "G" (D>G) (B>G) D>G | B2 B4 | {B}(c>B) (A>G) F>G | "D7" A2 A4 |
+"D7" (D>F) (A>D) F>A | c2 c4 | {c}(d>c) (B>A) G>A | "G" B2 B4 :|
+|: "C" e2 (e>d) (c>e) | "G" d2 (d>c) B>d | "D7" (c>B) (A>G) F>A | "G" G2 (3(BGB) d>d |
+"C" e2 (e>d) c>e | "G" d2 (d>c) B>d | "D7" (c>B) (A>G) F>A | "G" G2 G4 :|
+

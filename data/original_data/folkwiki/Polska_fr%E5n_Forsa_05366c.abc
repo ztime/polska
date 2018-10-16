@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:147
+T:Polska från Forsa
+T:(SvL Hälsingland 147)
+R:Polska
+S:Pelle Schenell
+O:Gnarp, Hälsingland
+N:SvL: Polskan är från Forsa, där den spelas och sjunges allmänt.
+B:Svenska Låtar Hälsingland
+M:3/4
+L:1/8
+K:Am
+A>B c2 (B>A)|^G>A B2 A>G|A2 A2 z2|e>^f g2 (f>e)|^d>e f2 (e>d)|e2 e2 z2:|
+|:a2 a2 (g>^f)|g2 g2 =f>e|d>e f2 e>d|e2 e2 z2|A>B c2 (B>A)|^G>A B2 (A>G)|A2 A2 z2:|
+

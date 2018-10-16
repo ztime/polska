@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T: Polska efter Gabrielsson
+I: abc-charset utf-8
+C: Viktor Gabrielsson
+O: Älvdalen, Dalarna
+B: Ur "Spelmansmusik", ISBN 91-37-07854-2
+R: Polska
+L: 1/8
+M: 3/4
+K: Am
+"C"c>d e2 (ec) | "G"d>e {/e}f2 (fd) | g2 g>(a g)f | "C"(ed) e4 :|
+"Am"c>(d e)(f e)d | (d{ed}B) c2 (A2 | "E"c)(d/c/ B)^G EG | "Am"A^G AB cd |
+c>(d e)(f e)d | "Am"(d{ed}B) c2 (A2 | "E"c)(d/c/ B)^G EG | "Am"A2 A2 z2 ||
+K:Dm
+|: "F"A2 A>(=B A)>G | "Dm"(F2{GF} D)z/(F/ D)z/F/ | "A"E2{FE} A,z/(^C/ G)z/C/ | "Dm"D2 D>E FG |
+"F"A2 A>(=B A)>G | "Dm"(F2{GF} D)z/(F/ D)z/F/ | "A"E2{FE} A,z/(^C/ E)z/C/ | "Dm"D2 D2 z2 :|
+

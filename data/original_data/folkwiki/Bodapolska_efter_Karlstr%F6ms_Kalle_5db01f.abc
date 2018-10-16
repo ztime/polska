@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1
+T:Bodapolska efter "Karlströms Kalle"
+C:Karl Karlström
+O:Kärvåsen, Nedre Gärdsjö, Dalarna
+N:Utlärd av Gunilla Nilsson
+N:SEL00268 Noterad av Stefan Lindén, senast ändrad 120709
+R:polska
+S:http://www.stefanlinden.se/L/polska%20Bodapolska%20e%20Karlstroms%20Kalle%20utl%20av%20Gunilla%20Nilsson.pdf
+Z:till ABCnotation Arne Kjellman 20170518
+Q:1/4=112
+%%printtempo 0
+L:1/8
+M:3/4
+K:A
+|: (A>c) (ec) Ac | (cB/c/) (ec) Ac | (c>e) (ag) fe | (dc) B4 |
+(B>c) (dc) BA | (GB) e4 | (gf) (ef) ed | (d>c) c4 |
+(A>c) (ec) Ac | (cB/c/) (ec) Ac | (c>e) (ag) fe | (dc) B4 |
+(B>c) (dc) BA | (GB) e4 | (gf) (ed) BG | A2 A4 ::
+(a>g) (fe) df | (f/g/a) ue2 c2 | (v(3cBc) (dB) G>B | (BA) Ac e2 |
+(a>g) (fe) df | (f/g/a) ue2 c2 | (v(3cBc) (dB) G>B | A2 A4 :|
+

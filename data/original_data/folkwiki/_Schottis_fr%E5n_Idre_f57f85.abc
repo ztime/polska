@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X: 1
+T: Schottis från Idre
+I: abc-charset utf-8
+C: efter Storbo Jöns
+B: ur Paul Bäckström, "Låtar från Dalarna" nr 2
+O: Idre, Dalarna
+Z: Daniel Silén
+R: Schottis
+M: 4/4
+L: 1/8
+K: D
+|: D2F>A d2d2 | D2F>A d>ed>c | e>fe>c A2B>c | d2c>B A>GF>E | 
+D2F>A d2d2 | D2F>A d>ed>c | e>fe>c A2B>c | d2d2d2 z2 :|
+|: a2a2 g2e>g | f2d2 e4 | =f2a>g f2e>d | c>de>d c2A2 | 
+a2a2 g2e>g | f2d2 e4 | =f2a>g f2e>d | c>de>c d4 :|
+

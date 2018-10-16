@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:8
+T:Kadrilj ur Vetlandasamlingen
+T:(M39-8)
+R:Kadrilj
+O:Vetlanda, Småland
+B:Vetlandasamlingen
+N:SMUS M39
+N:ca 1850
+Z:Till abc Jonas Brunskog
+M:2/4
+L:1/16
+K:F
+cdc=B cdcB|[cA]2[cA]2 [ca]4|[cA]2[cA][cA] [BG]2[BG][BG]|[AF]2[AF][AF] [GC]4|
+cdc=B cdcB|[cA]2[cA]2 [ca]4|[cA]2[cA][cA] [BG]2[BG][BG]|[AF]6 z2:|
+|:c3d efga|b8|bgeg bgeg|bagf edc=B|
+cdc=B cdcB|c2c2 [ca]4|[cA]2[cA][cA] [BG]2[BG][BG]|[AF]6 z2:|
+K:Bb
+|:BcBA Bcde|(=ef)(^cd) B4|efed cdcB|ABcA [B,F]4
+BcBA Bcde|=ef^cd B4|egec dfdB|cecA B2z2:|
+|:dccc =BcBc|Accc fddd|eccc =BcBc|Aced cBAc|
+BcBA Bcde|=ef^cd B4|egec dfdB|cecA B2z2:|
+

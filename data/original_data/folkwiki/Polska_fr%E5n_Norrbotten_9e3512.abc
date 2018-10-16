@@ -1,0 +1,14 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska från Norrbotten
+R:Polska
+O:Ort, Norrbotten 
+N: Polska från Norrbotten finns i en notbok tryckt (skriven ?) 1876. 
+Z: till abc Eva Zwahlen 2017-05-10
+M:3/4
+L:1/16
+K:D
+|: d2c2 A4 F2G2 | A3B G3A F3G | ((3A2B2c2) ((3d2e2f2) (3g2a2g2 | ((3f2d2f2) a3ge3f |
+d2c2 A4 F2G2 | A3B G3A F3G | ((3A2B2c2) ((3d2e2f2) (3g2a2g2 | ((3f2e2c2) d4 z4:|]: A3ff3dd3B | B3ee3cc3A | A3BB3GG3E | E3AA3FF3D | D3F A3df3a | ((3^g2f2g2) a4 f2d2 | e2f2 ((3g2e2g2) ((3f2d2f2) | ((3e2c2e2) d4 z4 :|
+

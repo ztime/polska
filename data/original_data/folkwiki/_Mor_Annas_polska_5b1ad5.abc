@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X: 8
+T: Mor Annas polska
+B: Norrländische Tänze
+R: Polska
+O: Delsbo, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter Erik Ljung
+Z: LP
+M: 3/4
+L: 1/8
+K: Am
+e|:(e>d c2) (e>d|B>c) A3(e|e)>e g2 (3bgb|(a>^f g4):|
+|:(e2 g>^f ^d>e)|(^f>g e2) (c>e)|(e>d BE ^GB)|(BA e3) e|
+e2 (g^f ^d>e)|(^f>g e2) (c2|e>d BE ^GB)|(BA) a4:|
+

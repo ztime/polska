@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter From Olle
+T:(Nr 14)
+R:Polska
+S:From-Olle
+N:Olof Jonsson-From (född 1796)
+N:Nr 14 i K.P. Lefflers "Om Nyckelharpospelet på Skansen"
+B:Om Nyckelharpospelet på Skansen
+O:Boda (Järvsö), Hälsingland
+Z:Eric Forgeot - http://anamnese.online.fr
+M:3/4
+L:1/8
+Q:1/4=110
+K:F
+A>^c d(e f/e/)f/g/ | a>(f d)^c [A2A2] | A>G E>F D>E | ^C2 E2 A2-|A>^c d>e fa |
+({ef}e>^c) [D4d4] :||: f>a ge =ce | fe/f/ gf/g/ (a2|b)>a gf ed | [E2^c2] [A4A4] |
+f>a ge =ce | fe/f/ gf/g/ (a2|b)>a gf ed | (^c/d/)e/c/ [D2d2] z2 :|
+

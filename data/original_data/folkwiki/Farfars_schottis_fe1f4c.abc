@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Farfars schottis
+C:Björn Lindström
+N: Komponerad under gymnasietiden eller om det var högstadiet. Gåva till farfar som lärde mig att spela. Under min tid i lumpen så anordade Lena Jonsson, Bollnäs, då gymnasieelev, en låttävling som "projektarbete" uppe i Bollnäs. Jag for dit med lumpenkamrat Robert Reinerstedt som spelade sax och vi framförde denna låt. Låten kom två men den stora äran låg i att den därefter har stått på Bollnäsbygdens spelmanslags standardrepertoar, den har spelats in på skiva i USA av ett par amerikaner och den har spelats av Mikael Nykäsenojas "Saftorkester" i Sandviken. Man ska våga visa upp sina låtar fick jag lära mig i Bollnäs!
+R:Schottis
+O:Bjursås, Dalarna
+L:1/8
+M:4/4
+K:Dm
+"Dm" D>C D>E F2 F>G | A>d c>d A3 z/ A/ |"C" G>F E>F G2 G2 |"Bb" F>E D>E F>G F>E | %4
+"Dm" D>C D>E F2 F>G |$ A>d c>d A3 z/ A/ |"C" G>F E>F G2 G>F | E>G"Dm" F>E D4 :: %8
+"Dm" A>d (3ddd A>d (3ddd | c>d c>=B A3 z/ B/ |$"C" c2 E>E c2 E>E | c>d c>=B A>G A>B | %12
+"Dm" A>d (3ddd A>d (3ddd | e2 d>c A3 z/ G/ |"Bb" F>E F>G"Dm" A2 A>F |$"C" E>G F>E"Dm" D4 :| %16
+

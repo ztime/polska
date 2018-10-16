@@ -1,0 +1,30 @@
+%%abc-charset utf-8
+
+X:100
+%04_eller_14_MG_0546.pdf, även 05_MG_0557.pdf
+T:Polska efter Wesslén
+O:Uppland
+R:Slängpolska
+M:3/4
+L:1/16
+N:Ur en notbok som gått i arv i släkten Wesslén ([[Personer/Mats Wesslén]] är organisten i Överlövsta socken som tecknade ned många låtar efter [[Personer/Byss-Kalle]]). Ref. [[Personer/Per-Ulf Allmo]]. Ackompanjemanget är taget från Wessléns noter.
+Z:Nils L
+Z:Med reservation för eventuella fel i transkriptionen av basen.
+%%MIDI nobeataccents 90
+K:D
+V:1
+Adfa fdef gedc | dcdA GFGF    GFED    | b2bg   a2af   {/a}g2ba | (gf).g.e (dc).d.B [AC]4  |
+Adfa fdef gedc | defg .a2(af) .a2(af) | d'2d'a d'2d'a gfed     | cdec     d4       D4    ::
+ABcd e2ec e2ec | fedc BcdB    ecBA    | c2e2   a2c'2  b2d'2    | c'e'c'a  b2d2     cdcB   |
+ABcd e2ec e2ec | fedc BcdB    ecBA    | d2f2   e2g2   fafd     | egec     d4       x4    :|
+V:2 clef=bass 
+%%MIDI program 33
+%%MIDI control 7 90
+L:1/8
+K:D
+D,[F,A,]D,[F,A,] A,,[E,G,] | D,[F,A,][F,A,][F,A,] [F,A,][F,A,] | G,[B,D] F,[A,D] E,[CA,G,] | C,[A,G,E,] B,,[^G,E,D,] A,,[A,E,C,] |
+D,[F,A,]D,[F,A,] A,,[E,G,] | D,[DA,F,][DA,F,][DA,F,][DA,F,][DA,F,] | [DD,]2 [DD,]2 [DD,]2 | [E,G,]A,, [D,D,,]2 z2 ::
+A,[CE]A,[CE]A,[CE] | ^G,[EDB,] E,[EB,G,] A,[CE] | [E,A,]C [C,E,]A, [B,,D,E,]^G, | [A,,C,E,]A,[E,^G,B,]E[G,B,D]E |
+L:1/16
+A,ECE A,ECE A,ECE | ^G,EB,E E,E"^D?"B,E A,ECE | F,DA,D E,CA,C D,F,A,D | A,,C,E,G, [D,D,,]4 x4 :|
+

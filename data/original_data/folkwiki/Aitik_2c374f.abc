@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:7
+T:Aitik
+R:Gånglåt
+C:Tomas Östlund
+N:Besök i dagbrottet i Gällivare 2017
+M:2/4
+L:1/8
+Q:1/4=96
+K:Am
+^D | "am"E>A B>c | "dm6"B>A "am"ed/2c/2 | "dm6"B>E "E7"^G>B | "am"A2>A2 | "dm"d>e f>a |
+"Ddim"^g>f "am"e>e | a>^f "D"df | "E7"e2>e2 | "am"a>c' "dm6"b>^g |
+"am"a>f e>d | cB/2c/2 "dm6"d>c | "E7"B2>^D2 | "am"E>A B>c |
+"dm6"B>A "am"ed/2c/2 | "dm6"B>E "E7"^G>B | "am"A4 | "C"G>e cf/2e/2 |
+"G"d>B G>F | "C"EG ce | "G"f/2e/2d/2c/2 B>F | "C"EC/2E/2 c>B |
+"F"Af/2e/2 d>c | "G"Bg eA/2B/2 | "C"c3 ^D |"am"E>A B>c | 
+"dm6"B>A "am"ed/2c/2 | "dm6"B>E "E7"^G>B | "am"A2>A2 |"dm"d>e f>a | 
+"Ddim"^g>f "am"e>e | a>^f "D"df | "E7"e2>e2 |"am"a>c' "dm6"b>^g | 
+"am"a>f e>d | cB/2c/2 "dm6"d>c | "E7"B2>^D2 |"am"E>A B>c | 
+"dm6"B>A "am"ed/2c/2 | "dm6"B>E "E7"^G>B | "am"A3 z |
+

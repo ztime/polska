@@ -1,0 +1,31 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:13
+T:Polska efter Nicklasson
+B:25 Västgötalåtar arrangerade för två fioler och altfiol, Gösta Klemming, 1978, Göteborgs Spelmansgille
+O:Partille, Västergötland
+C:efter Anton Nicklasson
+C:efter Leander Hultén
+N:Leander Hultén var farbror till Anton Nicklasson (som egentligen hette Nickolausson).
+Z:Per Bergsten, 2017-09-17
+R:Polska
+M:3/4
+L:1/8
+K:D
+V:1 name="Violin 1 "
+A>(A F)>(A d)>d | ((3 BcB) A>(A F)>F | A>(A F)>(A d)>d | ((3BcB) !+!.A2 !+! .D2 |
+A>(A F)>(A d)>d | ((3 BcB) A>(A F)>F | A>(A F)>(A d)>d | ((3BcB) !+!.A2 z2 :|]
+|: (B2 [Bg])>[Bg] [Bg]>[Bg] | ((3gag) [Af]>([Af] d)>[Af] |  ((3fgf) [ce]>([ce] c)>[ce] | ((3efe) d>f a2 |
+a>f [Bg]>[Bg] [Bg]>[Bg] | ((3gag) [Af]>([Af] d)>[Af] |  ((3fgf) [ce]>([ce] c)>[ce] | ((3efe) d2 z2 :|]
+V:2 name="Violin 2 "
+[A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 [A,D]2 | [A,D]2 !+! .D2 !+! .A,2 | 
+[A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 [A,D]2 | [A,D]2 !+! .D2 !+! .A,2 :|]
+|: D2 d2 d>d | d2 d>(d A)>d | d2 c>(c A)>c | c2 A>d f2 |
+f>d e2 e>e | e2 d>(d A)>d | d2 c>(c A)>c | c2 [DA]2 z2 :|]
+V:3 clef=C name="Alt"
+F,2 D,2 A,2 | G,2 F,2 D,2 | F,2 D,2 A,2 | G,2 !+! F,2 !+! D,2 | 
+F,2 D,2 A,2 | G,2 F,2 D,2 | F,2 D,2 A,2 | G,2 !+! F,2 !+! D,2 :|]
+|: [D,G,]2 [B,D]2 [B,D]2 | B,2 A,2 F,>A, | A,2 G,2 E,>G, | G,2 F,>A, [A,D]2 | 
+D2 C2 C>C | C2 A,2 F,>A, | A,2 G,2 G,>A, | G,2 [D,A,]2 z2 :|]
+

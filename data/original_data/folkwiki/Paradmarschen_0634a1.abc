@@ -1,0 +1,15 @@
+%%abc-charset utf-8
+
+X:1
+T:Paradmarschen
+R:marsch
+M:C
+L:1/8
+K:D
+"D"[DF]4 "A/C#"[CEA]4|"Bm"[Fd]2 (d>d) "G"defg|"D/A"a2 fd "D/F#"a2 "G"{ba}gf|"A"{f}e2 (e>e) e2 z2|
+"D"[DF]4 "A/C#"[CEA]4|"Bm"[Fd]2 (d>d) "G"defg|"D/A"a2 fd/f/ "A"agec|1 "D"d2 (d>d) d2 z2:|2 "D"d2 d>d d2 cd|
+|:[Ace]2 [Ace]>[Ace] [Ace]2 (fg)|{ga}(gf)ff f2 fg|a2 {ba}gf bagf|f[eA][eA][eA] [eA]2 z2|
+[G,Bd]2 [Bd]>d d2 {ed}(cB)|Aaaa a2 g2|{fg}fabg fdec|1 d2 (d>d) d2 (cd):|2 d2 (d>d) d2 z2|
+|:a2 ff {gfef}afge|d2 (d>d) d/D/E/F/ G/A/B/c/|d2 (d>d) "Bm"da"E7"fd|
+{f}e2 (a>a) a2 g2|{ag}fdfa d2 g2|{ag}fdfa d'2 g2|{ag}fabg fd{ef}ec|d2 (d>d) d2 z2:|
+

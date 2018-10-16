@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:78
+T:Polska af Hagbyen af Etelhem socken å Gotland
+C:Hagebyen
+R:Slängpolska
+O:Etelhem, Gotland
+B:Rondahls nothäfte
+B:SMUS - katalog MMD50 bild 28 nr 78
+N:ur ett notehäfte märkt "Carl Nicolaus Arvid Rondahl"
+N:"år 1780 omkring. Den förnämsta musikern [<--svårtytt] på Gotland af då tid"
+N:Ingår även i kategorin [[Tonarter/Cm]]
+Z:Nils L
+M:3/4
+L:1/16
+K:Gm
+[c4E4] G2F2 E2D2 | EDEG FEDC =B,2C2 | CDEF G4 G2F2 | 
+(G2e2) (d2c2) (c2=B2) | c2a2 g2^f2 g2e2 | e2d2 d2c2 c2=B2 | =B2G2 G4 G4 | 
+[c4E4] G2F2 E2D2 | EDEG FEDC =B,2C2 | CDEF G4 G2F2 | 
+(G2e2) (d2c2) (c2=B2) | c2a2 g2^f2 g2e2 | e2d2 (d2c2) (c2=B2) | =B2G2 G4 G4 | 
+.g2.G2 .e2.=E2 .c2.C2 | EDC=B, B,4 C4 | .g2.=B2 .=B2.c2 c4 | .g2.=B2 .=B2.c2 .c4 | 
+.g2.G2 .e2.=E2 .c2.C2 | EDC=B, B,4 C4 :: [G,4E4] EDEF EDEF | E2B,2 CEDF E4 | 
+G4 GFG_A GFG_A | G2B,2 CEDF E4 | g4 .g.e.g.e .g.e.g.e | .g2.e2 .[e2g2].[e2g2] .[e2g2].[e2g2] | 
+f4 .f.d.f.d .f.d.f.d | f2d2 .[d2f2].[d2f2] .[d2f2].[d2f2] | c2d2 edc=B c2G2 | .G2.G2 .G2.G2 .G2.G2 | 
+GF_AG F2E2 D2C2 | EDC=B, =B,4 C4 :|
+

@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:6
+T:Polonesse in G Dur no 4 ur Anders Larssons notbok
+S:Ur Anders Larssons notbok (1810-1813)
+O:Östra Ryd, Östergötland
+R:Slängpolska
+Z:Till abc av Olle Paulsson
+B: Anders Larssons notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00004
+B:Jämför SMUS Ma3b bild 31 nr 23 efter [[Personer/Jonas Pehrsson]]
+B:Jämför SMUS Ma18 bild 6 nr 10 ur [[Notböcker/Lars Larssons notbok]]
+B:Jämför SMUS - katalog Ma13a bild 74 nr 225 efter [[Personer/Johan Eric Blomgren]] (har en annan form men uppvisar vissa likheter)
+N:Se även +
+M:3/4
+L:1/16
+Z:Originalet otydligt i 2:a reprisen, takt 4.
+Z:I originalet är takt 5-8 i första reprisen noterat med bisering
+K:G
+G,2B2 B2A2 A2G2|G2AB c4 B4|G,2B2 B2A2 A2G2|G2AB c2de d4|G,2B2 B2A2 A2G2|
+G,2c2 c2B2 B2A2|G,2B2 B2A2 A2G2|G,2c2 c2B2 B2A2|B,2d2A,2c2G,2B2|D2GF G8:|
+|:B8 A2Bc|B2BA B2BA B4|B,8 A,4|B,2A,G, B,2A,G, G,4|d8 g4|
+f2fe f2fe d2B2|d8 g4|fgfe dedc d4|B,2d2 B,2d2 B,2d2|d2c2 c2B2 B4|
+A,2c2 A,2c2 A,2c2|c2B2 B2A2 A4|B,2d2 A,2c2 G,2B2|D2GF G4 G,4:|
+

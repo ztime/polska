@@ -1,0 +1,25 @@
+T: Dovecote Park
+M: 6/8
+L: 1/8
+K: Dmaj
+%%writefields P false
+P:AB1AB1.CD1CB1.EF1EF1.GH1GF1
+Q:3/8=90
+%%MIDI gracedivider 12
+%%MIDI ratio 3 1
+P:A
+|:f|{g}A2{GdGe}A {gBd}B2{G}A|{g}A>d{g}f {ag}a2g|{a}f2{GdG}f {g}A>d{g}f|a>f{g}d {gef}e2!
+P:B
+[1 ", 2 of 2" f |{g}A2{GdGe}A {gBd}B2{G}A|{g}A>d{g}f {ag}a2g|{a}f>ga {ef}e>c{d}A|{Gdc}d3 {gdG}d2:|!
+P:C
+|:{gf}g|{a}f>ga {Gdc}d2e|{gfg}f>ed {ag}a2f|{g}e2{GdG}e {g}A>B{GdG}c|{g}e<gf {gef}e2!
+P:D
+|1{gf}g|{a}f>ga {Gdc}d2e|{gfg}f>ed {ag}a2g|{a}f>ga {ef}e>c{d}A|{Gdc}d3 {gdG}d2:|!
+P:E
+|:f|{g}A>df {gfg}f>e{g}f|{g}A>d{g}f {ag}a2g|{gfg}f>ed {g}A>df|{gef}e3 {A}e2!
+P:F
+[1", 2 of 4"f|{g}A>df {gfg}f>e{g}f|a>fd {gBG}B2{gf}g|{a}f>ga {ef}e>c{d}A|{Gdc}d3 {gdG}d2:|!
+P:G
+|:{gf}g|a>fd {g}A>df|{gfg}f>ed {gBG}B2{Gdc}d|{g}A>d{g}f a>f{g}d|{gef}e3 {A}e2 !
+P:H
+[1{gf}g|a>fd {g}A>df|{gfg}f>ed {gBG}B2{gf}g|{a}f>ga {ef}e>c{d}A|{Gdc}d3 {gdG}d2:|!

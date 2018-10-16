@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X:1
+T:Menuette ur J H Anderssons notbok (Ma11 - 1)
+R:Menuett
+O:Fjärås, Halland
+B:J H Anderssons notbok
+N:Nr 1 i Ma11.
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+K:G
+g4 ((3gab)|[_Gc]4 [=GB]2|A2 G2 F2|F4 G2|g4 ((3gab)|[^cE]4 [Fd]2|{/A}((3BAG) F2 E2|D6:|
+|:[Bd]4 [Bd]2|[cA]4 D2|[Bd]4 [GB]2|[cA]4 D2|g4 ((3gab)|[Ac]4 [GB]2|[AC]2 [GB,]2 [FC]2|[FA,]4 [GB,]2:|
+|:((3G,B,D) ((3GBd) ((3gbd')|d'2 c'2 b2|((3G,B,D) ((3GBd) ((3gbd')|d'2 c'2 b2|ab c'a fd|gd d4|(3dfa c'2 b2|b4 a2:|
+|:[ad]2 [da]4|[gb]2 [gb]4|[e^c']2 [ec']4|[fd']2 [fd']4|((3G,FA) ((3GBd) ((3gbd')|d'2 c'2 b2|e'c' ba gf|f2 g4:|
+

@@ -1,0 +1,26 @@
+%%abc-charset utf-8
+
+X:1
+T:Farfarsdammen
+R:Polska
+O:Mora, Dalarna
+M:3/4
+L:1/8
+K:Gm
+Z:Robert Boström 2017-02-28 
+N:Plankad från skivan Dans i Gopsmor. Stämma av Robert.
+Q:120
+%%score (T1) (T2)
+V:T1 clef=treble
+V:T2 clef=treble % clef=bass   %octave=+2 %middle=d %octave=-2
+%%MIDI program 1 57 %   53=Choir Oohs  19 = Church Organ 56=trumpet
+%%MIDI program 2 53
+[V:T1](3zzd|:g2d2-(3d-d^F|(3G-GA B2-(3B-BB|(3A2^F2A2 (3c-cA|(3B2G2B2 (3d-dd|
+[V:T2](3zzB|:d2B2-(3B-BD|(3D-D^F G2-(3G-GG|(3^F2D2F2 (3A-A^F|(3G2D2G2 (3B-BB|
+[V:T1]g2d2-(3d-d^F|(3G-GA B2-(3B-BB|(3A2^F2A2 (3c-cA|1B2G2-(3G-Gd:|2B2G2-(3G-GG|
+[V:T2]d2B2-(3B-BD |(3D-D^F G2-(3G-GG|(3^F2D2F2 (3A-AF|1G2D2-(3D-DB:|2G2D2-(3D-DD|
+[V:T1]|:(3A2^F2A2 (3c-cA|(3B2G2B2 (3d-dd|(3d2B2d2 (3f-fd|(3d-dc- (3cBc d2-|(3d2d2-d2-(3d-dd|
+[V:T2]|:(3^F2D2F2 (3A-AF|(3G2D2G2 (3B-BB|(3B2F2B2 (3d-dB|(3B-BA- (3AGA ^F2-|(3^F2F2-F2-(3F-FF|
+[V:T1]g2d2-(3d-d^F|(3G-GA B2-(3B-BB|1(3A2^F2A2 (3c-cA|B2G2-(3G-GG:|2(3A2^F2A2 (3c-cA|B2G2z2|
+[V:T2]d2B2-(3B-BD|(3D-D^F G2-(3G-GG|1(3^F2D2F2 (3A-AF|G2D2-(3D-DD:|2(3^F2D2C2 (3A,-A,C|B,2G,2z2|
+

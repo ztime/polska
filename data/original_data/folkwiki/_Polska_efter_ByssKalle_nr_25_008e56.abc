@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X: 25
+T: Polska efter Byss-Kalle (nr 25)
+S: efter Byss-Kalle
+O: Uppland
+R: Slängpolska
+D: Skivan "Byss-Calle" med [[Gruppper/Nyckelharporkestern]] utgiven på Drone, spår 11
+M: 3/4
+L: 1/16
+K: G
+d4 (d^c)de (dc)de | d2>=c2 {cd}(c2B2) B2g2 | (ge)ce (ed)Bd (cB)AG | (FG)AB (AG)FE D2GB |
+d4 (d^c)de (dc)de | d2>=c2 {cd}(c2B2) B2g2 | (ge)ce (ed)Bd (cB)AG | (FG)AF G8 :|
+|: D2FA (cB)AG (FG)AF | D2GB d2BG (DG)BG | D2FA (cB)AG (FG)AF | D2GB d2BG (DG)Bd |
+g2>e2 (e2c2) c4 | g2>d2 (d2B2) B4 | e2>d2 (c2B2) A2FA | (cA)FA G8 :|
+

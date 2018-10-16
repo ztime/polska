@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:49
+T:Pollonesse 1832-49
+O:Södermanland
+R:Slängpolska
+B:Notbok 1832 från Sörmlands museum
+B:[[http://www.sormlandsmusikarkiv.se/noter/1832/1832.html]]
+N:Se även + och +
+Z:Jonas Brunskog
+M: 3/4
+L: 1/16
+K: D
+|:DEFG ABcd efga | gfge dcBA e4 | A4 B4 c4 | dcBA GABG A4 |
+DEFG ABcd efga | b2g2 e2c2 d4 | B2A2 G2F2 G2A2 | BGEC D8 :|
+|:ABcd ecec fdfd | gege fdfd ecec | ABcd ecec fdfd | gege fdfd ecec |
+a4 f4 d4 | cdef agfg e4 | AGFG ABcd dfaa | gfge d8:|
+

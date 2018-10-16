@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:1
+T:Sv. Ps. 63
+R:Psalm
+Z:David Rönnlund 090220
+O:Gammalsvenskby, Ukraina
+B: Folklika svenska Koralmelodier från Gammalsvenskby och Estland
+S:Katarina Utas, Gammalsvenskby, Ukraina
+M:C
+L:1/8
+K:Bb
+Q:80
+B2|(Bd) (cB) (AG) F2|(3(GAB) (c>A)!fermata!B2 (G/A/B/c/)|A2G2 (FD) (3(BAG)|("#"FA) G2 !fermata!D2
+w:Av him-*lens*höjd*oss*kom-*met*är Ett***bud, som frid*till**jor-*den bär:
+(D^F)|(G/A/B/A/) G2 (,=FB) (AG)|(Bd)c2 !fermata!F2 (dc)| (BA)G2 (3(F=ED) (3(D^FG)|B2 (3(AcA) !fermata!B2|]
+w:"Stor*fröjd***i sko*-len hö--ra få, Det* E--der*grant*bör**ak-ta**på"
+V:1
+B2|(Bd) (cB) (AG) F2|(3(GAB) {B}(cA)!fermata!B2 (G/A/B/c/)|A2G2 (FD) (3(BAG)|("#"FA) G2 !fermata!D2
+w:Av him-*lens*höjd*oss*kom-*met**är Ett***bud, som frid*till**jor-*den bär:
+V:1
+(D^F)|(G/A/B/A/) G2 (,=FB) (AG)|(Bd)c2 !fermata!F2 (dc)| (BA)G2 (3(F=ED) (3(D^FG)|B2 (3(AcA) !fermata!B2|]
+w:"Stor*fröjd***i sko*-len hö--ra få, Det* E--der*grant*bör**ak-ta**på"
+

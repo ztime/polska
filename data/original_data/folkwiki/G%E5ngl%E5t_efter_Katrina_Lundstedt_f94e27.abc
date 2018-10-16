@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:1
+T:Gånglåt efter Katrina Lundstedt
+T:"Lilla la"
+S:Efter Katrina Lundstedt
+R:Gånglåt
+N:Efter inspelning av Kalle Norin, 1952 (På inspelningen trallar Katrina "La-lilla-la-lilla...", därav undertiteln.)
+N:Stämförslag HL
+O:Hassela, Hälsingland
+Z:Håkan Lidén, 2012-01-07
+M:2/4
+L:1/8
+K:G
+V:1
+|: D | GD/G/ BA/G/ | F/G/A/B/ A2 | D/F/A/B/ c/B/c/A/ | F/D/F/A/ dd/B/ | 
+GD/G/ BA/G/ | F/G/A/B/ A2 | D/F/A/B/ c/B/c/A/ |[M:3/4] F/A/d/F/ G3 :|[M:2/4]
+|: A/B/ | ce ec/e/ | ed dB/d/ | c/B/c/d/ cB/c/ |[M:3/4] Ad B/c/d/B/ GA/B/ |[M:2/4]
+ce ec/e/ | ed dB/d/ | c/B/c/A/ F/A/d/F/ |[M:3/4] GA/B/ G3 :|]
+V:2
+|: B, | DB,/D/ GF/E/ | D/E/F/G/ F2 | A,/D/F/G/ A/G/A/F/ | D/A,/D/F/ BB/G/ |
+DB,/D/ GF/E/ | D/E/F/G/ F2 | A,/D/F/G/ A/G/A/F/ |[M:3/4] DC/A,/ B,3 :|[M:2/4]
+|: C/D/ | Ec cG/c/ | cB BG/B/ | A/G/A/B/ AG/A/ |[M:3/4] FD G/A/B/G/ =FE/D/ |[M:2/4] 
+Ec cG/c/ | cB BG/B/ | A/G/A/F/ DC/A,/ |[M:3/4] B,C/D/ B,3 :|]
+

@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1170
+T:Polska efter Verkmästars Hans Olsson
+T:Variant av Skaltkvarnpolskan (SvL Dalarna 1170)
+R:Polska
+O:Rättvik, Dalarna
+S:Verkmästars Hans Olsson
+B:Svenska Låtar Dalarna
+N:Svenska Låtar Dalarna, 1170
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+K:AM
+A^c e2 c2|de {e}f2 d2|g2{/a}(3gfg a2|fd e4:|
+|:e2 (ef) (ed)|(dB) c2 A>c|(cB) B2 ^GG|B2 AB cd|
+e2 (ef) (ed)|dB c2 A>c|(cB)  B2 ^G2|B>c A4:|
+K:Dm
+|:A2 AB AG|GE F2 D>F|FE E2 ^CC|D2 (DE) (FG)|
+A2 (AB) AG|(GE) F2 D>F|FE E2 ^CC|EF D4:|
+

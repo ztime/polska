@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X: 1
+T: Carl XIIs marsch vid Narva
+R: Marsch
+M: 4/4
+L: 1/8
+B: http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+177&bildnr=00052
+B: E L Lindblads notbok
+O: Uppland, Uppsala
+D: Linnaeus Väsen spår 7 (avviker litet från denna uppteckning)
+Q: 210
+%%printtempo 0
+Z: Nils L
+K: Dm
+e2 f2 ^c2 d2 | ef ed ^c2 A2 | e2 f2 ^c2 d2 | ef ed ^c2 A2 |
+f2a2 e2 aa | f2 d2 ^c2 A2 | d2 d2 e2 ^c>c | d2 d>d d2 z2 ::
+de fg a2 af | b2 bg a2 d2 | ^cd cd e2 ff | e2 a2 e2 a2 |
+d2 f2 e2 ^c>c | d2 f2 e2 ^c2 | d2 d>d e2 ^c>c | d2 d>d d2 z2 :|
+

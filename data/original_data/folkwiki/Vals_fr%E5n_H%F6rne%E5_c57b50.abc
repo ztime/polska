@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Vals från Hörneå
+R:Vals
+O:Hörneå, Västerbotten
+M:3/4
+L:1/8
+C:Komponerad 1819 Erik Eriksson 
+S:Not fr Gösta Wikström och Ard Lundgren Ursviken
+K:C
+Q:1/4=160
+N: Erik Eriksson (1799-1871) kallades Spel-Erik och levde i Hörneå. Mer om Spel-Erik finns att läsa på http://www.becken.se/Spel-Erik%20ljuder%20igen%20-%20med%20Daniel%20och%20Maria.html
+Z: till ABCnotation Eva Zwahlen 2016-11-14
+\\
+\\
+G,2|:"_C" (CB,) (CD) EF|"_C/E" G2 E2 G2 |"_F" (FE) (FG) AB |"_C" c4 G2 |"_Dm" F2 AF D2 |"_C" E2 GE "_Am"C2 
+|1 "_D7" (DE) (DC) B,C |"_G7" D4 G,2:|2"_G7" DE (FD) CB,|"_C" C4 G2|:"_C" (ce) (cB) AG |"_F" (F2 A2) c2 |"_G7" (Bc) (BA) GF |"_A7" E4 G2 |"_Dm" F2 DF A2 |"_C" G2 EG c2 |1 "_D7" (AB) (cd) ec |"_G7" d4 G2 :|2 "_D7" (AB)"_G7" (ce) dB |"_C" c4 (ed) |:"_Am" c2 A2 c2 |"_E7" B2 e2 d2|"_F" (cB) (AB) cd |"_C" e4 e2|"_Dm" f2 (fe) (df)|"_C" e2 (ed)"_Am" ce|1"_D7" d2 (dc) BA |"_G7" G4 (ed) :|2 "_G7"d2 (dB) GB |"_C" c4 z2|]
+

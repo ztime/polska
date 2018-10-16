@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:3
+T:Polska ur Petter Dufvas notbok (Ma6-3-4)
+R:Polska
+O:Verkelbäck, Småland
+B:Petter Dufvas notbok
+S:Petter Dufva
+N:Smus Ma6 bild 5
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/16
+K:C
+cdef e2d2 d2c2|efga g2f2 e4|g2ef g2ef g2a2|g2gf e4 d4|
+G,4 fafd egec|G,4 fafd egec|G,4 fafd egec|BcdB c8:|
+|:d2f2 f2e2 e2g2|e2f2 f2e2 e4|c'2d'e' e'2d'2 d'2e'2|c'2e'2 e'2d'2 c'4|g2eg g2eg g2ag|
+g2gf e4 d4|G,4 fafd egec|G,4 fafd egec|G,4 fafd egec|BcdB c8:|
+|:cBcd cBcd cBcd|edef edef edef|gfga gfga gfga|g2gf e4 d4|
+G,6 f2 e2d2|G,6 g2 f2e2| G,6 a2 g2f2|e2dc c8:|
+|:[GB]2[GB]2 [GB]8|[FA]2[FA]2 [FA]8|[Fc]2[Fc]2 [Fc]8|[CG]2[CG]2 [CG]8|
+G,6 f2 e2d2|G,6 g2 f2e2| G,6 a2 g2f2|a2fa g2eg f2df|edcB c8:|
+

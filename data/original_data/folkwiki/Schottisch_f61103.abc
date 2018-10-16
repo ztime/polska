@@ -1,0 +1,27 @@
+%%abc-charset utf-8
+
+X:5
+T:Schottisch
+R:Schottis
+O:Hogstad, Östergötland
+M:2
+N: En 90-100 årig östgötagubbe sjöng melodin för Svensson.
+B: Ög 4
+N:Smus Ög 4 bild 48
+L:1/8
+C:Helge Vilhelm Svensson
+K:D
+M:none
+K:F
+[K:C]
+%
+"@-20,30 Stämn."[A,EAe]0 \
+%%staffbreak
+[K:D clef=treble] \
+[M:2]\
+L:1/8
+Af/2>e/2 d/2>e/2d/2>B/2 | A/2>B/2A/2>F/2 [DF][DF] | A/2>B/2A/2>E/2 [CE][CE] | A/2>B/2A/2>F/2 [DF][DF] | 
+Af/2>e/2 d/2>e/2d/2>B/2 | A/2>B/2A/2>F/2 [DF][DF] | A/2>B/2A/2>F/2 G/2>E/2C/2>E/2 | [FD][FD]/2[FD]/2 [FD]2 :|:
+B/2>A/2G/2>B/2 d/2>B/2G/2>B/2 | A/2>F/2A/2>d/2 [fA][fA] | e/2>A/2c/2>e/2 g/2>A/2c/2>e/2 | d/2>A/2A/2>d/2 fd |
+B/2>A/2G/2>B/2 d/2>B/2G/2>B/2 | A/2>F/2A/2>d/2 [fA][fA] | e/2>A/2c/2>e/2 g/2>e/2c/2>e/2 | dd/2d/2 d2 :||
+

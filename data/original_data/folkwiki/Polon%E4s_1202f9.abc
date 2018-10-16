@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:131
+T:Polonäs
+T:ur Kumlins notsamling (nr 131)
+B:Kumlins notsamling, nr 131
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=Ma+4&bildnr=00032
+O:Närke
+R:Slängpolska
+Z:Nils Liberg
+N:Se även +
+M:3/4
+L:1/16
+%%tuplets 1 0 0
+K:Am
+A,2A2 E2A2 c2BA | e2cA cBA^G A2c2 | BA^GA E2e2 dcBA | BA^GA E4 C4 |
+A,CEA cBA^G A2A2 | cAce aece d2B2 | dcBA B2e2 efed | cBA^G A4 A4 ::
+E2e2 B2e2 g2^fe | b2ge g^fe^d e2g2 | ^fe^de B2b2 agfe | g^fe^d e4 e4 |
+e2>c2 ABc=d e=fge | fedc Bcde f2df | e2de f2ed c2BA | cBA^G ABcA E4 |
+e2>c2 ABcd efge | fedc Bcde f2df | (3e2d2e2 (3f2e2d2 (3c2B2A2 | ^G2A2 A8 :|
+

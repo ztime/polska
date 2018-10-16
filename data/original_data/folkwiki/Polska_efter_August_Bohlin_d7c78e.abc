@@ -1,0 +1,42 @@
+%%abc-charset utf-8
+
+X:75
+% %%beginsvg
+% <defs>
+% <path id="shdl" class="fill" d="m3.8 -1.3 c-1 -2.5 -6.5 0 -5.5 2.5 1 2.5 6.5 0 5.5 -2.5"/>
+% <path id="shdr" class="fill" d="m2.2 -1.3 c-1 -2.5 -6.5 0 -5.5 2.5 1 2.5 6.5 0 5.5 -2.5"/>
+% <path id="sHdl" transform="translate(+0.75,0) scale(0.75, 0.75)" class="fill" d="m3 -1.6  c-1 -1.8 -7 1.4 -6 3.2    1 1.8 7 -1.4 6 -3.2   m0.5 -0.3   c2 3.8 -5 7.6 -7 3.8   -2 -3.8 5 -7.6 7 -3.8"></path><path id="sHdr" transform="translate(-0.75,0) scale(0.75, 0.75)" class="fill" d="m3 -1.6  c-1 -1.8 -7 1.4 -6 3.2    1 1.8 7 % -1.4 6 -3.2   m0.5 -0.3   c2 3.8 -5 7.6 -7 3.8   -2 -3.8 5 -7.6 7 -3.8"></path>
+% </defs>
+% %%endsvg
+% %%deco head-small-l 0 shdl 0 0 0 % small note head
+% %%deco head-small-r 0 shdr 0 0 0 % small note head
+% %%deco head-small-L 0 sHdl 0 0 0 % small note head
+% %%deco head-small-R 0 sHdr 0 0 0 % small note head
+U:L=!head-small-l!
+U:R=!head-small-r!
+U:l=!head-small-L!
+U:r=!head-small-R!
+T:Polska efter August Bohlin
+T:efter Byss Kalle
+T:(SvL Uppland nr. 75)
+B:Svenska Låtar Uppland nr 75
+Z:Nils L
+R:Polska
+O:Uppland
+S:efter August Bohlin
+S:efter Byss-Kalle
+N:Polskan gick under namnet 'Storsvarten'. Bohlin har lärt den av sin fader. Jfr Liljefors, Upländsk folkmusik: Polskor, n:r 16 och 17.
+M:3/4
+L:1/16
+K:G
+[GLG,]2(G2 B2>)(B2 d4) | g2>b2 (ba)fa (a2{ba})g2 | "^*"[gRd]2>b2 bafa (a2{ab})g2 | 
+{/e}c2eg (dB)dg (cB)ce | (dc)BA (GB)dg (dg)dB | [GLG,]2(G2 B2>)(B2 d4) | 
+g2>b2 (ba)fa (a2{ba})g2 | "^*"[gRd]2>b2 bafa (a2{ab})g2 | {/e}c2eg (dB)dg (cB)ce | 
+(dc)BA [lG,G]8 :: G2>B2 (dB)(dB) (gB)(gB) | (dB)(dB) (gB)(gB) (dc)BA | 
+G2>c2 ecec gcgc | ecec gcgc dcBA | G2>B2 (dB)(dB) (gB)(gB) | 
+(dB)(dB) (gB)(gB) (dc)BA | G2>c2 ecec gcgc | ecec gcgc dcBA | 
+G2>B2 d2g2 b2d'2 | c'b(c'd' e'2)f2 ((g{ag})fg)a | b2g2 (d2{ed})B2 cBce | (dg)dB GBdg dgdB | 
+G2>,B2 d2g2 b2d'2 | c'b(c'd' e'2)f2 ((g{ag})fg)a | b2g2 (d2{ed})B2 (cB)ce | (dc)BA [GlG,]8 :|
+%%text *Eller:
+[gRd]2>b2 bafa g4 |
+

@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Åtta taktar'n
+C:Polska efter Kristian Oskarsson
+C:Efter Ulf Andersson & Tommy Hemmingson
+N:Printed by Karen Myers (#1913)
+N:Transcribed 2/1995
+S:http://bluerose.karenlmyers.org/trans/1913.pdf
+N:Variant av http://www.folkwiki.se/Musik/339
+Z:Åter(?) ABCnotation Arne Kjellman våren 2016
+Q:1/4=132
+%%printtempo 0
+L:1/8
+M:3/4
+K:A
+|:(3e(fe) (3d(ed) c>e | a(g/f/ e>)(d c>)e | (3d(Bd) (3c(Ac) B>G | A>c (3c(BA) (E2 |
+(3e)(fe) (3d(ed) c>e | a(g/f/ e>)(d c>)e | (3d(Bd) (3c(Ac) B>G | A2 A4 ::
+A,>A, (3A,(B,C) (3A,(B,C) | D>D (3D(EF) (3D(EF) | E>E (3E(FG) (3E(FG) | A>A (3A(cA) (E2 |
+A,>)A, (3A,(B,C) (3A,(B,C) | D>D (3D(EF) (3D(EF) | E>E (3E(FG) (3E(FG) | A2 A4 :|
+

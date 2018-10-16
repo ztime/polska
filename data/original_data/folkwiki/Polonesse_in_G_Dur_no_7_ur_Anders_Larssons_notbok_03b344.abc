@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:9
+T:Polonesse in G Dur no 7 ur Anders Larssons notbok
+S:Ur Anders Larssons notbok (1810-1813)
+O:Östra Ryd, Östergötland
+R:Slängpolska
+Z:Till abc av Olle Paulsson
+B: Anders Larssons notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00005
+M:3/4
+L:1/16
+Z:Verkar som om c ska ersättas av ^c i 1a reprisens takt 5
+Z:Verkar som om C ska ersättas av ^C i 1a reprisens takt 5
+K:G
+d3c Bgfe d2c2|dBGB cAFA G4|B2BG c2cA d2dc|edcB B4 A4|
+A2A2 AFDF GECE|DFAd DFAc B4|G2Bd c2AF G2Bd|cAFA G4 G,4:|
+|:B4 "^Pizz"[B2G,2][B2G,2][B2G,2][B2G,2]|BcdB ABcA G4|edcd edcd e2e2|edcB B4 A4|
+A2A2 AFDF GECE|DFAd CFAc B4|G2Bd c2AF G2Bd|cAFA G4 G,4:|
+

@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X: 97
+T: Polska efter Erlandsson
+T: (SvL Uppland nr. 97)
+B: Svenska Låtar Uppland nr 97
+B: Jämför SMUS - katalog Up4 bild 12
+S: efter Carl Herman Erlandsson
+N: ur SvL: "Erlandsson hade låten från en spelman Björk från Vattholma. Jfr Svenska Låtar, Dalarna, h. III, n:r 1000 samt Liljefors, Upländsk folkmusik :: Polskor, n:r 70."
+N: (på smus.se hänvisas till Upländsk folkmusik, nr 85 - inte 70 som det står i SvL)
+Z: Nils L
+O: Uppland
+R: Polska
+M: 3/4
+L: 1/16
+K: Dm
+"^A-bas" \
+A2=B^c |: d2[D2A,2] [D2A,2][D2A,2] [A,2D2]fg | f2e2 A2A2 A4 | (f{gf})efg a2f2 e2d2 | d2^cd e2c2 A2=B^c |
+          d2[D2A,2] [D2A,2][D2A,2] [A,2D2]fg | f2e2 A2A2 A4 | (f{gf})efg a2f2 e2d2 |1 (^cd)ec d4 A2=B^c :|2 
+(^cd)ec d6fg |: a4 ((3f2g2a2) ((3f2g2a2) |  g2>e2 (ce)ge ceg2 | 
+(fef)g a2f2 e2d2 | d2^cd e2c2 A4 | a4 ((3f2g2a2) ((3f2g2a2) |  g2>e2 (ce)ge ceg2 | 
+(fe)fg a2f2 e2d2 |1 ^cdec d6 fg :|2 ^cdec d4 |]
+

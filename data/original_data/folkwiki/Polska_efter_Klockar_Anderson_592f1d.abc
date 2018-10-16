@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Klockar Anderson
+R:Polska
+O:Dorotea, Lappland
+M:3/4
+L:1/16
+K:Gm
+V:1
+ D2 |: G3B d4 d3A | cdcB G6 A2 | B3c d4 d3c | =e4 d6 D2 | ^F3A c4 c2e2 | dedc d6 B2 | A3G ^FGAF D3F | G4 G6 D2 :|]: G3=B c4 c2d2 | e4 d6 =B2 | cdcA BcBG A3G |^FGAF D6 D2 | G3=B c4 c3d | e4 d6 =B2 | cdcA BcBG A3G | ^FGAF G8 :|
+V:2
+ z2|:"Gm" D3G G4 B3^F |"D" ^F2F2 "Gm" D6 D2  | G3A G4 B3A |"C" =E4 "Gm" G6 D2 |"D" D3D ^F4 A2c2 |"Gm" BcBA B6 G2 |"D" ^F3D DEFD D2D2 |"Gm" D4 B,2A,2 G,4 :|]:"Gm" D3G "C"G4 A2B2 | "Eb" G4 "Bb" B3A G4 |"C" ABA^F "Gm" GAGD ^F3E |"D" D4 D6 D2 | "Gm" D3G "C" G4 A3B1 |"Eb" G4 "Bb" B3A G4 |"Cm" ABA^F "Gm" GAGD F3D |"D" D4 "Gm" D8 :|
+V:3
+z2 |: G,6 B,2 D4 | A,6 B,2 G,4 | G8 D4  | =E4 G4 G4 | D6 A,2 A,4 | G,6 A,2 B,4 | D6 A,2 A,4 | D8 D4 :|]: D3G1 =E4 E4 | G4 D8 | C4 B,4 A,4 | D4 D4 ^F4 | D3G1 =E4 E4 | G4 D8 | C4 B,4 A,4 | D4 G,8 :|
+

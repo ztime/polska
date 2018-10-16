@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska efter Edvin Widén
+R:Polska
+Z:C-G Magnusson, 2008-11-08
+O:Dalsland
+S:Efter Edvin Widén (Stockholm 1924-08-22)
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+139b&bildnr=00036
+M:3/4
+L:1/8
+Q:120
+K:A
+(3cec A>c [A,2E2c2] | (3BdB G>B [B,2G2B2] | (3Ace a>c' (3bc'd' | e'>c' (3aec A>E |
+(3cec A>c [A,2E2c2] | (3BdB G>B [B,2G2B2] | (3Ace a>e [df][ce] | (3[DB]cB [C2A2] z2 :|
+K:D
+|: A>G (3FA,F (3GA,G | (3FA,F (3AFA d2 | (3cec A>c e>c | (3(df).d (3Adf a2 |
+A>G (3FA,F (3GA,G | (3FA,F (3AFA d2 | (3BGE C>E (3GEC | Dz [F2d2] z2 :|
+

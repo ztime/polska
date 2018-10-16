@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:44
+T:Schottisch efter August Strömberg
+T:(SM V-44)
+R:Schottis
+S:August Strömberg
+O:Jät, Småland
+N:Ca 1890
+B:Småländsk Musiktradition
+N:Småländsk Musiktradition V-44
+Z:Till abc Jonas Brunskog
+M:C
+Q:1/4=150
+L:1/8
+K:G
+dc|:B2 Bd G2 GB|E2 cc c2 c2|DD FA DD FA|G2 Be dd cB|
+B2 Bd G2 GB|E2 cc c2 c2|DD FA DD FA|1 G2 G2 G2 dc:|2 G2 G2 G2 z2|
+|:d>B G>e d>B G>e|d2 cA F2 z2|A2 B2 c2 d2|ed ^cd B2 G2|
+d>B G>e d>B G>e|d2 cA F2 z2|A2 Bc d2 ef|g2 g2 g2 z2:|
+

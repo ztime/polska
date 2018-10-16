@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Jon-Mas polskan Nr 1 
+R:Polska
+O: Bäsksele, Lappland
+N: upptecknad efter Sören Danielsson, Bäsksele av John Engström, arr: Göran On, Föllinge. Finns i notsamlingen "Västerbottenslåtar från fjäll och bygd". En annan version finns i Holmfrid Ericssons "Med stråken på strängen". I båda uppteckningarna är det ett ciss i sista takten i första reprisen. Polskan är ledmotiv i TV-serien Nybyggarland, där polskan spelas med ett C i den takten.
+Z: till abc Eva Zwahlen 2017-08-26
+M:3/4
+L:1/16
+K:Dm
+V:1
+|: d2e2 f4 f2f2 | e3d c3c A4 | A2E2 F4 F2F2 | E2D2 F2G2 A4 | d2e2 f4 f2f2 | e3d c2c2 A4 | A2E2 F4 F2F2 | E2D2 ^CDEC D4 :|]: a4 (3f2g2a2 (3f2g2a2 | a2g2 (3e2f2g2 (3e2f2g2 | a4 (3f2g2a2 (3f2g2a2 | a2g2 (3e2f2g2 (3e2f2g2 |1 a4 (3d2e2d2 (3^c2d2c2 | (3=B2^c2B2 A3^G A4 :|2 a4 (3^c2d2c2 (3=B2c2B2 | (3A2=B2^c2 dedc d4 |: A3G E2GG E2GG | A3F D2FF D2FF | A3e ^C2EE C2EE | A3F D2FF D2FF | A3G E2GG E2GG | A3F D2FF D2FF | A3E ^C2EE C2EE  | D2F2 A2d2 f2a2 | (3A2=B2^c2 (3A2B2c2 (3A2B2c2 | d4 d4 z4 :|
+V:2
+|: F2G2 A4 D4 | C3D E4 F4 | F2G2 A4 a4 | g2f2 d2e2 ^C4 | d2^c2 d4 A4 | c3B A2E2 F2E2 | F2G2 A4 d2d2 | ^c2d2 edce [F4d4] :|]: F4 d4 c4 | =B4 _B4 C4 | F4 d4 c4 | =B4 _B4 C4 |1 ^C4 F4 E4 | D4 C2E2 C4 :|2 ^C4 A,4 [A,4G4] | [A,2F2]E2 [A,4F4] F4 |: A,4 ^C2g2 f2e2 | A,4 D2a2 f2d2 | ^c4 A2g2 e2c2 |^c3d f2e2 f2d2 |^c4 A2g2 f2e2 | e3f d2a2 f2d2 | ^c4 A2g2 e2c2 | d4 A2F2 A2F2 | G2E2 ^C2A,2 A2G2 | F4 F4 z4 :|
+

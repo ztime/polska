@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:3256
+T:Värmlandsvals efter Harald Johansson och John-Erik Mattsson
+R:Vals
+O:Rätansbygden, södra Jämtland
+S:Efter John-Erik Mattsson och Harald Johansson
+Z:ABC-transkr. Lennart Sohlman
+N:Valsen har sannolikt förts till södra Jämtland med Nils Ersa (1821-1900) eller någon annan spelkunnig värmlänning som lejdes till storavverkningarna i Jämtland under 1800-talets senare hälft.
+N:Uppt. Lennart Sohlman
+M:3/4
+L:1/8
+Q:1/4=140
+K:A
+V:1
+(A,2 C2) E2|(A,2 C2) E2|c3 B A2|c3 B A2|d3 c B2|d3 c B2|((3efe) (^de) (fe)|c3 B A2|!
+(vA,2 C2) E2|(A,2 C2) E2|c3 B A2|c3 B A2|d3 c B2|d3 c B2|((3efe) (^de) (fe)|c3 e ((3efg)|!
+(a2 g2) a2|(f2 g2) a2|(ga) (ba) gf|e3 d (cB)|(A2 .G2 .F2)|(E2 F2) G2|A3B (cB)|A4 cd|:!
+e3 f ed|ce A2 (cA)|cd E2 (GB)|(AG) (AB) cd|e3 f ed|ce A2 (cA)|cd E2 (GB)|[1A4 (cd):|[2A6|]
+V:2
+A,4 C2|E4C2|E3DC2|A3GE2|B3AG2|F3ED2|(3(cdc) (Bc) (dc)|A3GE2|!
+A,4 C2|E4A2|A3GE2|A3GE2|B3AG2|B3AG2|(3(cdc) (Bc) (dc)|A3 c ((3cde)|!
+(f2e2)f2|(d2e2)f2|(ef) (gf) (ed)|c3 B (AG)|(E4.A,2)|A,4B,2|C3D (ED)|[C4E4]AB|:!
+c3 d cB|Ac E2 E2|EF B,2D2|(CD) (EG) AB|c3 d cB|Ac E2 E2|EF B,2D2|[C4E4] (AB):|[C6E6]|]
+

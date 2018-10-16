@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X: 11
+T: Sotarelåten
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+Z: LP
+M: 3/4
+L: 1/8
+K: G
+V:1
+V:2 
+V:3 merge
+V:1
+|:[d2b2] [c2a2] [B2g2]|{fg}f>e BgBg|f>B cdcf |1g>B dgfg :|2 [B6g6]|
+|:[D2B2] [GB]>[FA] [GB]>[Ac]|{B}d2 {c}e>d [A2c2]|AfAfAf |1g>B dgfg :|2 [B6g6]|
+V:2 clef=bass
+|:[G,,2 D,2B,2] C2 B,2|G,2 [B,2 D2] [B,2 D2]|D,2 [A,2 C2 D2] [A,2 C2 D2]|1G,2 [B,2 D2] [B,2 D2]:|2 [G,2D2] G,,4|
+|:G,2 [B,2 D2] [B,2 D2]|G,2 [B,2 D2] [D,2 F,2A,2D2]|D,2 [F,2 A,2 D2] [F,2 A,2 D2]|1 G,2 [B,2 D2] [B,2 D2] :|2 [G,2D2] G,,4|
+V:3 clef=bass
+|:z6|G,6|D,6|1G,6:|2 z6|
+|:G,6|G,6|D,6|1 G,6 :|2 z2 G,,4|
+

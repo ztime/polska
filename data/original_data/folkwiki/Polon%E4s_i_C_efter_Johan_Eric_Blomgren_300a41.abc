@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:319
+T:Polonäs i C efter Johan Eric Blomgren
+R:Slängpolska
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=Ma+13a&bildnr=00115
+S:efter Johan Eric Blomgren
+N:Jämför originalnoterna. Med reservation för fel vad gäller bågarnas start och slut.
+Z:Nils L
+M:3/4
+L:1/16
+K:C
+c2(cd) (ec)fd g4 | (af)(ge) (fd)cB c4 | (cf)(af) (cf)(af) (cf)(af) | (ce)(ge) (ce)(ge) (ce)(ge) | 
+(cf)(af) (cf)(af) (cf)(af) | (ce)(ge) (ce)(ge) (ce)(ge) | (af)(ge) (fd)(ec) (dB)(cA) | Gfed d4 c4 ::
+d(cB)c d(Bc)A( BGA^F) | G(Bdg) D(^FAc) {c}B4 | B(GAB) c(de^f) g(fge) | d(BcA) G4 G,4 | 
+(gf)(ef) (gf)(ef) (gc')(e'g) | (fe)(de) (fe)(de) (fb)(d'f) | e2ce g2eg (c'b)ag | agfe e4 d4 | 
+(gf)(ef) (gf)(ef) (gc')(e'g) | (fe)(de) (fe)(de) (fb)(d'f) | e2ce g2eg (c'b)ag | agfe e4 d4 | 
+"^F:"[df]4 G,dfd G,dfd | [df]2[ec]2 G,cec G,cec | [ce]2[Bd]2 [Bd]8 | 
+(gc')(e'g) (gf)d'f {f}e4 | (ce)(gc') (e'd')c'b c'4 | (gc')(e'g) (gf)d'f {f}e4 | (ce)(gc') (e'd')c'b c'4 | 
+(ag)(ab) (c'b)(c'd') c'2(ef) | gfed d4 c4 :| || (AF)(Ac) (AF)(Ac) (AF)(Ac) | (GE)(Gc) (GE)(Gc) (GE)(Gc) ||
+"^F."d2f2 f2e2 e2d2 & A2d2 d2c2 c2F2 | c2e2 e2d2 d2c2 & E2c2 c2B2 B2E2 | gfed edcB c4 | 
+(af)(cf) (af)(cf) (af)(cf) | (ge)(ce) (ge)(ce) (ge)(ce) | gfed edcB c4 "^F."| 
+f2f2 f2f2 f2f2 & d2d2 d2d2 d2d2 | e2e2 e2e2 e2e2 & c2c2 c2c2 c2c2 |  e2d2 d8 & c2B2 B8 |
+

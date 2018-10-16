@@ -1,0 +1,42 @@
+%%abc-charset utf-8
+
+X: 12
+T: Nordlingers polska
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+S:Efter J.A. Nordlinger
+Z: LP
+M: 3/4
+L: 1/8
+K: G
+V:1
+V:2 merge
+V:3 
+V:4 merge
+V:1
+G>F G>A B>c|{/B}d2 d>c B//A//B3/2|c2 c>B AF/A/|1 GA/f/ g/f/g/e/ d2:|2 [FA]G [G,4G4]|
+|:G//F//G3/2 B2 d2|d>c [A4c4]|c>d c/B/c/d/ [c2e2]|[ce]>[Bd] B4|
+B>A [D2B2] [D2d2]|[Dd]>c [A4c4]|cdec AF|AG G4:|
+|:g>d B2 d2|d>c [A4c4]|c>d [c2e2] [c2e2]| [ce]>[Bd] B4|
+g>d B2 B>d|d>[Ac] [A4c4]|cd ec AF|[FA]G [G,4G4]:|
+V:2
+z6|z6|z6|1 z6:|2 z6|
+|:z6|z6|z2 e2 z2|z6|
+z6|z6|z6|z6:|
+|:z6|z6|z2 e2 z2|z6|
+z6|z6|z6|z6:|
+V:3 clef=bass
+G,6|G,6|D,6|1 z6:|2 G,2 G,,4|
+|:G,6|D,6|D,6|G,6|
+G,6|D,6|D,6|G,6:|
+|:G,6 |D,6|D,6 |G,6 |
+G,6 |D,6|D,6|G,2 G,,4:|
+V:4  clef=bass
+[B,2D2] [B,2D2] [B,2D2]|[B,2D2] [B,2D2] [B,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|1 [G,2B,2D2] [G,2B,2D2] [G,2B,2D2]:|2 CB, z4|
+|:[B,2D2] [B,2D2] [B,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[B,2D2] [B,2D2] [B,2D2]|
+z2 B,2 B,2|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[F,2A,2D2] [F,2A,2D2] [A,2C2D2]|CB, B,4:|
+|:[B,2D2] [B,2D2] [B,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[B,2D2] [B,2D2] [B,2D2]|
+[B,2D2] [B,2D2] [B,2D2]|[F,2A,2D2] [F,2A,2D2] [F,2A,2D2]|[F,2A,2D2] [F,2A,2D2] [A,2C2D2]|CB, G,,4:|
+

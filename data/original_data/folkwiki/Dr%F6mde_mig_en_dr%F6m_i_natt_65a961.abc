@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:1
+T:Drömde mig en dröm i natt
+R:Visa
+O:Lund, Skåne
+C:Arr av Åke Persson
+Z:Åke Persson, 2011-09-26
+N:Finns inspelad på CD:n "60 fiddlers", som inspelades i samband med sjösättnngen av vikingaskeppet "Havhingsten fra Glendalough" i Roskilde 2004.
+M:3/4
+L:1/4
+Q:1/4=170
+K:D
+"Intro med pizzicato"!+!G2!+!B | !+!A2 !+!B | !+!G2 !+!F | +fermata+!+!E2 z | z3 | 
+L:1/8
+K:C
+[M:3/4]"Del 1"|: B2 Bd cd | B2 A2 G2 | B2 d2 dd | dB G4 |
+B2 d2 c2 | d2 (dcB) d | A2 (BAG) B | d2 A4 |
+B2 Bd cd | B2 A2 G2 | B2 d2 dd | dB G4 |]
+[K:G]"Del 2"[| G2 GB AB | G2 F2 E2 | G2 B2 BB | BG E4 |
+G2 B2 A2 | B2 BAG B | F2 GFE G | B2 F4 |
+G2 GB AB | G2 F2 E2 | G2 B2 BB | BG E4 :|
+[K:C]"Coda" | B2 Bd cd | B2 A2 G2 | B2 d2 dd | dB G4 ||
+

@@ -1,0 +1,27 @@
+%%abc-charset utf-8
+
+X:3642
+T:Vävarschottis
+C:Hasse Lind
+O:Hemfosa
+R:Schottis
+N:Arr. & abc-transk. Lennart Sohlman
+M: 2/4
+L: 1/16
+Q:1/8=140
+K:G
+V:1
+K:D
+D>FAd f2f2|g>fed c2B2|A2a2 a2ba|g2fe f2d2|!
+D>FAd f2f2|g>fed c2B2|A2a2 (3(aba) (3(gfe)|e>ddc d2z2::!
+K:G
+B2G2 E2D2-|D2GB A3B|c2A2 F2D2|e2dc B2GA|!
+B2G2 E2D2-|D2GB A3B|c>BAG F>ED^C|[1D>FAF G3A:|[2D>FAF G4|]
+V:2
+K:D
+A,>DFA d2d2|e>dcB A2G2|E>Ac2 c2Bc|e2dc d2A2|!
+d>AFA d2d2|e>dcB A2G2|E>Ac2 c2AG|G>FFE [F2A2]z2::!
+K:G
+G2D2 C2B,2-|B,2DG F3G|A2F2 D2(AB)|c2BA G2DF|!
+G2D2 C2B,2-|B,2DG F3G|A>GFD A>GFE|[1F>AcA B3D:|[2F>DCA, [B,4D4|]
+

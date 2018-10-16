@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X:1
+T:Marsch efter Simon Gustafsson
+R:Marsch
+Z:Transkriberad till abc av Robert Boström
+O:Hovmantorp, Småland. 
+S:Efter Magnus Gustafsson
+N:Utlärd av Magnus Gustafsson på en kurs på Gamleby fhsk 2017
+M:2/4
+L:1/8
+K:D
+Q:1/4=85
+A|:dd cd |e2 AB/c/|dd BG/B/|A3A|
+dd ef|g3/2f/ ed|1dd ef|e3A:|2cc/d/ ec|d2ef||
+|:g2bg|f/g/a/f/ df|e/f/g/e/ c/A/c/e/|d/c/d/e/ fe/f/|
+g2bg|f/g/a/f/ df|e/f/g/e/ c/A/c/e/|1d2ef:|2d4||
+%%begintext
+Utlärd av Magnus Gustafsson på en kurs på Gamleby fhsk 2017. Transkriberad till abc av Robert Boström
+%%endtext
+

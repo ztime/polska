@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:1
+T:Brind-Nils Mazurka
+R:Mazurka
+S:Nils Almewall
+O:Lansjärv, Norrbotten
+Z:Johan Dahlberg
+M:3/4
+L:1/8
+K:G
+%%MIDI gchord fzcccz
+"G" dd d"C"e "G"dd |\
+%%MIDI gchord fzczcz
+dB GB |"D7" cc cA FA|"G"dd dB G2|
+%%MIDI gchord fzcccz
+"G" dd d"C"e "G"dd |\
+%%MIDI gchord fzczcz
+dB GB |"D7" cc cA FA|"G"G4 G2:|
+|:"G" BB BG Bd|"C"cc cB AG|"D"FF FD FA|"G"GG GB D2|
+"Em" BB BG Bd|"Am"cc cB AG|"D"FF FD FA|"G"G2 G2:|
+

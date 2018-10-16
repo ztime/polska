@@ -1,0 +1,31 @@
+%%abc-charset utf-8
+
+X:1
+T:Hambo på logen
+C:Karl Salomonsson, text Anna Fina Wahlin
+R:Hambo
+O:Halland
+M:3/4
+L:1/8
+K:G
+V:1
+|: D2 D>E D>C | B,2 D>G B2 | G2 G>A G>E | G2 F4 | D2 D>F E>F |
+D2 F<A d2 | d2 d>e d>c | c2 B4 | D2 D>E D>C | B,2 D<G B2 |
+G2 G>A G>F | F2 E4 | c2 c>B A>c | B2 B>A G>B | A2 A>F D>F | G2 G4 :|
+|: B>c d2 dB | GA B4 | G>A B2 A>G | G2 F4 |
+w:Stem fi-o-len du spel-man glad och sätt far-ten på strå-ken
+A>B c2 c>B | AG F4 | F>G F2 E>F | E2 D3 D |
+w:Här är vän-nen och här är jag Vi ska dan-sa som hog-en. Det
+B,>C D2 DC |B,D G3 G | F>G A2 A2 | G2 A2 B2 | 
+w:sprit-tar gläd-je från topp till tå och det vär-mer i blo-gen. Men
+c>d e2 c>c | B>c d2 B2 | A>B c>A F>A | G2 G4 :|
+w:ing-en-ting går väl upp än-då e-mot en ham-bo på-å lo-gen
+V:2
+|: B,2 B,>C B,>A, | G,2 B,>D G>D | B,2 B,>C B,>G, | A,2 D4 | F2 F>D ^C>D |
+F2 A<G F2 | F2 F>G F>E | E2 D4 | B,2 B,>C B,>A, | G,2 B,>D G>D |
+B,2 B,>C B,>A, | A,2 C4 | E2 E>D E>A | G2 G>F G>D | C2 C>D C>A, | B,2 B,4 :|
+|: G>A B2 BG | DA G3 D | B,>D G2 D>B, | B,2 A,4 |
+F>G A2 AG | FE D4 | D>E D2 C>A, | G,2 B,4 | 
+G,>A, B,2 B,A |GC B,4 | D>E F>D C2 | B,2 C2 D2 | E>F G2 G2 | G>A B2 G2 |
+F>G A>F D>C | B,2 B,4 :|
+

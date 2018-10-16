@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+Q: 100
+%%printtempo 0
+T:Polska efter Anders Fredrik Andersson
+L:1/16
+M:3/4
+R: Slängpolska
+O: Tryserum, Småland
+S: Efter Anders Fredrik Andersson
+D: Spår 16 på "Fors" av Pelle Björnlert, Giga 2001 GCD-57
+D: Spår 19 på "Bara för ros skull" av Anders Svensson, Giga 2005 GCD-72
+K:Am
+A2>B2 cBA^G G2A2 | AEAB cBA^G G2A2 | A^GAB cBcd ede^f | g^fed d2e2 e4 :|
+K:A
+|e2a2 a2g2- a4 | e2fe d2f2 f2e2 | c2cd B2Bc ABcd | e2a2 agbg e4 |
+e2a2 a2g2- a4 | e2fe d2f2 f2e2 | c2cd B2Bc A2c2 | cBAG B4 A4 :|
+

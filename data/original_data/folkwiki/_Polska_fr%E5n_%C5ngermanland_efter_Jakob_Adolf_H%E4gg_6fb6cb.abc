@@ -1,0 +1,28 @@
+%%abc-charset utf-8
+
+X: 7
+T: Polska från Ångermanland efter Jakob Adolf Hägg
+B: 19 Norrlandspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Ångermanland
+S:Efter Jakob Adolf Hägg
+Z: LP
+M: 3/4
+L: 1/8
+K: G
+V:1
+V:2
+V:3 merge
+V:1
+|:d2 B2 (Bd)|(c/B/c) [A2c2] [A2c2]|(Bd/g/ b>a f>a)|g2 d2 d2:|
+|:(d>^c d2) g2|gf d2 d2|(d>^c dc' ba)|(b2 {fga}gd Bc)|
+d>^c d2 g2|gf d2 d2|(d>^c dc' ba|g2 [G4G,4]):|
+V:2 clef=bass
+G,6|D,6|G,4 D,2|G,6:|
+|:G,6|D,6|D,6|G,6|
+G,6|D,6|D,6|G,4 z2:|
+V:3 clef=bass
+z2 [B,2D2] [B,2D2]|z2 [F,2A,2D2] [F,2A,2D2]|z2 [B,2D2] C2|z2 [B,2D2] [B,2D2]:|
+|:z2 [B,2D2] [B,2D2]|z2 [F,2A,2D2] [F,2A,2D2]|z2 [F,2A,2D2] [F,2A,2D2]|z2 [B,2D2] [B,2D2]|
+z2 [B,2D2] [B,2D2]|z2 [F,2A,2D2] [F,2A,2D2]|z2 [F,2A,2D2] [A,2C2D2]|z2 [B,4D4]:|
+

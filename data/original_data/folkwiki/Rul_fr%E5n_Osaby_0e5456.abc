@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Rul från Osaby
+R:Engelska
+Z:Transkriberad till abc av Robert Boström
+O:Osaby, Småland. 
+S:Efter Magnus Gustafsson
+N:Utlärd av Magnus Gustafsson på en kurs på Gamleby fhsk 2017
+M:2/4
+L:1/16
+K:D
+Q:1/4=95
+|:A2d2 edcB|BGBG A2 +trill+B2|Acec Acec|e3d dcBA|
+A2d2 edcB|BGBG A2 +trill+B2|Acec Acec|1e2d2 d3A:|2e2d2 d3e|
+K:Dm
+|:f2a2 bagf|egeg agfe|d2f2 e^cAc|d2f2 a3f|
+f2a2 bagf|egeg agfe|d2f2 e^cAc|1e2d2 d3e:|2e2d2 d4||
+

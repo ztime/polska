@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Kyllingapolka
+R:Polka
+S:efter Arne W
+O:Skåne
+N:Redi skånsk rönackemusik
+Z:Patrik Månsson, 2009-06-12
+Q:1/4=105
+M:2/4
+L:1/16
+K:C
+|: {^F}G2{^F}G2 {^F}G2{^F}G2 | {^F}G2{^F}G2 e4 | {^F}G2{^F}G2 d4 | {^F}G2{^F}G2 c4 |  
+   {^F}G2{^F}G2 {^F}G2{^F}G2 | {^F}G2{^F}G2 e4 | {^F}G2{^F}G2 d2Bd |[1 c2cc c4 :|[2 c2c2 c4 |]
+|: cBAB cBAc | B2ee e2e2 | cBAB cBAc |[1 B2EE E2E2 :|[2 e4 z4 |]
+|: edcd edce | dcBc dcBd | cBAB cA^FA | GABc d2d2 | 
+   edcd edce | dcBc dcBd | cBAB cA^FA | A2G2 G4 :|
+

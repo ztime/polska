@@ -1,0 +1,16 @@
+%%abc-charset utf-8
+
+X:1
+T:Polsk
+T:(Totakt-pols, nr. HJH-278)
+S:efter Hans Jens Hansen,
+O:Hjertinge, Ribe amt, Danmark
+R:Totakt-pols
+Z:Åke Persson 2011-06-24
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+|: C | FA cf/g/ | fe ed | cB A/B/A/G/ | GF FC | FA cf/g/ | fe ed | cB A/B/A/G/ | A zz :|
+|: c | ff g/f/e/f/ | gg a/g/f/g/ | aa ba/b/ | ag gc | ff g/f/e/f/ | gg a/g/f/g/ | aa b/g/f/g/ | fzz :|
+

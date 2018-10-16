@@ -1,0 +1,23 @@
+%%abc-charset utf-8
+
+X:1
+T:Mötet
+R:Schottis
+M:4/4
+L:1/8
+C:Anton Teljebäck
+K:Dm
+V:1
+|: "Dm" vAAcA (dc)(AG) | AAcA (dc)(AG) | "Bb" F2D(F F)DFG | AAcA (dc)A2 |
+"C" AAcA (dc)(AG) | AAcA (dc)(AG) |"Am" F2D(F F)DCD |1 FDC(E E4) :|2 FDC(D "Dm"D2)z2 ||
+|:"Bb"(vB,C)(DF) DCB,(C | C)D2F D2(FG) |"F" AAcA (dc)(AG) | F2 D(F F)D FD |  
+"Gm" (B,C)(DF) DCB,(C | C)D2F D2(FG) |"Am" AAcA (dc)(AG) | "Bb" F2D(F "C" F)DF2 |"Dm"D(F F)D "F"F2 (DC):|"Dm"Dz z2 z4 ||
+V:2
+I:repbra 0
+|:vD3vD3vD2- |  D8 | vB,3vB,3vB,2- | B,8 | vC3vC3vC2- |  C8 | vA,3vA,3vA,2- |1 A,8 :|2 A,4uD4 ||
+|: vB,3vB,3vB,2- | B,8 | vF3vF3vF2- | F8 | vG,3vG,3vG,2- | G,8 | uA,8 | vB,4 uC4 | vD4 uF4 :| vDz z2 z4 ||  
+V:3
+I:repbra 0
+|:vD,3vD,3vD,2- |  D,8 | vB,,3vB,,3vB,,2- | B,,8 | vC,3vC,3vC,2- |  C,8 | vA,,3vA,,3vA,,2- |1 A,,8 :|2 A,,4uD,4 ||
+|: vB,,3vB,,3vB,,2- | B,,8 | vF,3vF,3vF,2- | F,8 | vG,,3vG,,3vG,,2- | G,,8 | uA,,8 | vB,,4 uC,4 | vD,4 uF,4 :| vD,z z2 z4 ||
+

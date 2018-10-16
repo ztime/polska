@@ -1,0 +1,28 @@
+%%abc-charset utf-8
+
+X: 20
+T: Polska efter Jakob Adolf Hägg
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+Z: LP
+M: 3/4
+L: 1/16
+K: F
+V:1
+V:2
+V:3 merge
+V:1
+ cdcB A2c2 f2a2|a2g2 g6 a2|1 b2>e2 g6 g2|a2>g2 f8 :|2 b2>e2 g4 g2>a2|a2>g2 f8 |
+|:cdcA F2A2 c2f2|f2>e2 [B8e8]|1 B2G2E2G2 c2e2|g2a2 f8:|2 b2>g2 e4 e2>g2|a2>g2 f8|
+|:A2B2 A2c2 c2c2|{fg}f2e2 d2B2 B2B2|1 E2G2 B2B2 B2B2|d2c2 A2C2 [C2F2][C2F2]:|2 b2g2 e2c2 e2g2|g2a2 f8|
+V:2 clef=bass
+ F,12|C,12|1 C,12|F,4 F,4 F,4 :|2 C,12|F,4 [F,8A,8] |
+|:F,12|C,12|1 C,12|F,4 [F,4A,4] [F,4A,4]:|2 C,12|F,4 [F,8A,8]|
+|:F,12|B,,12|1 C,12|F,12:|2 C,12|F,4 [F,8A,8]|
+V:3 clef=bass
+ z4 [A,4C4F4] [A,4C4F4]|z4 [B,4C4E4] [B,4C4E4]|1 z4 [B,4C4E4] [B,4C4E4]|C2>B,2 A,8 :|2 z4 [B,4C4E4] [B,4C4E4]|C2>B,2 z8 |
+|:z4 [A,4C4] [A,4C4]|z4 [G,4C4] [G,4C4]|1 z4 [B,4C4] [B,4C4E4]|B,2C2 z8:|2 z4 [B,4C4] [B,4C4]|C2>B,2 z8|
+|:z4 [A,4C4] [A,4C4]|z4 [F,4B,4D4]  [F,4B,4D4]|1 z4 [E,4G,4C4] [E,4G,4C4]|z4 A,4 A,4:|2 z4 [B,4C4E4] [B,4C4E4]|B,2C2 z8|
+

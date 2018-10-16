@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X:18
+T:Polonäs efter Andreas Grevelius (nr 18)
+S:efter Andreas Grevelius
+R:Slängpolska
+M:3/4
+L:1/8
+O:Småland
+D:[[Personer/Ditte Andersson]] (MCM 4001) - Polska i Dm efter [[Personer/Anders Liljefors den äldre]] (en variant av "var 1")
+B:SMUS katalog M93 bild 18
+B:Jämför SMUS - katalog Ma4 bild 14 nr 5 ur [[Notböcker/Kumlins notsamling]] med hela 7 varianter.
+B:Jämför SMUS - katalog M29 bild 42 nr 43 (andrareprisen) ur [[Notböcker/AP Roos notbok]]
+N:Återställningstecknen på H finns inte i originalnoterna.
+Z:Nils L
+K:Dm
+d2 DdDd | e2 EeEe | f2 gfed | ^c=BAGFE | DdDdDd | e2 EeEe | fagfed | f/e/d/^c/ d2 D2 ::
+a2 FaFa | g2 EgEg | gf DfDf | ed ^c/d/e/c/ A2 | d2 DdDd | e2 EeEe | f2 gfed |  f/e/d/^c/ d2 D2 :|
+"Var 1"
+L:1/16
+d4 DFAF D2d2 | e4 A,^CEC A,4 | f2ef agfe gfed | d^cdf edc=B AGFE | 
+D2d2 DFAF D2d2 | Se4 A,^CEC A,4 | f2ef agfe gfed | fed^c d4 D4 ::
+afcA FAcf afaf | gecG EGce gege | fdAF DFAd fafd | d^cdf edc=B AGFE | D2d2 "Da capo al segno" DFAF D2d2 | 
+"Var 2"
+L:1/16 
+[fd]A[fd]A [fd]A[fd]A [fd]A[fd]A | [e^c]A[e^c]A [ec]A[ec]A [ec]A[ec]A | [fd]A[fd]A [ge]A[ge]A [fd]A[fd]A | [e^c]A[ec]A edc=B AGFE S | 
+D2[fd]A    [fd]A[fd]A [fd]A[fd]A | [e^c]A[e^c]A [ec]A[ec]A [ec]A[ec]A | [fd]A[fd]A [ge]A[ge]A [fd]A[fd]A | [e^c]A[ec]A d4 D4 ::
+[af]c[af]c [af]c[af]c [af]c[af]c | [ge]c[ge]c [ge]c[ge]c [ge]c[ge]c | [fd]A[fd]A [fd]A[fd]A [fd]A[fd]A | "_korstecken ej i original"[e^c]A[ec]A "Da capo al segno"edc=B AGFE |
+

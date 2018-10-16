@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:202
+T:Polska av Sven Donat 
+T:(MA5-202) Comp. d 6 Sept. 1792
+R:Polska
+C:Sven Donat
+O:Småland
+N:MA5, låt 202, sida 203
+N:SMUS
+N:Småländs Musiktradition I:200
+B:Sven Donats notbok
+Z:Till abc av Jonas Brunskog
+M:3/4
+L:1/16
+K:Am
+|:A,CE^G A2AB c2Bc|dcBA cBA^G A2A,2|A,CE^G A2AB c2Bc|dcBA cBA^G A4:|
+|:ABcd e2ec e2ec|g2ge f2fd egec|ABcd e2ec e2ec|g2ge f2fd egec|
+AcBA ^GABG E4| AcBA ^GABG E4|A^GAB cBcd e2e2|cBA^G A4 A4:|
+

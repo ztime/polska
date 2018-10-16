@@ -1,0 +1,29 @@
+%%abc-charset utf-8
+
+X: 4
+T: Sparflåten
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+Z: LP
+M: 3/4
+L: 1/8
+K: Dm
+V:1
+V:2 merge
+V:3
+V:4 merge
+V:1
+|:d^c de/f/ ed|A/=B/^c/d/ eg {fg}fe|1 fc ba/g/ ag/f/| e/f/g/e/ f/e/f [^c2e2]:|2 fc bc af|f/e/d/^c/ dA/F/ D2| 
+|:a/f/c/A/  F/c/a/c/ F/c/a/c/|g/e/=B/G/  E/B/g/B/  E/B/g/B/|1 f/e/d/^c/ de/f/ de/f/|a/f/e/d/ ^c/d/e/c/ A2:|2 f/e/d/^c/ d/e/f/g/ ad|f/e/d/^c/ d4|
+V:2 
+|:z6|z6|1 z6|z2 d2 z2:|2 z6|z6|
+|:z6|z6|1 z6|z6:|2 z6|z6|
+V:3 clef=bass
+|:[D,6F,6A,6]|[^C,6G,6A,6]|1 [=C,2F,2A,2] [G,2B,2] [F,2A,2]|[^C,2G,2A,2] [D,2F,2A,2] [A,,2A,2]:|2 [F,2A,2] [G,2B,2] [F,2A,2]|[A,,2G,2A,2] [D,2F,2A,2] D,,2|
+|:F,6|E,6|1 [D,2F,2A,2] [D,2F,2A,2] [D,2F,2A,2]|[D2F2] E2 [A,,2^C,2E,2A,2]:|2 [D,2D2] [D,2F,2A,2D2] [F,2A,2D2]|[A,,2G,2A,2] D,4|
+V:4 clef=bass
+|:z6|z6|1 z6|z6:|2 =C,6|z6|
+|:z6|z6|1 z6|A,6:|2 z6|z2 DA,/F,/ D,2|
+

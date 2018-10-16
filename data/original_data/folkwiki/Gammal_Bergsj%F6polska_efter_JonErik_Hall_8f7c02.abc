@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:6
+T:Gammal Bergsjöpolska efter Jon-Erik Hall
+T:(SvL Hälsingland 6)
+S:Jon-Erik Hall
+R:Polska
+B:Svenska Låtar Hälsingland
+N:Ur SvL: Låten är en gammal Bergsjöpolska. Hall trodde att han lärt den av en farbroder, Fors, som också spelat fiol.
+N:Youtubevideo.
+Z:Till abc Jonas Brunskog
+M:3/4
+L:1/8
+K:Dm
+[AD]d/d/ dd d>e|fe/d/ e/z/A A>(e|f/)e/f/g/ (a/g/)f/e/ (g/f/)e/d/|(^c/d/)e/f/ (e/d/)c/B/ A/G/F/E/|
+[AD]d/d/ dd d>e|fe/d/ e/z/A A>(e|f/)e/f/g/ (a/g/)f/e/ (g/f/)e/d/|(^c/d/)e/c/ [dD]4:|
+|:a2 [cF]a [cF]a|(ag) [cE]g [cE]g|f>e d>(e/f//) d>(e/f//)|g/f/e/d/ ^c/z/A A2|
+a2 [cF]a [cF]a|(ag) [cE]g [cE]g|f>e d>(e/f//) d>(e/f//)|g/f/e/d/ ^c/z/A A2|
+A/B/A/G/ F2 E2|(F/E/)D/^C/ D2 Az/e/|(f/e/)f/g/ a/z/(f e)a|(f/e/)d/^c/ [dD]4:|
+

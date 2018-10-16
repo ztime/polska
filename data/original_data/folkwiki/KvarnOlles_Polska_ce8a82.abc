@@ -1,0 +1,42 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:11
+T:Kvarn-Olles Polska
+B:25 Västgötalåtar arrangerade för två fioler och altfiol, Gösta Klemming, 1978, Göteborgs Spelmansgille
+O:Kalv, Västergötland
+C:efter Karl Salomonsson
+C:efter Kvarn-Olle
+N:Kvarn-Olle var mjölnare på en skvaltkvarn under Erikslunds gård i Kalv.
+Z:Per Bergsten, 2017-09-17
+R:Polska
+M:3/4
+L:1/8
+K:G
+V:1 name="Violin 1 "
+dB/d/  (.g.f)ed | dB/c/ (.d.B) G2 | BA/B/ cAFD | DE/F/ (.G.D)B,G, |
+dB/d/  (.g.f)ed | dB/c/ (.d.B) G2 | BA/B/ (c/B/)A/G/ FD/F/ | A2 [B,G]2 z2 :|]
+|: F/F/A/A/ F/F/A/A/  F/F/A/A/ | G/G/B/B/ G/G/B/B/ G/G/B/B/ | \
+   ^c/c/e/e/  ^c/c/e/e/  ^c/c/e/e/ | d/d/f/f/ d/d/A/A/ F/F/D/D/ | 
+dB/d/  (.g.f)ed | dB/c/ (.d.B) G2 | BA/B/ (c/B/)A/G/ FD/F/ | A2 [B,G]2 z2 :|]
+|: BE/E/ BE/E/ BE/E/ | BG/G/ BG/G/ BG/G/ | (A/B/)c/B/ (A/B/)c/B/ AA |
+G/B/f G/B/f G/B/f | gg/f/ ee/g/ fB | (A/B/)c/B/ (A/B/)c/B/ AA | 
+G/A/B G/A/B GG | [GB]6 | ee/f/ gg/e/ ff/e/ | Bd/f/ [Be]4 :|]
+V:2 name="Violin 2 "
+BG/B/ .B.dcB | BG/A/ (.B.G) D2 | GF/G/ AFDC | C2 (.D.B) G,2 |
+BG/B/ .B.dcB | BG/A/ (.B.G) D2 | GF/G/ (A/G/)F/E/ (DC) | [CD]2 [B,D]2 z2 :|]
+ |: DF DF DF | DG DG DG | A^c A^c A^c | Ad AF DA, |
+BG/B/ (.B.d)cB | BG/A/ (.B.G) D2 | GF/G/ (A/G/)F/E/ (DC) | [CD]2 [B,D]2 z2 :|]
+|: "pizz" .E.B, .E.B, .E.B, | .G.E .G.E .G.E | "arco" EA EA EE |
+Fd Fd Fd | ee/B/ BB/e/ BF | EA EA EE | 
+DG DG EE | E6 | BB ee/B/ BB | FB/d/ [EB]4 :|]
+V:3 clef=C name="Alt"
+G,2 D2 G,2 | G,2 B,G, D,2 | D,2 F,2 D,2 | A,2 B,G, D,2 |
+G,2 D2 G,2 | G,2 B,G, D,2 | D,2 F,D, A,A, | F,2 [D,G,]2 z2  :|]
+|: (A,/F,/)D,/F,/ (A,/F,/)D,/F,/ (A,/F,/)D,/F,/ | (B,/G,/)D,/G,/ (B,/G,/)D,/G,/ (B,/G,/)D,/G,/ | \
+   (e,/^C/)A,/C/ (e,/^C/)A,/C/ (e,/^C/)A,/C/ | F/F/D/D/ A,/A,/F,/F,/ D,/D,/F,/F,/ |
+G,2 D2 G,2 | G,2 B,G, D,2 | D,2 F,D, A,A, | F,2 [D,G,]2 z2  :|]
+|: "pizz" .G,.E, .G,.E, .G,.E, | .G,.E, .G,.E, .G,.E, | "arco" C,E, C,E, C,2 |
+D,F, D,F, D,F, | B,B, G,G, B,2 | CE, CE, C2 |
+D,E, D,E, E,B, | E,6 | G,G, B,B, A,A, | D,F, [E,G,]4 :|]
+

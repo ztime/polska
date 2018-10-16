@@ -1,0 +1,17 @@
+%%abc-charset utf-8
+
+X: 1 
+T: Bussen
+C: Magnus Samuelsson 
+C: Arr. K. Pettersson, 2007 
+Z: .andersson 
+M: 6/8 
+L: 1/8 
+K: A 
+Q: 180 
+V:1 
+|: A(ce) a3 | ({b}age) f3 | ({g}fed) c(Ac) | B(c^d) e3 |
+A(ce) a3 | ({b}age) f3 | ({g}fed) c(Ac) | B(AG) A3:|
+|: B2[Be] c2[ce] | d2[de] c2[ce] | B2[Be] c2[ce] | d(cA) B2B |
+B2[Be] c2[ce] | d2[de] c2[ce] | a(gf) e(dc) | B(AG) A3 :| 
+

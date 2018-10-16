@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:24
+M:3/4
+L:1/16
+T:Isbrytaren, polska efter Byss-Kalle (nr 24)
+R:Slängpolska
+O:Uppland
+S:efter Byss-Kalle
+Z:Nils L, 2007-12-14 
+B:57 låtar efter Byss-Kalle nr 24
+N:SMUS - katalog M155 bild 32 i 2/4-takt ur [[Notböcker/Fredrik Sallings nothäfte]] från [[Platser/Dalarna]] uppvisar vissa likheter, men det kanske är en slump.
+N: Jämför 56 Sörmländska låtar (pdf) nr 18 efter [[Personer/A G Rosenberg]], [[Platser/Flodafors]].
+O:efter Byss-Kalle, Uppland
+K:G
+DG |               G2dB G2bg  d2gd  | !pralltriller!B2dB G2Bd (cB)AG | (FG)AB !pralltriller!c2ed (cB)AG | (FG)BA (GF)GE D4 | 
+     !pralltriller!G2dB G2bg  d2gd  | !pralltriller!B2dB G2Bd (cB)AG | (FG)AB               c2ed (cB)AG | (FG)AF G6       :| 
+dc | B2dB g4    B2d2  | c4   edcB  A2c2  | B2d2   e4   A2B2   | c4 (dc)BA  B2dc  |
+     B2dB g4    B2d2  | c4   edcB  A2c2  | B2d2   g2b2 (ab)ag | (fg)af g6       :|
+|: g2 | (fg)af (ef)ge (gf)ed | (^cd)ec d2AF  D2>G2  | (GB)dg (ge)ce (ed)Bd | 
+     (dc)Ae (dc)Ad g2>g2  | (ge)ce (ed)Bd (dc)Ac | (BA)GF G4 G2dc       |
+     (BG)Bd (BG)Bd (ed)cB | (AF)Ac (AF)Ac (dc)BA | (GB)dg (ge)ce (ed)Bd |
+     (dc)Ae (dc)Ac g2>g2  | (ge)ce (ed)Bd (dc)Ac | (BA)GF G6           :|
+

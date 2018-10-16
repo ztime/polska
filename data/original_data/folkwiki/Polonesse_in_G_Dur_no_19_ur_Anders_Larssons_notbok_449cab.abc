@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:21
+T:Polonesse in G Dur no 19 ur Anders Larssons notbok
+S:Ur Anders Larssons notbok (1810-1813)
+O:Östra Ryd, Östergötland
+R:Slängpolska
+B: Anders Larssons notbok
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+189&bildnr=00007
+Z:Till abc av Olle Paulsson
+N:korrekturläs gärna
+M:3/4
+L:1/16
+K:G
+d2ef g2fe d2cB|G2Bd (dcAF) G4|(DGBd) cdBc (AcBc)|
+(dgfg) (agfg) egfg|(agfe) (dcBA) (BcdB)|ecAF G4 G,4::
+GABc "^Pizz"[B2G,2][B2G,2][B2G,2][B2G,2]|B2GB A2FA G2G,2|Bdcd Adcd efge|
+bgec d4 D4|DFAc "^Pizz"[B2G,2][B2G,2][B2G,2][B2G,2]|DGBd "^Pizz"[c2E2][c2E2][c2E2][c2E2]|G,A,CG
+BdcB c2A,2|A,cBc egfa g2G2|Bdcd BcAB GBcd|ecAF G4 G,4:|
+

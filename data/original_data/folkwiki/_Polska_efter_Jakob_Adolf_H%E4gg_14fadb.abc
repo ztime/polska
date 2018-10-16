@@ -1,0 +1,46 @@
+%%abc-charset utf-8
+
+X: 9
+T: Polska efter Jakob Adolf Hägg
+B: 21 Bjuråkerspolskor samlade och satta för piano af Jakob Adolf Hägg
+R: Polska
+O: Bjuråker, Hälsingland
+S:Efter Jakob Adolf Hägg
+N: Jfr "Soluppgång över Dellen" e From-Olle & Grubb-Anders Jonsson
+Z: LP
+M: 3/4
+L: 1/8
+K: C
+V:1
+V:2 merge
+V:3
+V:4 merge
+V:1
+|:g2 {a/} (3g^fg (3a=fd|fe [G4e4]|d3 efd|1 c/B/A/B/ cGEC:|2 c/B/A/B/ [F2d2][E2c2]|
+|:d3 gbg| dB/d/ cA/c/ B/A/B/c/| d3 gbg| dB/d/ cA/c/ B2| 
+{B8/5c8/5}BA/B/ cA G>^F| ^FG G4 :| 
+|:d2 dc {B/c/}B/A/B/d/|cE [CE]G (3cec'|c'2 c'a g/^f/e/^f/|g2 G>=F E/D/E/F/|
+G3 cec|(3GEG (3FDF E/D/E/F/|G3 cec|(3GEG (3FDF E2|
+{A}a>g {fg}f>e d>c|B/G/B/d/ [E4c4]:| 
+V:2 
+|:z6|z6|G6|1 F2 E2 z2:|2 z6|
+|:z6|z6|z6|z6|
+z6|z6:|
+|:z6|z6|z6|z6|
+z6|z6|z6|z6|
+z6|z6:|
+V:3 clef=bass
+|:[E,4C4] [F,2A,2]|[G,2B,2] [C,4C4]|G,6|1 [G,2D2][C,2C2] z2:|2 z2 [G,2B,2][C,2C2]|
+|:[G,B,]D [G,B,]D [G,B,]D|[G,B,]D [^F,A,]D [G,B,]D|[G,B,]D [G,B,]D [G,B,]D|[G,B,]D [^F,A,]D [G,2D2]|
+[D,2G,2] D,4|G,2 G,4:|
+|:[D,F,]G, G,,G, [D,F,]G,|[C,E,]G, [C,E,]G, [C,E,]G,|[A,C]E [A,C]E [D,C]D| [G,2B,2] z4|
+[C,E,]G, [C,E,]G, [C,E,]G,|[C,E,]G, [B,,D,]G, [C,E,]G,|[C,E,]G, [C,E,]G, [C,E,]G,|[C,E,]G, [B,,D,]G, [C,E,]C| 
+F,,2 A>G F>E|[G,2D2F2] [C,2G,2] C,,2:|
+V:4 clef=bass
+|:z6|z6|B,D B,4|1 z6:|2 z6|
+|:z6|z6|z6| z6|
+z2 ^F,A, B,>C |CB, B,2 z2:|
+|:z6|z6|z6|z6|
+z6|z6|z6|z6|
+z6|z6:|
+

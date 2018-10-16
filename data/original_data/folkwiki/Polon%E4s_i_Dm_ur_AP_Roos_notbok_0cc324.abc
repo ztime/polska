@@ -1,0 +1,20 @@
+%%abc-charset utf-8
+
+X:22
+T:Polonäs i Dm ur AP Roos notbok
+R:Slängpolska
+B:AP Roos notbok, nr 22
+B:http://www.smus.se/earkiv/fmk/browselarge.php?lang=sw&katalogid=M+29&bildnr=00038
+O:Horn, Östergötland
+Z:Nils L
+M:3/4
+L:1/16
+N:"Basen stämmes till a". Låten är här ej noterad med hänsyn till stämning och avviker på det sättet från originalet. Ingår även i kategorin [[Tonarter/D]].
+U:t=tenuto
+U:w=wedge
+K:Dm
+wD2wF2wA2(d2 f2)a2 | c'ac'a bgbg a2a2 | afaf gege f2a2 | c'(ac')(a b)gb(g a2)a2 |
+.f2{/g}.f(e g2){/a}.g(f a2)a(f | d2)(d2 e)d.^c.d A4 :: [K:D] A6 A2{/A}G2F2 & A,12 | .E2.F.G .A.G.F.E .E2.D2 & A,4 A,6 x2 |
+D2F2A2d2 f2>d2 | {/e}d2(cd) (ed).c.d [AA,]4 | tA6 tA2tG2tF2 & A,12 | tE2tFtG .A.G.F.E .E2.D2 & x4 A,6 x2 |
+tD2tF2tA2td2 f2>d2 | (cA).c.e e2d2 [dF]4 :|
+

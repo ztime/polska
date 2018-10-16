@@ -1,0 +1,21 @@
+%%abc-charset utf-8
+
+X: 139
+T: Tider som gått, vals efter Manne Bergström
+B: HSFs låtsamling
+R: Vals
+O: Ljusdal, Hälsingland
+S: Efter Manne Bergström
+Z: LP
+M: 3/4
+L: 1/8
+K: A
+(eA) (ce) (ac) | e4 (cA)|(eA) (ce) (ac) |e4 (cd)|
+(EG) (Be) (ge)| b4 b2|(ba) (ag) (gf) | (fe) (ed) (dc)
+(eA) (ce) (ac)| e4 (cA)|(eA) (ce) (ac)| e4 (cd)
+(EG) (Be) (ge)| b2>g2af|e2 (cd)BG| A4-A2::
+AceAce|c'4 c'2| (c'b)(ba)(ag) |(gf)(fe)(ed) |
+EGBege|b4 b2| (ba)(ag)(gf) |(fe)(ec) A2 
+AceAce|c'4 c'2| (c'b)(ba)(ag) |(gf)(fe) (ed)
+EGBege |  b2>g2af|e2 (cd)BG|A4-A2:|
+

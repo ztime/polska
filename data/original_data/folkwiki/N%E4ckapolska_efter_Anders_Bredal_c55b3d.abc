@@ -1,0 +1,24 @@
+%%abc-charset utf-8
+
+X:1
+T:Näckapolska efter Anders Bredal
+R:Slängpolska
+O:Småland
+G:Spelas med fördel på fiol med AEAE-stämning
+S:Utlärd av Jeanett Rousu
+Z:Torbjörn Lundberg
+H:Anders Bredal sägs ha lärt sig denna bit av Näcken en torsdagskväll, under stenbron, vid kyrkan.
+M:none
+K:A
+[K:C]
+%
+"@-20,30 Stämn."[A,EAe]0 \
+%%staffbreak
+M:3/4
+L:1/8
+K:A
+|: e>c AA/2c/2 BB/2c/2 | AA/2c/2 BB/2d/2 c[EA,] | AB/2c/2 d/2e/2f/2g/2 ag/2a/2 | ag/2a/2 b/2a/2g/2f/2 e2 | 
+ e/2f/2e/2c/2 AA/2c/2 BB/2c/2 | AA/2c/2 BB/2d/2 c[EA,] | AB/2c/2 d/2e/2f/2g/2 a/2e/2c/2e/2 | e/2d/2c/2B/2 BA A2 :|
+|: A/2B/2c/2d/2 e!+![A,EAe] e!+![A,EAe] | e/2f/2e/2c/2 e/2d/2c/2d/2 e/2d/2c/2d/2 | A/2B/2c/2d/2 e!+![A,EAe] e!+![A,EAe] | e/2f/2e/2c/2 d/2c/2d/2f/2 e2 |
+ Ac/2A/2 Bd/2B/2 Ac/2A/2 | Bd/2B/2 GB/2G/2 BA | Ac/2A/2 Bd/2B/2 Ac/2A/2 | Bd/2B/2 G/2E/2G/2B/2 A2 :|
+

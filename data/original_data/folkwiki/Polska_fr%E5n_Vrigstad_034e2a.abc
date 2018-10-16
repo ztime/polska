@@ -1,0 +1,18 @@
+%%abc-charset utf-8
+
+X:1
+T:Polska från Vrigstad
+R:Slängpolska
+O:Vrigstad, Småland
+D:Video på youtube: http://www.youtube.com/watch?v=jGmezImis3o
+D: Video 2, med alternativ andra-repris: http://www.youtube.com/watch?v=8Pbx9zrEPE4
+N:Se nr 1613 här för en antydan om stråkmönster.
+Z:Karl Ljungkvist, 2013-02-28
+M:3/4
+L:1/16
+K:D
+|: d3c dcdc dcde | f3e d2c2 B2A2 | B3A BABA BABc | d3c B2A2 G2F2 | E2G2 B2e2 g2e2 | dcBc e4 d4 :|
+|: fgef d2d2 e3f | gfef g2g2 e4 | fgef d2d2 e3f | gfed c2d2 d4 :|
+P:alternativ andra repris
+|:f2f2 d2d2 e2de | f2ef g2g2e4 | f2f2 d2d2 e2ef | gfed c2d2d4 :|
+

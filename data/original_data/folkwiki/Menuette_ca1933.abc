@@ -1,0 +1,22 @@
+%%abc-charset utf-8
+
+X:18
+T:Menuette
+R:Menuett
+O:Östergötland
+B:Magnus Juringius notbok
+N:Smus MMD1 bild 17
+M:3/4
+L:1/8
+K:C
+V:1
+((3G,A,B,) | C2 gege | g2 e2 ((3G,A,B,) | C2 afaf | a2 f2 ((3G,A,B,) | C2 gege | g2 (ec) .c'.g | (ag)(gf)(fe) | (ed) d4 ::
+((3G,A,B,) | c2 g_Bg_B | B2 A2 ((3A,=B,C) |D2 acac | c2 B2 ((3G,A,B,) | C2 gege | g2 e2 c'g | ((3agf) e2 d2 | c6 ::
+EF G2 G2 | G3 FEG | F2 E2 D2 | EDEF E2 | EF G2 G2 | G3 FEG | F2 E2 D2 | {D}C6 ::
+G,B B4 | [EG,]c Tc4 | D2 d2 c2 | BABc B2 | EF G2 G2 | G3 FEG | F2 E2 D2 | {D}C6 :|
+V:2
+((3G,A,B,) | C2 ecec | e2 c2 ((3G,A,B,) | C2 fcfc | f2 c2 ((3G,A,B,) | C2 ecec | e2 g2 e2 | (fe)(ed)(dc) | (cB) B4 ::
+((3G,A,B,) | c2 (_BG)(BG) | G2 F2 ((3A,=B,C) | D2 (cA)(cA) | A2 G2 ((3G,A,B,) | C2 (ec)(ec) | E2 G2 E2 | ((3fed) c2 TB2 | {B}c6 ::
+CD E2 E2 | E3 DCE | D2 C2 B,2 | C2 B,CDC | CD E2 E2 | E3 DCE | D2 C2 B,2 | {D}C6 ::
+G,B,DG,B,D | G,CEG,CE | G,2 B2 A2 | GFGA G2 | CD E2 E2 | E3 DCE | D2 C2 B,2 | {B,}C6 :|
+

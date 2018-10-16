@@ -1,0 +1,14 @@
+%%abc-charset utf-8
+
+X:1
+T:Gruvan
+R:Polska
+O:Dalarna
+M:3/4
+L:1/4
+K:Am
+|: E1 A3/4B1/4 c3/4A1/4 | B1 ^G1/4B3/4 A1 |  E1 A3/4B1/4 c3/4d1/4 | e1 d3/4c1/4 B |
+  E1 A3/4B1/4 c3/4A1/4 | B1 ^G1/4B3/4 A1 | E3/4^F1/4 ^G3/4A1/4  B1/4G3/4 | A2 A1 :|
+|: e1 d3/4B1/4 c1 | e1 d3/4c1/4 B1 | c3/4B1/4 A3/4B1/4 c1/4d3/4 |  e1 d3/4c1/4 B1 |
+ e1 d3/4B1/4 c1 | e1 d3/4c1/4 B1 | E3/4^F1/4 ^G3/4A1/4  B1/4G3/4 | A2 A1 :|
+

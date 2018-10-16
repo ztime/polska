@@ -1,0 +1,25 @@
+%%abc-charset utf-8
+
+X:92
+T:Polska (SvL Västergötland nr 92)
+B:Svenska Låtar, Västergötland, nr 92
+B:och smus.se
+D:CD: Nordik Tree
+H:efter Johannes Öst
+N:Uppt. av Olof Andersson 1929
+N:Arr. Per Oldberg
+O:Ornunga, Västergötland
+R:Polska
+Z:2012-08-09 Per Oldberg
+M:3/4
+L:1/8
+K:Ador
+[V:1]A3A (3cec | BB GG BB | A>c e2 (3gag|fd df ff |
+[V:2]"Am"E3E  (3AcA | "G"GG DD GG | "Am"E>A c2 (3efe | "D"dA Ad dd |
+[V:1]e>c [A2c2] (3cec | BG GB dc | A>B c>d e>g | ((3fdf) [e4e4] ::
+[V:2]"Am"c>A E2 (3AcA | "G"GD DG BA | "Am"E>G A>B c>e | "D"((3dAA) "E7"^G4 ::
+[V:1]c2 e>g b2 | ba ((3aba) fa- | az/(g/ e)z/(c/ A)z/c/ | BG GB dc|
+[V:2]"Am"A2 c>e g2 | "D"gf ((3fgf) df- | "Am"fz/(e/ c)z/(A/ E)z/A/ | "G"GD DG BA |
+[V:1]A>c e2 g>b | ba ((3aba) fa- | az/(g/ e)z/(c/ A)z/c/ | (3BGB [A4A4] :|
+[V:2]"Am"E>A c2 e>g | "D"gf ((3fgf) df- | "Am"fz/(e/ c)z/(A/ E)z/A/ | "G"(3GDD "Am"C4 :|
+

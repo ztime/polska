@@ -1,0 +1,19 @@
+%%abc-charset utf-8
+
+X:1
+T:Highland Cathedral
+C:Ulrich Roever & Michael Korb, Arr. PM Alf Sandek
+R:Slow Air
+O:Tyskland
+Z:Pompom Sönnfors
+M:4/4
+L:1/8
+Q:1/4=65
+K:Hp
+|: {Gdc}d3 e/2f/2 {gef}edA{Gdc}d | {g}e3 f {e}f4   | {gfg}f3 g/2a/2 gfed         | {g}e3 f {AGAG}A4   |
+   {g}B3 c/2d/2 {c}dAc{Gdc}d     | a3 {f}g {afg}f4 | {g}e3 f/2g/2 {afg}fdA{Gdc}d | {g}e3 d {c}d4     :|
+   {g}c3 A e3 c/2e/2             | {g}f3 c {G}c3 B | {g}A2- A/2B/2c B4           | {g}c2- c/2d/2e B4  |
+   {g}c3 A e3 c/2e/2             | {g}f3 c {G}c3 B | {g}A2- A/2B/2c B3 A         | {AGAG} HA8        ||
+   {Gdc}d3 e/2f/2 {gef}edA{Gdc}d | {g}e3 f {e}f4   | {gfg}f3 g/2a/2 gfed         | {g}e3 f {AGAG}A4   |
+   {g}B3 c/2d/2 {c}dAc{Gdc}d     | a3 {f}g {afg}f4 | {g}e3 f/2g/2 {afg}fdA{Gdc}d | {g}e3 d {c}d4     |]
+

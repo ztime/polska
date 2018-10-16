@@ -1,0 +1,30 @@
+%%abc-charset utf-8
+
+%%abc-charset utf-8
+X:6
+T:Polska efter Blinde Petter i Kalv, nr 2
+B:25 Västgötalåtar arrangerade för två fioler och altfiol, Gösta Klemming, 1978, Göteborgs Spelmansgille
+O:Kalv, Västergötland
+C:efter Karl Salomonsson
+C:efter Anders Petter Andersson (Blinde Petter)
+Z:Per Bergsten, 2017-09-17
+R:Polska
+M:3/4
+L:1/8
+K:F
+V:1 name="Violin 1 "
+(A,>D) (D->F) (F>A) | (A>d) d2 f2 | (f>e) (e>d) (d>^c) | (^c>A) (A>F) D2 |
+(A,>D) (D->F) (F>A) | (A>d) d2 f2 | (f>e) (e>d) (d>^c) | (^c>e) d4 :|
+|: {efg}a2 (ab) (ab) | (ab) a2 (eg) | (g>f) (f>d) (d>f) | (f>g) (e^c) A2 |
+a2 (ab) (ab) | (ab) a2 (eg) | (g>f) (f>d) (d>f) | (e>^c) d4 :|] 
+V:2 name="Violin 2 "
+A,2 A,2 D2 | (F>A) A2 A2 | A2 G2 F2 | (A>F) (F>D)  A,2 |
+A,2 A,2 D2 | (F>A) A2 A2 | A2 G2 F2 | G2 [DA]4 :|
+|: d2 f2 d2 | f2 d2 (Ad) | d2 d2 A2 | d2 (^c>A) E2 | 
+d2 f2 d2 | f2 d2 (Ad) | d2 d2 A2 | G2 [FA]4 :|]
+V:3 clef=C name="Alt"
+D,2 F,2 A,2 | D2 F,2 D2 | D2 A,2 A,2 | G,2 D,2 F,2 |
+D,2 F,2 A,2 | D2 F,2 D2 | D2 A,2 A,2 | E,2 F,4 :|
+|: [A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 G,2 | [A,D]2-[A,D]2 [A,D]2 | G2 A2 ^C2 |
+[A,D]2-[A,D]2 [A,D]2 | [A,D]2-[A,D]2 G,2 | [A,D]2-[A,D]2 [A,D]2 | A,2 [D,A,]4 :|]
+

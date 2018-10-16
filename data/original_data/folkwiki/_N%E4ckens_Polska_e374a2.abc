@@ -1,0 +1,15 @@
+%%abc-charset utf-8
+
+X:1
+T: Näckens Polska
+I: abc-charset utf-8
+O: Älvdalen, Dalarna
+B: Ur "Spelmansmusik", ISBN 91-37-07854-2
+R: Polska
+L: 1/8
+M: 3/4
+K: Gm
+"Gm"G>B dd "F"fa | "Dm"a=b/a/ (3gag ff | "Bb"d>c B/A/B/c/ dB | "D"A/^F/A/F/ ("Gm"FG) G2 :|
+|: "Gm"G>B Bd "Bb"fd | "A"d^c =e/c/.e/.c/ "D"d2 | "Gm"G>B Bd "Bb"fd | "A"d^c =e/c/.e/.c/ "D"d2 | 
+"Gm"{/A}B2 {/c}B/A/B/c/ "Bb"dB | "D"A/^F/A/F/ ("Gm"FG) G2 | "Gm"g^f{gf} dB "Cm"dc | "D"A/^F/A/F/ ("Gm"FG) G2 :|
+
