@@ -47,3 +47,22 @@ Example:
 ```
 python FolkWiki.py -u http://www.folkwiki.se/pub/cache -f latin.abc -d downloaded_songs 
 ```
+
+# Notes
+z = rest follow by a number for length (should be 1-4 or maybe fractions aswell?)
+other notes can be [A-Ga-g][,'][',] (so any combination of letter for note and , ' in any order)
+accidentals = [^,=_] before a note (includes double ^^ and __ )
+longer notes = <Note followed by>[2|3|4|6|7|8|9][11|12|14|15] #12 seems to be the only one present, and 11 for some reason
+shorter = <note followed by>[/2|3/2|/4] (or any fraction?)
+also shorthands A/ = A/2 and A// = A/4
+seems that lengts can be any sort of fraction 1/2 appears alot, wouldnt that be /2? also stuff appear like a7/ is that a7/2?? 
+repeat is done with |: <body> |1 <first> :|2 <second> |]
+this can of course be written as <body> |[1 <first> :|[2 <second> |]
+Slurs we just ignore () around stuff
+duplets work well as is ([2-9]?:\d:\d -> ([2-9] (see abc notation for details, we can remove a few of them)
+chords have [ and ] around them but can also have " and " around them for "normal" (Cmaj etc ) chords
+for bars we just do the | simple one, skip the fat ones 
+so "]|", "||", "[|" we treat as |
+also :: with be treated as ":|" + "|:" (which can ofcourse be written as :: :|: :||: ALL OF WHICH IS IN THE DATA)
+save newline as a symbol to train on aswell
+

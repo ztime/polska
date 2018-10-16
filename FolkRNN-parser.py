@@ -30,6 +30,13 @@ valid_keys_translations = {
         '[K:E]' : '[K:EMaj]', 
         '[K:F]' : '[K:FMaj]', 
         '[K:G]' : '[K:GMaj]', 
+        '[K:Ab]' : '[K:AbMaj]', 
+        '[K:Bb]' : '[K:BbMaj]', 
+        '[K:Cb]' : '[K:CbMaj]', 
+        '[K:Db]' : '[K:DbMaj]', 
+        '[K:Eb]' : '[K:EbMaj]', 
+        '[K:Fb]' : '[K:FbMaj]', 
+        '[K:Gb]' : '[K:GbMaj]', 
         }
 
 def main():
@@ -60,7 +67,7 @@ def main():
 
 def create_folk_rnn_file(download_dir, output_file, skip_chords, allow_all_tokens, simplify_duplets, save_first_occurance):
     folk_rnn_file = []
-    valid_info = ['M', 'L']
+    valid_info = ['T', 'M', 'L']
     tokens_first_occurance = {}
     tokens_count = {}
     for filename in os.listdir(download_dir):
