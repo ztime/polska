@@ -1,4 +1,4 @@
-import sys ,os, argparse, requests, urllib, re
+import sys ,os, argparse, re
 from pprint import pprint
 
 valid_single_tokens = [
