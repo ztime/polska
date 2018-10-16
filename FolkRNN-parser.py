@@ -22,7 +22,15 @@ valid_lengths_translations = {
         }
 #Keys are really horrible
 valid_keys = []
-valid_keys_translations = {}
+valid_keys_translations = {
+        '[K:A]' : '[K:AMaj]', 
+        '[K:B]' : '[K:BMaj]', 
+        '[K:C]' : '[K:CMaj]', 
+        '[K:D]' : '[K:DMaj]', 
+        '[K:E]' : '[K:EMaj]', 
+        '[K:F]' : '[K:FMaj]', 
+        '[K:G]' : '[K:GMaj]', 
+        }
 
 def main():
     welcome_message = '''
