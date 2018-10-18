@@ -282,7 +282,7 @@ def process_song_body(lines_song_body):
     #Filter out all W or w lines, because those have 
     #verses
     filtered_lines = []
-    ignore_chars = ['W', 'I', 'Q', 'N', 'Z', 'B', 'R', 'S']
+    ignore_chars = ['W', 'I', 'Q', 'N', 'Z', 'B', 'R', 'S','P']
     for line in lines_song_body:
         if len(line) > 0 and line[0].upper() not in ignore_chars:
             filtered_lines.append(line)
