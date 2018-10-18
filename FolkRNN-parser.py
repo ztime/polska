@@ -33,8 +33,9 @@ valid_keys_translations = {
         '[K:Fb]' : '[K:FbMaj]', 
         '[K:Gb]' : '[K:GbMaj]', 
         }
-# Dirty global variable
-g_keep_duplets = False
+# Dirty global variables
+g_yes_to_all = None
+g_token_history = {}
 
 def main():
     welcome_message = '''
@@ -57,9 +58,14 @@ def main():
             help="File to save",
             required=True)
     parser.add_argument(
-            "--keep_duplets",
-            help="Don't simplify duplets",
+            "-y",
+            "--yes_to_all",
+            help="Skip interactive prompt and accept all different tokens",
             action='store_true')
+    # parser.add_argument(
+            # "--keep_duplets",
+            # help="Don't simplify duplets",
+            # action='store_true')
     # parser.add_argument(
             # "--keep-chords",
             # help="Don't remove chords",
@@ -68,24 +74,61 @@ def main():
             "--save_filename",
             help="Save filename as T field for easier debugging",
             action='store_true')
+    parser.add_argument(
+            "--save_token_history",
+            help="Save a file with in what files tokens appear, for debugging")
     args = parser.parse_args()
-    if args.keep_duplets:
-        g_keep_duplets = True
+    # global g_keep_duplets
+    # if args.keep_duplets:
+        # g_keep_duplets = True
+    # else:
+        # g_keep_duplets = False
+    # global g_yes_to_all
+    # if args.yes_to_all:
+        # g_yes_to_all = True
+    # else:
+        # g_yes_to_all = False
+    pprint(args)
 
     file_list = get_all_filenames(args.folder_path)
-    # with open(args.output, 'w') as f:
-    for filename in file_list:
-        print("-------------")
-        print(filename)
-        song_head, song_body = parse_file(filename)
-        for song in song_body:
-            tokenized_song = tokenize_song(song)
-            pprint(tokenized_song)
-            quit()
+    with open(args.output, 'w') as f:
+        for filename in file_list:
+            print("Processing %s" % filename.split('/')[-1])
+            song_head, song_body = parse_file(filename, args.yes_to_all)
+            for song in song_body:
+                if args.save_filename:
+                    f.write("T:%s\n" % filename.split('/')[-1])
+                f.write("%s\n" % song_head.get('L', '[L:1/8]'))
+                f.write("%s\n" % song_head.get('M', '[M:4/4]'))
+                f.write("%s\n" % song_head.get('K', '[K:CMaj]'))
+                tokenized_song = tokenize_song(song, args.yes_to_all)
+                if args.save_token_history is not None:
+                    add_token_history(filename, tokenized_song)
+                f.write(' '.join(tokenized_song))
+                f.write('\n\n')
+    if args.save_token_history is not None:
+        save_token_history_to_file(args.save_token_history, args.output)
+
+def add_token_history(filename, tokens):
+    for tok in tokens:
+        if tok not in g_token_history:
+            g_token_history[tok] = set()
+        g_token_history[tok].add(filename)
+
+def save_token_history_to_file(file_to_save, output_filename):
+    with open(file_to_save, 'w') as f:
+        f.write("Token apperance for %s\n" % output_filename)
+        sorted_keys = list(g_token_history.keys())
+        sorted_keys = sorted(sorted_keys)
+        for key in sorted_keys:
+            f.write("----------------------\n")
+            f.write("Apperances for:%s\n" % key)
+            for filename in list(g_token_history[key]):
+                f.write("\t%s\n" % filename)
 
 # Takes a string that represents a song and tokenizes it
 # with a space between each token
-def tokenize_song(song):
+def tokenize_song(song, yes_to_all):
     # First we define a few regexes 
     re_key = re.compile(r"\[K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]", re.IGNORECASE)
     re_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
@@ -93,10 +136,10 @@ def tokenize_song(song):
     re_duplets = re.compile(r"\([2-9]:?[2-9]?:?[2-9]?")
     re_note = re.compile(r"\^{0,2}\_{0,2}=?,?[A-Ga-g]'?,?")
     re_length = re.compile(r"[1-9]{0,2}\/{0,2}[1-9]{1,2}")
-    re_rest = re.compile(r"[z]\d?")
+    re_rest = re.compile(r"z")
     re_repeat = re.compile(r"\|\[?\d")
     re_bar = re.compile(r":?\|:?")
-    re_durations = re.compile(r"<{1,2}|>{1,2}")
+    re_durations = re.compile(r"[<>]{1,2}")
     re_grouping = re.compile(r"[\[\]]")
     #Regex should be added in prority order since if one matches
     #it will stop
@@ -104,52 +147,52 @@ def tokenize_song(song):
             re_key,
             re_tempo,
             re_meter,
+            re_length,
             re_duplets,
             re_note,
             re_repeat,
             re_rest,
             re_bar,
+            re_durations,
             re_grouping,
-            re_length,
             ]
     #Actual parsing
     song = filter_song_string(song)
     tokens = []
     char_index = 0
-    print(song)
     while char_index < len(song):
-        print("Char at %d: %s" % (char_index, song[char_index:char_index+1]))
+        regex_matched = False
         for regex in regex_list:
-            print("X")
             match_token = regex.match(song[char_index:])
             if  match_token is None:
-                char_index += 1
                 continue
-            # Something matched
-            print("Match start:%d end:%d" % (match_token.start(), match_token.end()))
             regex_matched = True
-            token = song[char_index:match_token.end()]
-            # We might have an empty token bc of length
-            pprint(match_token)
-            print("Token:'%s'" % token)
+            # Something matched
+            token = song[char_index:char_index + match_token.end()]
+            token = token.replace(' ', '')
+            token = token.replace('\n', '')
             #We need to handle some tokens individually
             #We allow each if to modify the token variable
             #and then add it to the token list
             if regex == re_key:
-                token = _filter_keys(token)
+                token = _filter_keys(token, yes_to_all)
             elif regex == re_duplets:
-                if not g_keep_duplets:
-                    token = token[:2]
-            elif regex == re_length:
-                token = _filter_length(token)
+                #Simplyfi duplets to the first to chars
+                # (3:4:3 becomes (3
+                token = token[:2]
+            elif regex == re_tempo:
+                token = _filter_length(token, yes_to_all)
             elif regex == re_meter:
-                token = _filter_meter(token)
+                token = _filter_meter(token, yes_to_all)
             elif regex == re_repeat:
-                token = _filter_repeat(token)
+                token = _filter_repeat(token, yes_to_all)
             char_index = char_index + match_token.end()
             tokens.append(token)
             #We are finished, next token
             break
+        #Done with loop
+        if not regex_matched:
+            char_index += 1
     return tokens
 
 # Uses regexes to remove/replace 
@@ -177,14 +220,14 @@ def filter_song_string(song):
 
 # Takes a file and parses it into one or more songs 
 # depending on if there are more voices in it
-def parse_file(filename):
+def parse_file(filename, yes_to_all):
     lines_in_file = open(filename, 'r').readlines()
-    song_head, song_body = filter_head_body(lines_in_file)
+    song_head, song_body = filter_head_body(lines_in_file, yes_to_all)
     return song_head, song_body
 
 # Scans a song and returns a a tuple with
 # ({dict with metainformation}, [voice1, voice2...])
-def filter_head_body(lines_in_file):
+def filter_head_body(lines_in_file, yes_to_all):
     reached_song_body = False
     lines_song_head = []
     lines_song_body = []
@@ -201,7 +244,7 @@ def filter_head_body(lines_in_file):
                 reached_song_body = True
         else:
             lines_song_body.append(line)
-    song_head = process_song_head(lines_song_head)
+    song_head = process_song_head(lines_song_head, yes_to_all)
     song_body = process_song_body(lines_song_body)
     return song_head, song_body
 
@@ -234,16 +277,27 @@ def process_song_body(lines_song_body):
 # Scans a song head and returns a dict with the meta information
 # if it finds several of the same tag, it appends that string onto 
 # the exisiting one
-def process_song_head(lines_song_head):
+def process_song_head(lines_song_head, yes_to_all):
     head = {}
     for line in lines_song_head:
         split_line = line.split(':')
         meta_tag = split_line[0].strip()
         meta_info = split_line[-1].strip()
+        #Check if we need special processing
+        #If we need to process it we also need to 
+        #make it the correct format for those function
+        pre_processed_line = line.strip().replace(' ', '')
+        if meta_tag == 'K':
+            meta_info = _filter_keys(pre_processed_line, yes_to_all)
+        elif meta_tag == 'M':
+            meta_info = _filter_meter(pre_processed_line, yes_to_all)
+        elif meta_tag == 'L':
+            meta_info = _filter_length(pre_processed_line, yes_to_all)
         if meta_tag not in head:
             head[meta_tag] = meta_info
         else:
             head[meta_tag] += ' ' + meta_info
+
     return head
 
 # Scans a folder for all files with abc in it and returns a 
@@ -256,7 +310,7 @@ def get_all_filenames(folder):
     return file_list
 
 #### Functions for filtering ####
-def _filter_keys(key_string):
+def _filter_keys(key_string, yes_to_all):
     #Check the string first 
     if key_string[0] != '[':
         key_string = '[' + key_string
@@ -274,12 +328,14 @@ def _filter_keys(key_string):
     if key_string in valid_keys_translations:
         return valid_keys_translations[key_string]
     #now to the checking part
-    print("%s was not found in currently valid keys, add it or change it?" % key_string)
-    print("DEBUG: ORIGINAL: %s" % original_key_string)
-    print("Needs to be entered with brackets and all e.g [K:E] AND THERE IS NO UNDO")
-    print("Keys follow this format [K:<NOTE>b?<THREE LETTERS FOR SCALE OR 'Min' 'Maj'>]")
-    print("Press enter to keep the string as is, or input a new one to be added")
-    new_key_string = input("%s =>" % key_string)
+    new_key_string = ''
+    if yes_to_all == False:
+        print("%s was not found in currently valid keys, add it or change it?" % key_string)
+        print("DEBUG: ORIGINAL: %s" % original_key_string)
+        print("Needs to be entered with brackets and all e.g [K:E] AND THERE IS NO UNDO")
+        print("Keys follow this format [K:<NOTE>b?<THREE LETTERS FOR SCALE OR 'Min' 'Maj'>]")
+        print("Press enter to keep the string as is, or input a new one to be added")
+        new_key_string = input("%s =>" % key_string)
     if new_key_string != '':
         key_string = new_key_string
     valid_keys_translations[original_key_string] = key_string
@@ -319,7 +375,7 @@ def _filter_keys_tone(key_string):
             break
     return key_string
 
-def _filter_metric(metric_string):
+def _filter_meter(metric_string, yes_to_all):
     #Check the string first 
     if metric_string[0] != '[':
         metric_string = '[' + metric_string
@@ -333,10 +389,12 @@ def _filter_metric(metric_string):
     if metric_string in valid_metrics_translations:
         return valid_metrics_translations[metric_string]
     #now to the checking part
-    print("%s was not found in currently valid metrics, add it or change it?" % metric_string)
-    print("Needs to be entered with brackets and all e.g [M:1/4] AND THERE IS NO UNDO")
-    print("Press enter to keep the string as is, or input a new one to be added")
-    new_metric_string = input("%s =>" % metric_string)
+    new_metric_string = ''
+    if yes_to_all == False:
+        print("%s was not found in currently valid metrics, add it or change it?" % metric_string)
+        print("Needs to be entered with brackets and all e.g [M:1/4] AND THERE IS NO UNDO")
+        print("Press enter to keep the string as is, or input a new one to be added")
+        new_metric_string = input("%s =>" % metric_string)
     #just add as is and move on
     if new_metric_string != '':
         metric_string = new_metric_string
@@ -344,7 +402,7 @@ def _filter_metric(metric_string):
     valid_metrics.append(metric_string)
     return metric_string
 
-def _filter_length(length_string):
+def _filter_length(length_string, yes_to_all):
     #Check the string first 
     if length_string[0] != '[':
         length_string = '[' + length_string
@@ -357,17 +415,19 @@ def _filter_length(length_string):
     if length_string in valid_lengths_translations:
         return valid_lengths_translations[length_string]
     #now to the checking part
-    print("%s was not found in currently valid lengths, add it or change it?" % length_string)
-    print("Needs to be entered with brackets and all e.g [L:1/4] AND THERE IS NO UNDO")
-    print("Press enter to keep the string as is, or input a new one to be added")
-    new_length_string = input("%s =>" % length_string)
+    new_length_string = ''
+    if yes_to_all == False:
+        print("%s was not found in currently valid lengths, add it or change it?" % length_string)
+        print("Needs to be entered with brackets and all e.g [L:1/4] AND THERE IS NO UNDO")
+        print("Press enter to keep the string as is, or input a new one to be added")
+        new_length_string = input("%s =>" % length_string)
     if new_length_string != '':
         length_string = new_length_string
     valid_lengths_translations[original_length_string] = length_string
     valid_lengths.append(length_string)
     return length_string
 
-def _filter_repeat(repeat_string):
+def _filter_repeat(repeat_string, yes_to_all):
     return repeat_string
 
 if __name__=='__main__':
