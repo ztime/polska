@@ -5,16 +5,9 @@ T:Alouette variant
 T:(noterad för stämningen A-E-a-ciss)
 R:Omstämt
 O:variant på fransk visa, Skåne
-U:o=+open+
-M:none
-K:A
-[K:C]
-%
-"@-20,30 Stämn."[A,EA^c]0 \
-%%staffbreak
-[M:4/4]\
-[L:1/4]\
-[K:C clef=treble]\
+M:4/4
+L:1/4
+K:CMaj
 |: A>B cc | B/A/B/c/ AD | A>B cc | B/A/B/c/ A>z :|
 [| A/B/e/f/ g/g/g | g/a/g/f/ e/B/A | g/g/g D/D/D | g/g/g D/D/D |
 ga gf | ef eB | A>B cc | B/A/B/c/ AD | A>B cc | B/A/B/c/ A>z |]

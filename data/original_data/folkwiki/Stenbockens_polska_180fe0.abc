@@ -6,17 +6,10 @@ T:(noterad för stämningen A-E-a-ciss)
 T:efter Näcken i Degeberga
 R:Omstämt
 O:Degeberga, Skåne
-U:o=+open+
-M:none
-K:A
-[K:C]
-%
-"@-20,30 Stämn."[A,EA^c]0 \
-%%staffbreak
-[M:3/4]\
-[L:1/4]\
-[K:C clef=treble]\
-[L:1/8]|: !+!ez !+!Az !+!Dz | e>A D2 D2 | !+!ez !+![Ae]z !+![DA]z | e>A [DA]2 [G,D]2 | !+![DA]>A BA/B/ cA |
+M:3/4
+L:1/8
+K:C
+|: !+!ez !+!Az !+!Dz | e>A D2 D2 | !+!ez !+![Ae]z !+![DA]z | e>A [DA]2 [G,D]2 | !+![DA]>A BA/B/ cA |
  !+![DA]>A BA/B/ cA | !+![DA]>A BA/B/ cA/c/ |1 BA/G/ GA A2 :|2 BA/G/ GA AD |]
 [L:1/16]|: (CE)(AE) (CE)(AE) (CE)(AE) | (B,D)(AD) (B,D)(AD) (B,D)(AD) | (CE)(AE) (CE)(AE) (CE)(AE) | (B,D)(AD) (B,D)(AD) (B,D)(AD) |
 [L:1/8] !+![DA]>A BA/B/ cA | !+![DA]>A BA/B/ cA | !+![DA]>A BA/B/ cA/c/ |1 BA/G/ GA AD :|2 BA/G/ GA Avc |] 

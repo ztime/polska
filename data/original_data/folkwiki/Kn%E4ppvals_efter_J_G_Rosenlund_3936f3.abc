@@ -6,15 +6,8 @@ T:(noterad för stämningen A-E-a-ciss)
 R:Omstämt
 O:Tving, Blekinge
 L:1/4
-U:o=+open+
-M:none
-K:A
-[K:C]
-%
-"@-20,30 Stämn."[A,EA^c]0 \
-%%staffbreak
-[M:3/4]\
-[K:C clef=treble]\
+M:3/4
+K:C
 |: (D | D/C/) B,/D/ (A/B/) | c2 (d/c/) | B B ((3a/g/f/) | !+!e !+!A !+!D |
        (D/C/) B,/D/ (A/B/) | c2 (d/c/) | B {c}B/A/ (B/c/) | A2 :|
 |: !+![G,D] | !+![G,D] !+!e !+!A | !+![G,D] !+!e !+!A | [DB] B ((3f/e/d/) | !+!e !+!A !+!D |

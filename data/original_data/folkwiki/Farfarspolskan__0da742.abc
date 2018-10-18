@@ -7,15 +7,6 @@ R:Polska
 M:3/4
 L:1/8
 K:Dm
-R:Polska
-Z:Transcribed by Robert Boström 2007-05-20
-D:Boot - Virvla
-Q:1/4=110
-%%score (T1) (B1)
-V:T1  clef=treble
-V:B1 clef=treble % clef=bass   %octave=+2 %middle=d %octave=-2
-%%MIDI program 1 57 %   53=Choir Oohs  19 = Church Organ 56=trumpet
-%%MIDI program 2 53
 [V:T1]|:"Dm"aa f2a2|g/2f/2e/2f/2 ga/2g/2 fd|ff d2 ef|"G"f/2e/2d "A7"e3A|
 [V:B1]|:ff d2f2|e/2d/2^c/2d/2 ef/2e/2 dA|dd A2 d2|=BB A2 z2|
 [V:T1]"Dm"af ag ef|"Gm"^cd eg fe|"Dm"d^c/2e/2 d2 z2:||:"Dm"de f2 e/2d/2^c/2d/2|

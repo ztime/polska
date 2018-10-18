@@ -8,14 +8,8 @@ B:Andreas Dahlgrens Notbok
 B:http://fmk.musikverket.se/browselarge.php?lang=sw&katalogid=Ma+7&bildnr=00031
 Z:Till ABC Arne Kjellman 2017-04-19
 N:[[!Sverige]], [[!Småland]], [[!Tryserum]],[[!Fågelvik]]
-M:none
+M:3/4
 K:A
-[K:C]
-%
-"@-20,30 Stämn."[A,EAe]0 \
-%%staffbreak
-[M:3/4]\
-[K:A clef=treble]\
 |: [AEA,]c/e/ ae/d/ [ec][ec] | [AEA,]c/e/ ae/d/ [ec][ec] | [AEA,]c/e/ ae/d/ cB/A/ | (c/B/)(A/G/) A2 A,2 :: (A,/E/)A/E/ (A,/E/)B/E/ (A,/E/)c/E/ |
 (A,/E/)d/E/ (A,/E/)B/E/ (A,/E/)c/E/ | (A,/E/)A/E/ (A,/E/)B/E/ (A,/E/)c/E/ | (A,/E/)d/E/ (A,/E/)B/E/ (A,/E/)c/E/ | [AEA,]c/e/ ae/d/ cB/A/ | (c/B/)(A/G/) A2 A,2 :|
 

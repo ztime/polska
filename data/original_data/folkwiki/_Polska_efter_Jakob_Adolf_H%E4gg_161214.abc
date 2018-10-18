@@ -11,18 +11,11 @@ M: 3/4
 L: 1/8
 K: F
 V:1
-V:2 
-V:3 merge 
-V: 1
 |:fc/f/ a2 {f/g/}f/e/f|ga b2 g/a/g/e/|fc/f/ [c2a2] [c2a2]|g/a/g/f/ e/f/e/d/ e/c/e/g/|
 |fc/f/ a2 f2|ga b2 g/a/g/e/|fa c'2 a2| a/b/g/e/ f4:|
 |:FA/c/ B/A/B/d/ cb|be/g/ {f/g/}f/e/f/g/ af|FA/c/ B/A/B/d/ cc/b/|be/g/ ga f2:|
-V:2 clef=bass
+V:2
 |:[F,6A,6C6]|[C,6E,6B,6]|[F,2A,2] [F,2F2] [F,2F2]|[C,6B,6]|
 [F,6A,6C6]|[C,6B,6]|[F,2A,2] [F,2A,2] [F,2A,2C2]|[C,2B,2C2] [F,4A,4C4]:|
  |:[A,2C2] [B,2D2] [A,2C2]|[C,2G,2B,2] [F,2A,2] [F,2A,2]|[A,2C2] [B,2D2] [A,2C2]|[C,2G,2B,2] F,4 :|
-V:3 clef=bass
- |:z6|z6|z6|E,2 G,4|
- |z6|(E,4 E,)G,|z6|z6:|
-|:F,6|z6|F,6|z2 B,C A,2:|
 

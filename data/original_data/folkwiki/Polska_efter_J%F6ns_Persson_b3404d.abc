@@ -11,14 +11,9 @@ S:Svenska Låtar Skåne
 B:Svenska Låtar Skåne
 N:Låten gick under namnet 'Båtmanspolskan'. Melodien är noterad med hänsyn till omstämningen. (SvL)
 N: Se även +
-M:none
-K:C
-%
-"@-20,30 Stämn."[F,FAe]0 \
-%%staffbreak
-[K:F clef=treble] \
-[M:3/4]\
+M:3/4
 L:1/16
+K:F
 |: [DG,]2f2 f2(ef) gfed | d2c2 cdcB B2AB | c2ce f2fg a2af |
 c2cA (cB)AF F3D :| cege cege cege | dfaf dfaf dfaf |
 cege cege c2A2 | cBAE E2(DE) ^F2E2 | [DG,]2f2 f2(ef) gfed | d2c2 cdcB B2AB |

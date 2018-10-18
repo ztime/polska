@@ -11,13 +11,7 @@ Z:Nils Liberg
 N:"Noterad med hänsyn till omstämningen". I referenserna på smus.se står: "Jfr Sv.L.Österg. 10. Polskan kallas där 'Spelflickans polska' och skall ha kommit från Sörmland".
 M:3/4
 L:1/16
-K:none
-%%MIDI control 7 0
-"^Stämning"
-[A,EAe]16 x\
-%%staffbreak
 K:A
-%%MIDI control 7 127
 A2c2 c2B2 B2A2 | A2e2 e2d2 d2c2 | ABcd e2fg a2d2 | cBAF A2D2 B,2=G,2 |
 A2c2 c2B2 B2A2 | A2e2 e2d2 d2c2 | ABcd e2fg a2d2 | cBAF A4 =G,4 ::
 =G,2a2 a2f2 f2d2 | =G,2a2 a2e2 e2c2 | ABcd e2fg a2d2 | cBAF A2D2 B,2=G,2 |

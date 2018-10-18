@@ -15,7 +15,7 @@ Q:1/4=108
 %%printtempo 0
 %%MIDI ratio 2 1
 K:D
- A |: A(B/c/) d(e f)>d | d>c ce e(c/B/) | A(B/c/) d(e f)>d |1,2 d>c ([eA] Le2) A "D. C. 3 ggr":|3 d>c ([eA] Le2) f |]
+ A |: A(B/c/) d(e f)>d | d>c ce e(c/B/) | A(B/c/) d(e f)>d |1 d>c ([eA] Le2) A "D. C. 3 ggr":|2 d>c ([eA] Le2) f |]
 |: g>f gb  e>g | g>[fA] [fA]a d>f | f>e eg (AB/)c/ | d>d df a2 |
    g>(f g)b  e>g | g>[fA] [fA]a d>f | f>e eg AB/c/ |1 (d2 L[d2D2]) zf :|2 (d2 L[d2D2]) z2 |]
 

@@ -5,15 +5,9 @@ T:Marlborough-visan
 T:(noterad för stämningen A-E-a-ciss)
 R:Omstämt
 O:variant på engelsk visa, Skåne
-U:o=+open+
-M:none
-K:A
-[K:C]
-%
-"@-20,30 Stämn."[A,EA^c]0 \
-%%staffbreak
-[M:6/8]\
-[K:C clef=treble]\
+L:1/8
+M:6/8
+K:CMaj
 c |: c2 c cBc | d3 c2 c | B2 B BAB | c3 A2 c | c2 c cBc | 
 d3 c2 e | c2 A B2 G |1 A3 z2 c :|2 A3 z2 e |: g2 g a2 a | g3 !+![eA]z e | g2 g a2 a | 
 g3 !+![eA]z c | c2 c cBc | d3 c2 g | e2 A B2 F |1 [GA]3 z2 c :|2 [G,G]3 z3 |]
