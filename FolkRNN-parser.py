@@ -5,7 +5,16 @@ import re
 from pprint import pprint
 
 #We need some global variabels for when parsing tokens
-valid_metrics = ['[M:4/4]', '[M:2/2]', '[M:3/4]']
+valid_metrics = [
+        '[M:8/8]',
+        '[M:4/4]', 
+        '[M:2/2]', 
+        '[M:3/4]',
+        '[M:2/4]',
+        '[M:6/8]',
+        '[M:8/16]',
+        '[M:5/4]',
+        ]
 valid_metrics_translations = {
         '[M:C]' : '[M:4/4]',
         '[M:C|]': '[M:2/2]',
@@ -13,10 +22,23 @@ valid_metrics_translations = {
         }
 valid_lengths = ['[L:1/8]', '[L:1/4]', '[L:1/16]']
 valid_lengths_translations = {
-        '[L:2/8]' : '[L:1/4]'
+        '[L:2/8]' : '[L:1/4]',
+        '[L:8]' : '[L:1/8]',
+        '[L:4]' : '[L:1/4]',
+        # According to standard we should revert to 1/8 here
+        '[L:]' : '[L:1/8]', 
         }
 #Keys
-valid_keys = []
+valid_keys = [
+        '[K:AMaj]','[K:BMaj]','[K:CMaj]','[K:DMaj]',
+        '[K:EMaj]','[K:FMaj]','[K:GMaj]',
+        '[K:AMin]','[K:BMin]','[K:CMin]','[K:DMin]',
+        '[K:EMin]','[K:FMin]','[K:GMin]',
+        '[K:ADor]','[K:BDor]','[K:CDor]',
+        '[K:DDor]','[K:EDor]','[K:FDor]','[K:GDor]',
+        '[K:AMix]','[K:BMix]','[K:CMix]',
+        '[K:DMix]','[K:EMix]','[K:FMix]','[K:GMix]',
+        ]
 valid_keys_translations = {
         '[K:A]' : '[K:AMaj]', 
         '[K:B]' : '[K:BMaj]', 
@@ -32,6 +54,9 @@ valid_keys_translations = {
         '[K:Eb]' : '[K:EbMaj]', 
         '[K:Fb]' : '[K:FbMaj]', 
         '[K:Gb]' : '[K:GbMaj]', 
+        #Special one
+        '[K:Ddorisk]' : '[K:DDor]',
+        '[K:DDorisk]' : '[K:DDor]',
         }
 # Dirty global variables
 g_yes_to_all = None
@@ -78,17 +103,6 @@ def main():
             "--save_token_history",
             help="Save a file with in what files tokens appear, for debugging")
     args = parser.parse_args()
-    # global g_keep_duplets
-    # if args.keep_duplets:
-        # g_keep_duplets = True
-    # else:
-        # g_keep_duplets = False
-    # global g_yes_to_all
-    # if args.yes_to_all:
-        # g_yes_to_all = True
-    # else:
-        # g_yes_to_all = False
-    pprint(args)
 
     file_list = get_all_filenames(args.folder_path)
     with open(args.output, 'w') as f:
@@ -122,7 +136,7 @@ def save_token_history_to_file(file_to_save, output_filename):
         sorted_keys = sorted(sorted_keys)
         for key in sorted_keys:
             f.write("----------------------\n")
-            f.write("Apperances for:%s\n" % key)
+            f.write("Apperances for %s\n" % key)
             for filename in list(g_token_history[key]):
                 f.write("\t%s\n" % filename)
 
@@ -136,8 +150,10 @@ def tokenize_song(song, yes_to_all):
     re_duplets = re.compile(r"\([2-9]:?[2-9]?:?[2-9]?")
     re_note = re.compile(r"\^{0,2}\_{0,2}=?,?[A-Ga-g]'?,?")
     re_length = re.compile(r"[1-9]{0,2}\/{0,2}[1-9]{1,2}")
+    re_length_short_2 = re.compile(r"/")
+    re_length_short_4 = re.compile(r"//")
     re_rest = re.compile(r"z")
-    re_repeat = re.compile(r"\|\[?\d")
+    re_repeat = re.compile(r":?\|\s?\[?\d")
     re_bar = re.compile(r":?\|:?")
     re_durations = re.compile(r"[<>]{1,2}")
     re_grouping = re.compile(r"[\[\]]")
@@ -155,6 +171,8 @@ def tokenize_song(song, yes_to_all):
             re_bar,
             re_durations,
             re_grouping,
+            re_length_short_2,
+            re_length_short_4,
             ]
     #Actual parsing
     song = filter_song_string(song)
@@ -180,14 +198,24 @@ def tokenize_song(song, yes_to_all):
                 #Simplyfi duplets to the first to chars
                 # (3:4:3 becomes (3
                 token = token[:2]
+            elif regex == re_length:
+                if token == '1':
+                    token = None
+                elif token[:2] == '1/':
+                    token = token[1:]
             elif regex == re_tempo:
                 token = _filter_length(token, yes_to_all)
             elif regex == re_meter:
                 token = _filter_meter(token, yes_to_all)
             elif regex == re_repeat:
                 token = _filter_repeat(token, yes_to_all)
+            elif regex == re_length_short_2:
+                token = '/2'
+            elif regex == re_length_short_4:
+                token = '/4'
             char_index = char_index + match_token.end()
-            tokens.append(token)
+            if token is not None:
+                tokens.append(token)
             #We are finished, next token
             break
         #Done with loop
@@ -251,15 +279,24 @@ def filter_head_body(lines_in_file, yes_to_all):
 # Filters song body into a list, where each entry in the list
 # is a voice in the song
 def process_song_body(lines_song_body):
+    #Filter out all W or w lines, because those have 
+    #verses
+    filtered_lines = []
+    ignore_chars = ['W', 'I', 'Q', 'N', 'Z', 'B', 'R', 'S']
+    for line in lines_song_body:
+        if len(line) > 0 and line[0].upper() not in ignore_chars:
+            filtered_lines.append(line)
+    lines_song_body = filtered_lines
     # First we check if there even is a V: in there
     if ''.join(lines_song_body).find('V:') < 0:
         # No voices
-        return [''.join(lines_song_body)]
+        return [''.join(lines_song_body).replace('\n', '')]
     # different voices can either be written as
     # V:<d> on a single line or [V:<d>] on the same line
     # this matches that plus optional whitespace
     # saves the digit as the first match
-    re_voice = re.compile(r"\[?\s?[Vv]\s?:\s?(\d+)\s?\]?")
+    # re_voice = re.compile(r"\[?\s?[Vv]\s?:\s?(\d+)\s?\]?")
+    re_voice = re.compile(r"\[?\s?[Vv]\s?:(.+?)(\]|$)")
     voices = {}
     current_voice = None
     for line in lines_song_body:
@@ -272,6 +309,9 @@ def process_song_body(lines_song_body):
         if current_voice not in voices:
             voices[current_voice] = ''
         voices[current_voice] += line
+    voices_keys = voices.keys()
+    for key in voices_keys:
+        voices[key] = voices[key].replace('\n', '')
     return voices.values()
     
 # Scans a song head and returns a dict with the meta information
@@ -428,7 +468,7 @@ def _filter_length(length_string, yes_to_all):
     return length_string
 
 def _filter_repeat(repeat_string, yes_to_all):
-    return repeat_string
+    return repeat_string.replace('[','')
 
 if __name__=='__main__':
     main()
