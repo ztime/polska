@@ -148,7 +148,7 @@ def tokenize_song(song, yes_to_all):
     re_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     re_meter = re.compile(r"\[?M\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     re_duplets = re.compile(r"\([2-9]:?[2-9]?:?[2-9]?")
-    re_note = re.compile(r"\^{0,2}\_{0,2}=?,?[A-Ga-g]'?,?")
+    re_note = re.compile(r"\^{0,2}\_{0,2}=?[A-Ga-g]'?,?")
     re_length = re.compile(r"[1-9]{0,2}\/{0,2}[1-9]{1,2}")
     re_length_short_2 = re.compile(r"/")
     re_length_short_4 = re.compile(r"//")
