@@ -110,12 +110,15 @@ def main():
             print("Processing %s" % filename.split('/')[-1])
             song_head, song_body = parse_file(filename, args.yes_to_all)
             for song in song_body:
+                tokenized_song = tokenize_song(song, args.yes_to_all)
+                if len(tokenized_song) < 50:
+                    print("Skipped song")
+                    continue
                 if args.save_filename:
                     f.write("T:%s\n" % filename.split('/')[-1])
                 f.write("%s\n" % song_head.get('L', '[L:1/8]'))
                 f.write("%s\n" % song_head.get('M', '[M:4/4]'))
                 f.write("%s\n" % song_head.get('K', '[K:CMaj]'))
-                tokenized_song = tokenize_song(song, args.yes_to_all)
                 if args.save_token_history is not None:
                     add_token_history(filename, tokenized_song)
                 f.write(' '.join(tokenized_song))
