@@ -7,8 +7,8 @@ from pprint import pprint
 #We need some global variabels for when parsing tokens
 valid_metrics = [
         '[M:8/8]',
-        '[M:4/4]', 
-        '[M:2/2]', 
+        '[M:4/4]',
+        '[M:2/2]',
         '[M:3/4]',
         '[M:2/4]',
         '[M:6/8]',
@@ -26,7 +26,7 @@ valid_lengths_translations = {
         '[L:8]' : '[L:1/8]',
         '[L:4]' : '[L:1/4]',
         # According to standard we should revert to 1/8 here
-        '[L:]' : '[L:1/8]', 
+        '[L:]' : '[L:1/8]',
         }
 #Keys
 valid_keys = [
@@ -40,20 +40,20 @@ valid_keys = [
         '[K:DMix]','[K:EMix]','[K:FMix]','[K:GMix]',
         ]
 valid_keys_translations = {
-        '[K:A]' : '[K:AMaj]', 
-        '[K:B]' : '[K:BMaj]', 
-        '[K:C]' : '[K:CMaj]', 
-        '[K:D]' : '[K:DMaj]', 
-        '[K:E]' : '[K:EMaj]', 
-        '[K:F]' : '[K:FMaj]', 
-        '[K:G]' : '[K:GMaj]', 
-        '[K:Ab]' : '[K:AbMaj]', 
-        '[K:Bb]' : '[K:BbMaj]', 
-        '[K:Cb]' : '[K:CbMaj]', 
-        '[K:Db]' : '[K:DbMaj]', 
-        '[K:Eb]' : '[K:EbMaj]', 
-        '[K:Fb]' : '[K:FbMaj]', 
-        '[K:Gb]' : '[K:GbMaj]', 
+        '[K:A]' : '[K:AMaj]',
+        '[K:B]' : '[K:BMaj]',
+        '[K:C]' : '[K:CMaj]',
+        '[K:D]' : '[K:DMaj]',
+        '[K:E]' : '[K:EMaj]',
+        '[K:F]' : '[K:FMaj]',
+        '[K:G]' : '[K:GMaj]',
+        '[K:Ab]' : '[K:AbMaj]',
+        '[K:Bb]' : '[K:BbMaj]',
+        '[K:Cb]' : '[K:CbMaj]',
+        '[K:Db]' : '[K:DbMaj]',
+        '[K:Eb]' : '[K:EbMaj]',
+        '[K:Fb]' : '[K:FbMaj]',
+        '[K:Gb]' : '[K:GbMaj]',
         #Special one
         '[K:Ddorisk]' : '[K:DDor]',
         '[K:DDorisk]' : '[K:DDor]',
@@ -61,6 +61,7 @@ valid_keys_translations = {
 # Dirty global variables
 g_yes_to_all = None
 g_token_history = {}
+g_unique_songs = {}
 
 def main():
     welcome_message = '''
@@ -97,7 +98,11 @@ def main():
             # action='store_true')
     parser.add_argument(
             "--save_filename",
-            help="Save filename as T field for easier debugging",
+            help="Save filename as F field for easier debugging",
+            action='store_true')
+    parser.add_argument(
+            "--include_titles",
+            help="Include titles as T field",
             action='store_true')
     parser.add_argument(
             "--save_token_history",
@@ -112,10 +117,18 @@ def main():
             for song in song_body:
                 tokenized_song = tokenize_song(song, args.yes_to_all)
                 if len(tokenized_song) < 50:
-                    print("Skipped song")
+                    print("Skipped song [too short]")
                     continue
+                songid = ''.join(tokenized_song)
+                if songid in g_unique_songs:
+                    print('Skipped song [duplet]')
+                    continue
+                else:
+                    g_unique_songs[songid] = True
                 if args.save_filename:
-                    f.write("T:%s\n" % filename.split('/')[-1])
+                    f.write("F:%s\n" % filename.split('/')[-1])
+                if args.include_titles:
+                    f.write("T:%s\n" % song_head.get('T', 'No title found'))
                 f.write("%s\n" % song_head.get('L', '[L:1/8]'))
                 f.write("%s\n" % song_head.get('M', '[M:4/4]'))
                 f.write("%s\n" % song_head.get('K', '[K:CMaj]'))
@@ -146,7 +159,7 @@ def save_token_history_to_file(file_to_save, output_filename):
 # Takes a string that represents a song and tokenizes it
 # with a space between each token
 def tokenize_song(song, yes_to_all):
-    # First we define a few regexes 
+    # First we define a few regexes
     re_key = re.compile(r"\[K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]", re.IGNORECASE)
     re_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     re_meter = re.compile(r"\[?M\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
@@ -212,13 +225,19 @@ def tokenize_song(song, yes_to_all):
                 token = _filter_meter(token, yes_to_all)
             elif regex == re_repeat:
                 token = _filter_repeat(token, yes_to_all)
+            elif regex == re_bar:
+                token = _filter_bar(token, yes_to_all)
             elif regex == re_length_short_2:
                 token = '/2'
             elif regex == re_length_short_4:
                 token = '/4'
             char_index = char_index + match_token.end()
             if token is not None:
-                tokens.append(token)
+                if isinstance(token, list):
+                    for tok in token:
+                        tokens.append(tok)
+                else:
+                    tokens.append(token)
             #We are finished, next token
             break
         #Done with loop
@@ -226,7 +245,7 @@ def tokenize_song(song, yes_to_all):
             char_index += 1
     return tokens
 
-# Uses regexes to remove/replace 
+# Uses regexes to remove/replace
 # strings inside the song string and returns the filtered string
 def filter_song_string(song):
     #First we remove anything unwanted
@@ -240,7 +259,7 @@ def filter_song_string(song):
     # Now we replace any chars that are needed
     # The keys are regex to match and value is what to replace with
     re_replace = {
-            # All different repeat signs 
+            # All different repeat signs
             re.compile(r":\s?:|:\s?\|\s?:|:\s?\|\s?\|\s?:") : ':| |:',
             # Different bar signs (fat bar etc)
             re.compile(r"\]\s?\||\|\||\[\s?\||\|\]") : '|',
@@ -249,7 +268,7 @@ def filter_song_string(song):
         song, _ = re.subn(regex, replacement, song)
     return song
 
-# Takes a file and parses it into one or more songs 
+# Takes a file and parses it into one or more songs
 # depending on if there are more voices in it
 def parse_file(filename, yes_to_all):
     lines_in_file = open(filename, 'r').readlines()
@@ -282,7 +301,7 @@ def filter_head_body(lines_in_file, yes_to_all):
 # Filters song body into a list, where each entry in the list
 # is a voice in the song
 def process_song_body(lines_song_body):
-    #Filter out all W or w lines, because those have 
+    #Filter out all W or w lines, because those have
     #verses
     filtered_lines = []
     ignore_chars = ['W', 'I', 'Q', 'N', 'Z', 'B', 'R', 'S','P']
@@ -316,9 +335,9 @@ def process_song_body(lines_song_body):
     for key in voices_keys:
         voices[key] = voices[key].replace('\n', '')
     return voices.values()
-    
+
 # Scans a song head and returns a dict with the meta information
-# if it finds several of the same tag, it appends that string onto 
+# if it finds several of the same tag, it appends that string onto
 # the exisiting one
 def process_song_head(lines_song_head, yes_to_all):
     head = {}
@@ -327,7 +346,7 @@ def process_song_head(lines_song_head, yes_to_all):
         meta_tag = split_line[0].strip()
         meta_info = split_line[-1].strip()
         #Check if we need special processing
-        #If we need to process it we also need to 
+        #If we need to process it we also need to
         #make it the correct format for those function
         pre_processed_line = line.strip().replace(' ', '')
         if meta_tag == 'K':
@@ -343,7 +362,7 @@ def process_song_head(lines_song_head, yes_to_all):
 
     return head
 
-# Scans a folder for all files with abc in it and returns a 
+# Scans a folder for all files with abc in it and returns a
 # list of full paths
 def get_all_filenames(folder):
     file_list = []
@@ -354,12 +373,12 @@ def get_all_filenames(folder):
 
 #### Functions for filtering ####
 def _filter_keys(key_string, yes_to_all):
-    #Check the string first 
+    #Check the string first
     if key_string[0] != '[':
         key_string = '[' + key_string
     if key_string[-1] != ']':
         key_string = key_string + ']'
-    #Special for keys 
+    #Special for keys
     key_string = _filter_keys_tone(key_string)
     #We always have a tone in the beginning that suppose to be uppercase
     if len(key_string) >= 4: # [K:<LETTER>]> 4
@@ -394,7 +413,7 @@ def _filter_keys_tone(key_string):
     #major is the same as Ionian
     r_major = re.compile(r"(major|maj|ionian|ion)", re.IGNORECASE)
     regex_modes[r_major] = 'Maj'
-    #Mixolydian 
+    #Mixolydian
     r_mix = re.compile(r"(mixolydian|mix)", re.IGNORECASE)
     regex_modes[r_mix] = 'Mix'
     #Dorian
@@ -419,7 +438,7 @@ def _filter_keys_tone(key_string):
     return key_string
 
 def _filter_meter(metric_string, yes_to_all):
-    #Check the string first 
+    #Check the string first
     if metric_string[0] != '[':
         metric_string = '[' + metric_string
     if metric_string[-1] != ']':
@@ -446,7 +465,7 @@ def _filter_meter(metric_string, yes_to_all):
     return metric_string
 
 def _filter_length(length_string, yes_to_all):
-    #Check the string first 
+    #Check the string first
     if length_string[0] != '[':
         length_string = '[' + length_string
     if length_string[-1] != ']':
@@ -471,7 +490,20 @@ def _filter_length(length_string, yes_to_all):
     return length_string
 
 def _filter_repeat(repeat_string, yes_to_all):
-    return repeat_string.replace('[','')
+    repeat_string = repeat_string.replace('[','')
+    if len(repeat_string) == 3:
+        repeat_string = repeat_string.split('|')
+        repeat_string[0] += '|'
+        repeat_string[1] = '|' + repeat_string[1]
+    return repeat_string
+
+def _filter_bar(bar_string, yes_to_all):
+    if len(bar_string) > 2:
+        bar_string = bar_string.split('|')
+        bar_string[0] += '|'
+        bar_string[1] = '|' + bar_string[1]
+    return bar_string
 
 if __name__=='__main__':
     main()
+    print('Unique songs:', len(g_unique_songs.keys()))
