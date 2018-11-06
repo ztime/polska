@@ -160,7 +160,7 @@ def save_token_history_to_file(file_to_save, output_filename):
 # with a space between each token
 def tokenize_song(song, yes_to_all):
     # First we define a few regexes
-    re_key = re.compile(r"\[K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]", re.IGNORECASE)
+    re_key = re.compile(r"\\?\[?K:\s?[ABCDEFG][#b]?\s?(major|maj|m|minor|min|mixolydian|mix|dorian|dor|phrygian|phr|lydian|lyd|locrian|loc)?\]?", re.IGNORECASE)
     re_tempo = re.compile(r"\[?L\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     re_meter = re.compile(r"\[?M\:\s?\d+\/\d+\s?\]?", re.IGNORECASE)
     re_duplets = re.compile(r"\([2-9]:?[2-9]?:?[2-9]?")
@@ -250,7 +250,8 @@ def tokenize_song(song, yes_to_all):
 def filter_song_string(song):
     #First we remove anything unwanted
     re_remove_unwanted = [
-            re.compile(r"!.*?!"), # Accents
+            # re.compile(r"!.*?!"), # Accents
+            re.compile(r"![A-Za-z0-9()><+.]+?!"), # Accents
             re.compile(r"\"@.+?\""), # Print specifications
             re.compile(r"\".+?\""), # Inserted text
             ]
@@ -374,6 +375,8 @@ def get_all_filenames(folder):
 #### Functions for filtering ####
 def _filter_keys(key_string, yes_to_all):
     #Check the string first
+    if key_string[0] == '\\':
+        key_string = key_string[1:]
     if key_string[0] != '[':
         key_string = '[' + key_string
     if key_string[-1] != ']':
