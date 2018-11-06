@@ -254,6 +254,7 @@ def filter_song_string(song):
             re.compile(r"![A-Za-z0-9()><+.]+?!"), # Accents
             re.compile(r"\"@.+?\""), # Print specifications
             re.compile(r"\".+?\""), # Inserted text
+            re.compile(r"{.+?}"), #Grace notes
             ]
     for regex in re_remove_unwanted:
         song, _ = re.subn(regex, '', song)
@@ -263,7 +264,8 @@ def filter_song_string(song):
             # All different repeat signs
             re.compile(r":\s?:|:\s?\|\s?:|:\s?\|\s?\|\s?:") : ':| |:',
             # Different bar signs (fat bar etc)
-            re.compile(r"\]\s?\||\|\||\[\s?\||\|\]") : '|',
+            #re.compile(r"\]\s?\||\|\||\[\s?\||\|\]") : '|',
+            re.compile(r"\|\||\[\s?\||\|\]") : '|',
             }
     for regex, replacement in re_replace.items():
         song, _ = re.subn(regex, replacement, song)
