@@ -115,6 +115,7 @@ def main():
             print("Processing %s" % filename.split('/')[-1])
             song_head, song_body = parse_file(filename, args.yes_to_all)
             for song in song_body:
+                pprint(song_body)
                 tokenized_song = tokenize_song(song, args.yes_to_all)
                 if len(tokenized_song) < 50:
                     print("Skipped song [too short]")
@@ -297,6 +298,7 @@ def filter_head_body(lines_in_file, yes_to_all):
                 reached_song_body = True
         else:
             lines_song_body.append(line)
+    pprint(lines_song_body)
     song_head = process_song_head(lines_song_head, yes_to_all)
     song_body = process_song_body(lines_song_body)
     return song_head, song_body
@@ -307,9 +309,9 @@ def process_song_body(lines_song_body):
     #Filter out all W or w lines, because those have
     #verses
     filtered_lines = []
-    ignore_chars = ['W', 'I', 'Q', 'N', 'Z', 'B', 'R', 'S','P']
+    ignore_chars = ['W:', 'I:', 'Q:', 'N:', 'Z:', 'B:', 'R:', 'S:','P:']
     for line in lines_song_body:
-        if len(line) > 0 and line[0].upper() not in ignore_chars:
+        if len(line) > 0 and line[:2].upper() not in ignore_chars:
             filtered_lines.append(line)
     lines_song_body = filtered_lines
     # First we check if there even is a V: in there
